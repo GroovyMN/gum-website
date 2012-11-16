@@ -3,15 +3,6 @@
 * Template: Best. Bootstrap Theme
 */
 
-
-/* Import Section
-=================================================================== */
-@import url("icons.css");				/* Icons. */
-@import url("icons-color.css");			/* Icons. */  
-@import url("social-icons.css");		/* Social Icons */
-@import url("hover.css");				/* Hover CSS3 Effect */
-@import url("fancybox.css");			/* Fancybox */
-
 .clear {
 	clear:both;
 }
@@ -1129,7 +1120,7 @@ input[type="button"] {
 .clients-carousel li img {
 	float: none !important;
 	margin: 0px auto !important;
-    /*filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+    /*filter: url(filters.svg#grayscale); *//* Firefox 3.5+*/
     filter: gray; /* IE6-9 */
     -webkit-filter: grayscale(1); /* Google Chrome & Safari 6+ */
   	-webkit-transform: scale(1);
@@ -1294,7 +1285,7 @@ ol li ol.childlist .comment-des {
 }
 
 .loading {
-	background:url(../images/loader.gif) no-repeat 1px; 
+	background:url(../images/spinner.gif) no-repeat 1px;
 	height:28px; 
 	width:28px; 
 	float: left;
