@@ -1,4 +1,15 @@
-# .gitignore for Grails 1.2 and 1.3
+gum/web-app/WEB-INF/applicationContext.xml
+gum/web-app/WEB-INF/sitemesh.xml
+gum/web-app/WEB-INF/tld/
+gum/stacktrace.log
+gum/target/
+gum/classes/
+gum/out/
+gum/*.iml
+*.tmproj
+stacktrace.log
+*.DS_Store
+.idea/
 
 # web application files
 /web-app/WEB-INF
@@ -12,7 +23,6 @@
 /*.tmproj
 /ivy*
 /eclipse
-/*.iml
 
 # default HSQL database files for production mode
 /prodDb.*
