@@ -12,6 +12,7 @@ class UrlMappings {
 		"/about"(controller: "navigation", action: "about")
 		"/contact"(controller: "navigation", action: "contact")
 		"/googleGroup"(controller: "navigation", action: "googleGroup")
+		"/calendar"(controller: "navigation", action: "calendar")
 
 		"500"(view:'/error')
 	}

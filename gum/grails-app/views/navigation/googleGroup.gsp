@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="layout" content="main"/>
-	<title>Home</title>
+	<title>GUM Google Group</title>
 </head>
 <body>
 	<div class="container">

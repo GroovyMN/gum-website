@@ -28,8 +28,8 @@
 						<div class="nav-collapse collapse">
 							<ul class="nav">
 								<nav:link href="home" value="Home" action="${actionName}"/>
-								<nav:link href="about" value="About" action="${actionName}"/>
-								<nav:link href="schedule" value="Schedule" action="${actionName}"/>
+								%{--<nav:link href="about" value="About" action="${actionName}"/>--}%
+								<nav:link href="calendar" value="Google Calendar" action="${actionName}"/>
 								<nav:link href="googleGroup" value="Google Group" action="${actionName}"/>
 								<nav:link href="contact" value="Contact" action="${actionName}"/>
 							</ul>

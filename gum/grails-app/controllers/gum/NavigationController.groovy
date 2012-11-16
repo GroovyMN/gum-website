@@ -9,4 +9,6 @@ class NavigationController {
 	def contact() { }
 
 	def googleGroup() { }
+
+	def calendar() { }
 }
