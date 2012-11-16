@@ -7,4 +7,6 @@ class NavigationController {
 	def about() { }
 
 	def contact() { }
+
+	def googleGroup() { }
 }
