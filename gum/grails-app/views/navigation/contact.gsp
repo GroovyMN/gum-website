@@ -2,12 +2,16 @@
 <html>
 <head>
 	<meta name="layout" content="main"/>
-	<title>Home</title>
+	<title>Contact</title>
 	<r:require module="bootstrap"/>
 </head>
 <body>
 	<g:render template="/map"/>
-	<g:render template="contactInfo"/>
+
+	<div class="container">
+		<g:render template="/hero"/>
+	</div>
+
 	<r:require module="bootstrap"/>
 </body>
 </html>

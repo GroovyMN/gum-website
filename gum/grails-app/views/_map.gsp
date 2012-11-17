@@ -1,6 +1,5 @@
 <!-- start: Map -->
 <div>
-
 	<!-- starts: Google Maps -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	<div id="googlemaps-container-top"></div>
@@ -17,11 +16,9 @@
 				{
 					address: '11 Fourth Street NE, Minneapolis MN, 55413',
 					html: '',
-					popup: false,
+					popup: false
 				}
-
-			],
-
+			]
 		});
 	</script>
 	<!-- end: Google Maps -->

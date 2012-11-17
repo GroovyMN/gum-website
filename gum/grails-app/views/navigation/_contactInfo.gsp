@@ -1,10 +1,8 @@
-<!-- start: Wrapper -->
-<div id="wrapper">
+<!-- start: Footer -->
+<div id="footer">
 
 	<!--start: Container -->
 	<div class="container">
-
-		<g:render template="/hero"/>
 
 		<!-- start: Row -->
 		<div class="row">
