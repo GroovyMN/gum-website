@@ -4,7 +4,7 @@
 	<!--start: Container -->
 	<div class="container">
 
-		<g:render template="/grailsHero"/>
+		<g:render template="/hero"/>
 
 		<!-- start: Row -->
 		<div class="row">
