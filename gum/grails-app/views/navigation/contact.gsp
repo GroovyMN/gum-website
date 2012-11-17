@@ -7,10 +7,7 @@
 </head>
 <body>
 	<g:render template="/map"/>
-
-	<div class="container">
-		<g:render template="/hero"/>
-	</div>
+	<g:render template="/hero"/>
 
 	<r:require module="bootstrap"/>
 </body>

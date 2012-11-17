@@ -1,14 +1,10 @@
 <!--start: Wrapper-->
 <div id="wrapper">
 
-<!--start: Container -->
-<div class="container">
-
-<hr>
-
 <g:render template="/hero"/>
 
-<hr>
+	<!--start: Container -->
+<div class="container">
 
 <!-- start: Row -->
 <div class="row">
