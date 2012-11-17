@@ -15,24 +15,24 @@
 			</div>
 			<!-- end: Footer Menu Logo -->
 
-			<!-- start: Footer Menu Links-->
+			<!-- start: Footer Menu Links -->
 			<div class="span7">
 
 				<div id="footer-menu-links">
 
 					<ul id="footer-nav">
 
-						<nav:link href="home" value="Home" action="${actionName}"/>
-						<nav:link href="calendar" value="Google Calendar" action="${actionName}"/>
-						<nav:link href="googleGroup" value="Google Group" action="${actionName}"/>
-						<nav:link href="contact" value="Contact" action="${actionName}"/>
+						<nav:link href="home" value="Home" action="${actionName}" />
+						<nav:link href="calendar" value="Google Calendar" action="${actionName}" />
+						<nav:link href="googleGroup" value="Google Group" action="${actionName}" />
+						<nav:link href="contact" value="Contact" action="${actionName}" />
 
 					</ul>
 
 				</div>
 
 			</div>
-			<!-- end: Footer Menu Links-->
+			<!-- end: Footer Menu Links -->
 
 			<!-- start: Footer Menu Back To Top -->
 			<div class="span1">
@@ -48,7 +48,7 @@
 		<!-- end: Row -->
 
 	</div>
-	<!-- end: Container  -->
+	<!-- end: Container -->
 
 </div>
 <!-- end: Footer Menu -->

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="layout" content="main"/>
+	<meta name="layout" content="main" />
 	<title>GUM Google Group</title>
 </head>
 <body>

@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="layout" content="main"/>
+	<meta name="layout" content="main" />
 	<title>Contact</title>
-	<r:require module="bootstrap"/>
+	<r:require module="bootstrap" />
 </head>
 <body>
-	<g:render template="/map"/>
-	<g:render template="/hero"/>
+	<g:render template="/map" />
+	<g:render template="/hero" />
 
-	<r:require module="bootstrap"/>
+	<r:require module="bootstrap" />
 </body>
 </html>

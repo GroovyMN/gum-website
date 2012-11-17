@@ -1,9 +1,9 @@
 <!--start: Wrapper-->
 <div id="wrapper">
 
-<g:render template="/hero"/>
+<g:render template="/hero" />
 
-	<!--start: Container -->
+<!--start: Container -->
 <div class="container">
 
 <!-- start: Row -->
@@ -58,7 +58,7 @@
 <!-- end: Row -->
 
 </div>
-<!--end: Container-->
+<!--end: Container -->
 
 </div>
-<!-- end: Wrapper  -->
+<!-- end: Wrapper -->

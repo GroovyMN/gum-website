@@ -8,9 +8,9 @@
 		<!-- start: Meta -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title><g:layoutTitle default="GUM"/></title>
+		<title><g:layoutTitle default="GUM" /></title>
 
-		<meta name="description" content="Groovy Users of Minnesota"/>
+		<meta name="description" content="Groovy Users of Minnesota" />
 		<meta name="keywords" content="Groovy, Grails, Web, Tomcat, Hibernate, JVM" />
 		<!-- end: Meta -->
 
@@ -19,11 +19,11 @@
 		<!-- end: Mobile Specific -->
 
 		<!-- start: Facebook Open Graph -->
-		<meta property="og:title" content=""/>
-		<meta property="og:description" content=""/>
-		<meta property="og:type" content=""/>
-		<meta property="og:url" content=""/>
-		<meta property="og:image" content=""/>
+		<meta property="og:title" content="" />
+		<meta property="og:description" content="" />
+		<meta property="og:type" content="" />
+		<meta property="og:url" content="" />
+		<meta property="og:image" content="" />
 		<!-- end: Facebook Open Graph -->
 
 		<!-- start: CSS -->
@@ -35,22 +35,22 @@
 
 		<g:layoutHead/>
 
-		<r:require module="common"/>
-		<r:require module="jquery"/>
-		<r:require module="fancybox"/>
-		<r:require module="bootstrap"/>
+		<r:require module="common" />
+		<r:require module="jquery" />
+		<r:require module="fancybox" />
+		<r:require module="bootstrap" />
 
 		<r:layoutResources />
 	</head>
 	<body>
-		<g:render template="/navigation/topNav"/>
+		<g:render template="/navigation/topNav" />
 		<g:layoutBody/>
-		<g:render template="/footerMenu"/>
-		<g:render template="/navigation/footer"/>
+		<g:render template="/footerMenu" />
+		<g:render template="/navigation/footer" />
 
-		<r:require module="jquery"/>
-		<r:require module="fancybox"/>
-		<r:require module="bootstrap"/>
+		<r:require module="jquery" />
+		<r:require module="fancybox" />
+		<r:require module="bootstrap" />
 
 		<r:layoutResources />
 	</body>

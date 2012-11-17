@@ -35,4 +35,4 @@
 </div>
 <!-- end: Slider -->
 
-<r:require module="slider"/>
+<r:require module="slider" />

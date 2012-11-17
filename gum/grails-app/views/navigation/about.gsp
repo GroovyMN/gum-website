@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="layout" content="main"/>
+	<meta name="layout" content="main" />
 	<title>Home</title>
-	<r:require module="slider"/>
+	<r:require module="slider" />
 </head>
 <body>
-	<g:render template="/aboutUs"/>
-	<r:require module="slider"/>
+	<g:render template="/aboutUs" />
+	<r:require module="slider" />
 </body>
 </html>
