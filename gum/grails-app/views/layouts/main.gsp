@@ -46,7 +46,7 @@
 		<g:render template="/navigation/topNav"/>
 		<g:layoutBody/>
 		<g:render template="/footerMenu"/>
-		<g:render template="/navigation/contactInfo"/>
+		<g:render template="/navigation/footer"/>
 
 		<r:require module="jquery"/>
 		<r:require module="fancybox"/>
