@@ -58,7 +58,6 @@ hr {
   border-bottom: 1px solid #ffffff;
 }
 
-			
 .title {
 	border-bottom: 3px double #f6f6f6;
 	margin-bottom: 10px;
@@ -76,6 +75,14 @@ hr {
 #wrapper {
 	background: #fff;
 
+}
+
+.twitter-name h3 {
+	color: #fff;
+	font-size: 18px;
+	margin:0;
+	line-height: 33px;
+	display:inline;
 }
 
 /* #Lists
