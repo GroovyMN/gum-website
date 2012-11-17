@@ -7,6 +7,6 @@
 </head>
 <body>
 	<g:render template="/slider"/>
-	<g:render template="/hero"/>
+	<g:render template="/homeBody"/>
 </body>
 </html>
