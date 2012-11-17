@@ -9,7 +9,6 @@ class UrlMappings {
 
 		"/"(controller: "navigation", action: "home")
 		"/home"(controller: "navigation", action: "home")
-		"/about"(controller: "navigation", action: "about")
 		"/contact"(controller: "navigation", action: "contact")
 		"/googleGroup"(controller: "navigation", action: "googleGroup")
 		"/calendar"(controller: "navigation", action: "calendar")
