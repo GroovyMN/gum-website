@@ -9,17 +9,18 @@
 	<script src="js/jquery.gmap.min.js"></script>
 	<script type="text/javascript">
 		$('#googlemaps').gMap({
-			maptype: 'ROADMAP',
+			maptype: 'TERRAIN',
 			scrollwheel: false,
 			zoom: 13,
 			markers: [
 				{
 					address: '11 Fourth Street NE, Minneapolis MN, 55413',
-					html: '',
-					popup: false
+					html: "_address",
+					popup: true
 				}
 			]
 		});
+
 	</script>
 	<!-- end: Google Maps -->
 </div>
