@@ -1,0 +1,46 @@
+/* Custom Buttons Colors
+====================================================================== */
+
+#footer .btn-primary {
+	color:#fff !important;
+}
+
+/* All Mobile Sizes (devices and browser)
+====================================================================== */
+
+@media only screen and (max-width: 767px) {
+
+	.btn-primary {
+		display:block;
+		margin:10px 0;
+	}
+
+	#footer {
+		padding:20px;
+	}
+
+	#footer .title {
+		border:none;
+		margin-bottom:0;
+	}
+
+	#footer .title h3 {
+		width:100%;
+		margin:0 0 10px 0 !important;
+	}
+
+	.navbar .btn-navbar {
+		right:15px;
+	}
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
+=================================================================== */
+
+@media only screen and (max-width: 479px) {
+
+	.logo a {
+		font-size:20px;
+	}
+
+}

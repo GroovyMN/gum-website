@@ -13,6 +13,7 @@ modules = {
 		resource url:"css/icons.css"
 		resource url:"css/social-icons.css"
 		resource url:"css/style.css"
+		resource url:"css/style-overrides.css"
 	}
 	fancybox {
 		resource url:"css/fancybox.css"
