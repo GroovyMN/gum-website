@@ -2109,6 +2109,10 @@ form#newsletter input[type=submit] {
   background-color: #003399 \9;
 }
 
+#footer .btn-primary{
+    color:#fff !important;
+}
+
 .btn-warning {
   background-color: #faa732;
   color: #ffffff;
@@ -2352,6 +2356,29 @@ form#newsletter input[type=submit] {
 		margin-bottom: 30px;
 	}
 	
+        .btn-primary{
+            display:block;
+            margin:10px 0;
+        }
+        
+        #footer{
+            padding:20px;
+        }
+        
+        #footer .title{
+            border:none;
+            margin-bottom:0;
+        }
+        
+        #footer .title h3{
+            width:100%;
+            margin:0 0 10px 0 !important;
+        }
+        
+        .navbar .btn-navbar{
+            right:15px;
+        }
+        
 }
 
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers)
@@ -2392,6 +2419,10 @@ form#newsletter input[type=submit] {
 	.comment-des{
 		width:78%;
 	}
+        
+        .logo a{
+            font-size:20px;
+        }
 	
 }
 	
