@@ -20,6 +20,13 @@
 	color:#fff !important;
 }
 
+/* Google Map
+=================================================================== */
+
+#googlemaps img {
+	max-width: none;
+}
+
 /* All Mobile Sizes (devices and browser)
 ====================================================================== */
 

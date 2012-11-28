@@ -1,7 +1,17 @@
 /*
-* Author: Łukasz Holeczek
-* Template: Best. Bootstrap Theme
+* Author: ≈Åukasz Holeczek
+* Template: Smart Bootstrap Theme
+* Version: 1.0.3
+* Bootstrap version: 2.2.1
+* Copyright 2012 creativeLabs
+* www: http://clabs.co
+* mail: lukasz@clabs.co
+* You can buy this theme on WrapBootstrap: https://wrapbootstrap.com/theme/smart-business-template-WB07233L7
 */
+
+/* Import Section
+=================================================================== */
+/* Removed imports as grails resources plugin errored. */
 
 .clear {
 	clear:both;
@@ -158,7 +168,6 @@ header {
 	font-size: 16px;
 	padding: 20px;
 	padding: 20px 15px \9;
-
 }
 
 .navbar .nav > li > a:focus,
@@ -211,7 +220,7 @@ header {
 
 .navbar .btn-navbar {
 	position: absolute;
-	right: 50px;
+	right: 25px;
 	top: 15px;
 }
 
@@ -1283,7 +1292,7 @@ ol li ol.childlist .comment-des {
 }
 
 .loading {
-	background:url(../images/spinner.gif) no-repeat 1px;
+	background:url(../images/loader.gif) no-repeat 1px;
 	height:28px;
 	width:28px;
 	float: left;
@@ -1994,7 +2003,6 @@ form#newsletter input[type=submit] {
 
 #copyright p {
 	margin: 0 auto;
-	width: 380px;
 	text-align: center;
 	color: #666;
 }
@@ -2287,6 +2295,11 @@ form#newsletter input[type=submit] {
 		min-height: 64px;
 	}
 
+	.navbar .nav > li > a {
+		font-size: 14px;
+		padding: 5px 15px;
+	}
+
 	ol li ol.childlist .comment-des {
 		width:86%;
 	}
@@ -2350,6 +2363,11 @@ form#newsletter input[type=submit] {
 		min-height: 64px;
 	}
 
+	.navbar .nav > li > a {
+		font-size: 14px;
+		padding: 5px 15px;
+	}
+
 	.flickr-widget a {
 		width: 53px;
 		height: 53px;
@@ -2371,6 +2389,11 @@ form#newsletter input[type=submit] {
 
 	header {
 		min-height: 64px;
+	}
+
+	.navbar .nav > li > a {
+		font-size: 14px;
+		padding: 5px 15px;
 	}
 
 	ol li ol.childlist .comment-des {

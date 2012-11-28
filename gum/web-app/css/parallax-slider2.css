@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'BebasNeueRegular';
     src: url('fonts/BebasNeue-webfont.eot');
-    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+    src: url('fonts/BebasNeue-webfont-0.eot#iefix') format('embedded-opentype'),
          url('fonts/BebasNeue-webfont.woff') format('woff'),
          url('fonts/BebasNeue-webfont.ttf') format('truetype'),
          url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
@@ -129,8 +129,8 @@
 	background: #999;
 	margin: 3px;
 	cursor: pointer;
-	box-shadow: 
-		1px 1px 1px rgba(0,0,0,0.1) inset, 
+	box-shadow:
+		1px 1px 1px rgba(0,0,0,0.1) inset,
 		1px 1px 1px rgba(255,255,255,0.1);
 }
 .da-dots span.da-dots-current:after{
@@ -164,8 +164,8 @@
 	cursor: pointer;
 	z-index: 2000;
 	opacity: 0;
-	box-shadow: 
-		1px 1px 1px rgba(0,0,0,0.1) inset, 
+	box-shadow:
+		1px 1px 1px rgba(0,0,0,0.1) inset,
 		1px 1px 1px rgba(255,255,255,0.1);
 	-webkit-transition: opacity 0.4s ease-in-out 0.2s;
 	-moz-transition: opacity 0.4s ease-in-out 0.2s;
@@ -728,32 +728,32 @@
 ====================================================================== */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
 
-	
+
 	.da-slide {
 		width: 750px;
 		height: 100%;
 		left: 50%;
 		margin-left: -375px;
 	}
-	
+
 	.da-slide h2{
 		font-size: 56px;
 		width: 50%;
-	}	
+	}
 }
 
 /* All Mobile Sizes (devices and browser)
 ====================================================================== */
 @media only screen and (max-width: 767px) {
 
-	
+
 	.da-slide {
 		width: 420px;
 		height: 100%;
 		left: 50%;
 		margin-left: -210px;
 	}
-	
+
 	.da-slide h2{
 		font-size: 36px;
 		width: 50%;
@@ -764,25 +764,25 @@
 /* Mobile Landscape Size to Tablet Portrait (devices and browsers)
 ====================================================================== */
 @media only screen and (min-width: 480px) and (max-width: 767px) {
-	
+
 	.da-slider{
 		width: 100% !important;
 		height: 300px;
 	}
-	
+
 	.da-slide {
 		width: 420px;
 		height: 100%;
 		left: 50%;
 		margin-left: -210px;
 	}
-	
+
 	.da-slide h2{
 		font-size: 36px;
 		width: 60%;
 		top: 20px;
 	}
-	
+
 	.da-slide p{
 		width: 80%;
 		top: 90px;
@@ -817,20 +817,20 @@
 		width: 100% !important;
 		height: 300px;
 	}
-	
+
 	.da-slide {
 		width: 300px;
 		height: 100%;
 		left: 50%;
 		margin-left: -150px;
 	}
-	
+
 	.da-slide h2{
 		font-size: 36px;
 		width: 60%;
 		top: 20px;
 	}
-	
+
 	.da-slide p{
 		width: 80%;
 		top: 90px;
@@ -853,5 +853,5 @@
 		-moz-user-select: none;
 		-webkit-user-select: none;
 	}
-	
+
 }
