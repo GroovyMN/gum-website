@@ -9,7 +9,7 @@
 	<script src="js/jquery.gmap.min.js"></script>
 	<script type="text/javascript">
 		$('#googlemaps').gMap({
-			maptype: 'TERRAIN',
+			maptype: 'ROADMAP',
 			scrollwheel: false,
 			zoom: 13,
 			markers: [
@@ -20,7 +20,6 @@
 				}
 			]
 		});
-
 	</script>
 	<!-- end: Google Maps -->
 </div>
