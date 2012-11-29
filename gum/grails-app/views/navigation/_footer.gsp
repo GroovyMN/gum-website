@@ -39,14 +39,7 @@
 			</div>
 			<!-- end: Contact Form -->
 
-			<!-- start: Social Sites -->
-			<div class="span3">
-				<div class="title"><h3>Follow us on Twitter</h3></div>
-
-				<span class="twitter-name"><h3><a href="http://twitter.com/GroovyMN">@GroovyMN</a></h3></span>
-				<span class="da-img"><a href="http://twitter.com/GroovyMN"><r:img dir="images" file="twitter.png" /></a></span>
-			</div>
-			<!-- end: Social Sites -->
+			<g:render template="/social" />
 
 		</div>
 		<!-- end: Row -->
