@@ -20,6 +20,13 @@
 	color:#fff !important;
 }
 
+/* Google Map
+=================================================================== */
+
+#googlemaps img {
+	max-width: none;
+}
+
 /* All Mobile Sizes (devices and browser)
 ====================================================================== */
 
@@ -75,4 +82,3 @@
 .container.calendar h2, .container.calendar h3{
     margin-top:15px;
 }
-
