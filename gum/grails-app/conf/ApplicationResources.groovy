@@ -12,6 +12,7 @@ modules = {
 		resource url:"css/icons-color.css"
 		resource url:"css/icons.css"
 		resource url:"css/social-icons.css"
+		resource url:"css/social-icons-overrides.css"
 		resource url:"css/style.css"
 		resource url:"css/style-overrides.css"
 	}
