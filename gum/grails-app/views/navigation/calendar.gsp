@@ -15,7 +15,7 @@
 				content += "<h3>Future Upcoming Events</h3>";
 
 				for (var i = 1; i < data.feed.entry.length; i++) {
-					content += "<div class='event'>" + data.feed.entry[i].summary.$t + "</div>";
+					content += "<div class='event'>" + data.feed.entry[i].content.$t + "</div>";
 				}
 			}
 
