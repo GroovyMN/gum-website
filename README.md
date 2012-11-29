@@ -12,7 +12,7 @@ Something missing from the site you think everyone needs to see? No problem, jus
 Thanks To
 ---------
 
-* Eric Kinsella - [@staticnull](http://twitter/staticnull)
-* Ryan Applegate - [@rappleg](http://twitter/rappleg)
-* Doug Sabers - [@lightsabersd](http://twitter/lightsabersd)
-* Brad Marsh - [@Bbqhacker](http://twitter/Bbqhacker)
+* Eric Kinsella - [@staticnull](http://twitter.com/staticnull)
+* Ryan Applegate - [@rappleg](http://twitter.com/rappleg)
+* Doug Sabers - [@lightsabersd](http://twitter.com/lightsabersd)
+* Brad Marsh - [@Bbqhacker](http://twitter.com/Bbqhacker)
