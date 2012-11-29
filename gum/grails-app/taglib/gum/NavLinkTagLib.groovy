@@ -15,6 +15,6 @@ class NavLinkTagLib {
 		if (!action)
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [action]")
 
-		out << "<li class=${action == href ? 'active' : ''}><a href=${href}>${value}</a></li>"
+		out << """<li class="${action == href ? 'active' : ''}"><a href="${href}">${value}</a></li>"""
 	}
 }
