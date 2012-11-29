@@ -59,3 +59,20 @@
 	}
 
 }
+
+/* Calendar Rewrite Styles */
+
+.event{
+    margin-top: 15px;
+    padding: 20px;
+    background:#EEE;
+}
+
+.first-event.event{
+    border:solid 2px #29A9DF;
+}
+
+.container.calendar h2, .container.calendar h3{
+    margin-top:15px;
+}
+
