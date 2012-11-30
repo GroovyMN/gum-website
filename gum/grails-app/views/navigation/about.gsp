@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="layout" content="main" />
-	<title>Home</title>
+	<title>About</title>
 	<r:require module="slider" />
 </head>
 <body>
