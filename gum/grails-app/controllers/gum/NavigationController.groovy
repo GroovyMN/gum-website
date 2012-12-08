@@ -1,12 +1,11 @@
 package gum
 
 class NavigationController {
-
-	def home() { }
+	def calendar() { }
 
 	def contact() { }
 
-	def googleGroup() { }
+	def home() { }
 
-	def calendar() { }
+	def group() { }
 }

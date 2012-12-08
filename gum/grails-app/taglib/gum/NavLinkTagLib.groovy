@@ -15,7 +15,7 @@ class NavLinkTagLib {
 		if (!action)
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [action]")
 
-		if (href == "googleGroup") {
+		if (href == "group") {
 			out << """<li class="hidden-phone${action == href ? ' active' : ''}"><a href="${href}">${value}</a></li>"""
 			out << """<li class="visible-phone${action == href ? ' active' : ''}"><a href="https://groups.google.com/forum/?fromgroups#!forum/groovymn" target="_blank">Google Group</a></li>"""
 		} else {

@@ -29,7 +29,7 @@
 							<ul class="nav">
 								<nav:link href="home" value="Home" action="${actionName}" />
 								<nav:link href="calendar" value="Google Calendar" action="${actionName}" />
-								<nav:link href="googleGroup" value="Google Group" action="${actionName}" />
+								<nav:link href="group" value="Google Group" action="${actionName}" />
 								<nav:link href="contact" value="Contact" action="${actionName}" />
 							</ul>
 						</div>
