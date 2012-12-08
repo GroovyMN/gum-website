@@ -57,6 +57,8 @@
 </div>
 <!-- end: Row -->
 
+<calendar:events maxResults="1" />
+
 </div>
 <!--end: Container -->
 
