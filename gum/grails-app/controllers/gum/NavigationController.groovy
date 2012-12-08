@@ -5,7 +5,7 @@ class NavigationController {
 
 	def contact() { }
 
-	def home() { }
-
 	def group() { }
+
+	def home() { }
 }
