@@ -13,7 +13,6 @@
 			width="100%"
 			height="700">
 		</iframe>
-
 	</div>
 	<script type="text/javascript">
 		document.getElementById("forum_embed").src =

@@ -43,10 +43,10 @@
 		<r:layoutResources />
 	</head>
 	<body>
-		<g:render template="/navigation/topNav" />
+		<g:render template="/topNav" />
 		<g:layoutBody/>
 		<g:render template="/footerMenu" />
-		<g:render template="/navigation/footer" />
+		<g:render template="/footer" />
 
 		<r:require module="jquery" />
 		<r:require module="fancybox" />

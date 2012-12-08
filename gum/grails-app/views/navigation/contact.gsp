@@ -8,7 +8,5 @@
 <body>
 	<g:render template="/map" />
 	<g:render template="/hero" />
-
-	<r:require module="bootstrap" />
 </body>
 </html>
