@@ -61,7 +61,7 @@ grails.hibernate.cache.queries = false
 
 environments {
 	development {
-		grails.resources.debug=true
+		grails.resources.debug=false
 		grails.logging.jul.usebridge = true
 	}
 	production {
