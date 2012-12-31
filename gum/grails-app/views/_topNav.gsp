@@ -10,7 +10,7 @@
 			<!-- start: Logo -->
 			<div class="logo span3">
 
-				<a class="brand" href="#"><span>Groovy</span> Users of <span>MN</span></a>
+				<a class="brand" href="#"><span>Groovy&nbsp;Users&nbsp;of&nbsp;MN</span></a>
 
 			</div>
 			<!-- end: Logo -->

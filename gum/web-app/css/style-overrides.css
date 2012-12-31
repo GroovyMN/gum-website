@@ -31,6 +31,9 @@
 ====================================================================== */
 
 @media only screen and (max-width: 767px) {
+	.logo a {
+		font-size:22px;
+	}
 
 	.btn-primary {
 		display:block;
@@ -60,25 +63,52 @@
 =================================================================== */
 
 @media only screen and (max-width: 479px) {
-
 	.logo a {
-		font-size:20px;
+		font-size:22px;
 	}
-
 }
 
-/* Calendar Rewrite Styles */
+/* Calendar Styles */
 
-.event{
+.event {
     margin-top: 15px;
     padding: 20px;
-    background:#EEE;
+    background: #EEE;
 }
 
-.first-event.event{
-    border:solid 2px #29A9DF;
+.first-event.event {
+    border: solid 2px #29A9DF;
 }
 
-.container.calendar h2, .container.calendar h3{
-    margin-top:15px;
+.container.calendar h2, .container.calendar h3 {
+    margin-top: 15px;
+}
+
+/* Map Styles */
+
+#small-map-container {
+	-webkit-border-radius: 150em;
+	-moz-border-radius: 150em;
+	border-radius: 150em;
+	height: 300px;
+	width: 300px;
+	margin-bottom: -305px;
+
+	margin-left: -20px;
+}
+
+#small-map-container a {
+	-webkit-border-radius: 150em;
+	-moz-border-radius: 150em;
+	border-radius: 150em;
+	height: 300px;
+	width: 300px;
+	margin-left: -20px;
+}
+
+#small-map {
+	-webkit-border-radius: 150em;
+	-moz-border-radius: 150em;
+	border-radius: 150em;
+	margin-left: -20px;
 }
