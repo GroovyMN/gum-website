@@ -11,7 +11,7 @@
 		<title><g:layoutTitle default="Groovy Users of MN" /></title>
 
 		<meta name="description" content="Groovy Users of Minnesota" />
-		<meta name="keywords" content="Groovy, Grails, Web, Tomcat, Hibernate, JVM, Java" />
+		<meta name="keywords" content="Groovy, Grails, Web, Tomcat, Hibernate, JVM, Java, Usergroup" />
 		<!-- end: Meta -->
 
 		<!-- start: Mobile Specific -->
