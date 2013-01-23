@@ -1,6 +1,5 @@
 GUM Website
 ===========
-
 Website for Groovy Users of Minnesota. [http://groovy.mn](http://groovy.mn)
 
 This site is built with [Grails](http://grails.org) and deployed on [AppFog](https://www.appfog.com).
@@ -11,7 +10,6 @@ Something missing from the site you think everyone needs to see? No problem, jus
 
 Thanks To
 ---------
-
 * Ryan Applegate - [@rappleg](http://twitter.com/rappleg)
 * Eric Kinsella - [@staticnull](http://twitter.com/staticnull)
 * Brad Marsh - [@bbqhacker](http://twitter.com/bbqhacker)
