@@ -41,6 +41,8 @@
 		<r:require module="bootstrap" />
 
 		<r:layoutResources />
+
+		<g:render template="/analytics" />
 	</head>
 	<body>
 		<g:render template="/topNav" />
