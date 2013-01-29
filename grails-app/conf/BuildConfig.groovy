@@ -6,6 +6,10 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 // grails.project.war.file = "target/${appName}-${appVersion}.war"
 
+def gebVersion = "0.7.2"
+def seleniumVersion = "2.21.0"
+
+
 grails.project.dependency.resolution = {
 	// inherit Grails' default dependencies
 	inherits("global") {
@@ -15,7 +19,7 @@ grails.project.dependency.resolution = {
 	log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
 	checksums true // Whether to verify checksums on resolve
 
-    repositories {
+	repositories {
 		inherits true // Whether to inherit repository definitions from plugins
 
 		grailsPlugins()
@@ -25,18 +29,22 @@ grails.project.dependency.resolution = {
 		mavenLocal()
 		mavenCentral()
 
-		// uncomment these (or add new ones) to enable remote dependency resolution from public Maven repositories
-		// mavenRepo "http://snapshots.repository.codehaus.org"
-		// mavenRepo "http://repository.codehaus.org"
-		// mavenRepo "http://download.java.net/maven/2/"
-		// mavenRepo "http://repository.jboss.com/maven2/"
-    }
-    dependencies {
-		// specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-		// runtime 'mysql:mysql-connector-java:5.1.20'
-    }
+		mavenRepo "https://nexus.codehaus.org/content/repositories/snapshots"
 
-    plugins {
+	}
+	dependencies {
+		test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion") {
+			exclude "xml-apis"
+		}
+		test("org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion")
+		test("org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion")
+
+		test "org.codehaus.geb:geb-spock:$gebVersion"
+		test "org.codehaus.geb:geb-junit4:$gebVersion"
+
+	}
+
+	plugins {
 		runtime ":hibernate:$grailsVersion"
 		runtime ":jquery:1.8.0"
 		runtime ":resources:1.1.6"
@@ -49,8 +57,12 @@ grails.project.dependency.resolution = {
 
 		build ":tomcat:$grailsVersion"
 
+		test ":geb:$gebVersion"
+		test ":spock:0.6"
+
+
 		runtime ":database-migration:1.1"
 
 		compile ':cache:1.0.0'
-    }
+	}
 }
