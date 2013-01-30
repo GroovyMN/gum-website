@@ -8,12 +8,15 @@ class NavLinkTagLib {
 		def value = attrs.remove('value')
 		def action = attrs.remove('action')
 
-		if (!href)
+		if (!href) {
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [href]")
-		if (!value)
+		}
+		if (!value) {
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [value]")
-		if (!action)
+		}
+		if (!action) {
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [action]")
+		}
 
 		if (href == "group") {
 			out << """<li class="hidden-phone${action == href ? ' active' : ''}"><a href="${href}">${value}</a></li>"""

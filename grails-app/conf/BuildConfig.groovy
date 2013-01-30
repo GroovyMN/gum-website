@@ -9,11 +9,10 @@ grails.project.source.level = 1.6
 def gebVersion = "0.7.2"
 def seleniumVersion = "2.21.0"
 
-
 grails.project.dependency.resolution = {
-	// inherit Grails' default dependencies
+	// Inherit Grails' default dependencies
 	inherits("global") {
-		// specify dependency exclusions here; for example, uncomment this to disable ehcache:
+		// Specify dependency exclusions here; for example, uncomment this to disable ehcache:
 		// excludes 'ehcache'
 	}
 	log "error" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
@@ -30,8 +29,8 @@ grails.project.dependency.resolution = {
 		mavenCentral()
 
 		mavenRepo "https://nexus.codehaus.org/content/repositories/snapshots"
-
 	}
+
 	dependencies {
 		test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion") {
 			exclude "xml-apis"
@@ -41,7 +40,6 @@ grails.project.dependency.resolution = {
 
 		test "org.codehaus.geb:geb-spock:$gebVersion"
 		test "org.codehaus.geb:geb-junit4:$gebVersion"
-
 	}
 
 	plugins {
@@ -49,7 +47,7 @@ grails.project.dependency.resolution = {
 		runtime ":jquery:1.8.0"
 		runtime ":resources:1.1.6"
 
-		// additional resources capabilities
+		// Additional resources capabilities
 		runtime ":zipped-resources:1.0"
 		runtime ":cache-headers:1.1.5"
 		runtime ":cached-resources:1.0"
@@ -59,7 +57,6 @@ grails.project.dependency.resolution = {
 
 		test ":geb:$gebVersion"
 		test ":spock:0.6"
-
 
 		runtime ":database-migration:1.1"
 
