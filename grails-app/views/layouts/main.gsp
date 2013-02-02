@@ -42,7 +42,7 @@
 
 		<r:layoutResources />
 
-		<g:render template="/analytics" />
+		<g:render template="/analyticsJS" />
 	</head>
 	<body>
 		<g:render template="/topNav" />
