@@ -11,6 +11,7 @@ Something missing from the site you think everyone needs to see? No problem, jus
 Thanks To
 ---------
 * Ryan Applegate - [@rappleg](http://twitter.com/rappleg)
+* Jeff Beck - [@rappleg](http://twitter.com/beckje01)
 * Eric Kinsella - [@staticnull](http://twitter.com/staticnull)
 * Brad Marsh - [@bbqhacker](http://twitter.com/bbqhacker)
 * Doug Sabers - [@lightsabersd](http://twitter.com/lightsabersd)
