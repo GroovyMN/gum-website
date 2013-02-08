@@ -58,18 +58,8 @@
 
 		<calendar:events maxResults="1" />
 
-		<!-- start Clients List -->
-		<div class="clients-carousel">
+		<g:render template="/sponsors" />
 
-			<ul class="slides clients">
-				<li><img src="img/logos/1.png" alt=""/></li> <!-- refactr -->
-				<li><img src="img/logos/2.png" alt=""/></li> <!-- reachlocal -->
-				<li><img src="img/logos/3.png" alt=""/></li> <!-- target -->
-				<li><img src="img/logos/4.png" alt=""/></li> <!-- opi -->
-			</ul>
-
-		</div>
-		<!-- end Clients List -->
 	</div>
 	<!-- end: Container -->
 
