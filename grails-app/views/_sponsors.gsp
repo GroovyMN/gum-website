@@ -12,7 +12,7 @@
 
 				<div class="picture">
 					<a href="/images/car.jpg" rel="image" title="mobile app">
-						<img src="/images/car.jpg" >
+						<r:img dir="images/" file="car.jpg" alt="refactr logo" />
 						<div class="image-overlay-zoom"></div>
 					</a>
 				</div>
@@ -27,7 +27,7 @@
 
 				<div class="picture">
 					<a href="project.html">
-						<img src="/images/web_app1.jpg">
+						<r:img dir="images/" file="web_app1.jpg" alt="ReachLocal logo" />
 						<div class="image-overlay-link"></div>
 					</a>
 				</div>
@@ -42,7 +42,7 @@
 
 				<div class="picture">
 					<a href="/images/mobile_app1.jpg" rel="image" title="mobile app">
-						<img src="/images/mobile_app1.jpg">
+						<r:img dir="images/" file="mobile_app1.jpg" alt="ReachLocal logo" />
 						<div class="image-overlay-zoom"></div>
 					</a>
 				</div>
@@ -111,15 +111,15 @@
 <div class="clients-carousel">
 
 	<ul class="slides clients">
-		<li><img src="/images/logos/1.png" alt=""/></li> <!-- groovy -->
-		<li><img src="/images/logos/2.png" alt=""/></li> <!-- grails -->
-		<li><img src="/images/logos/3.png" alt=""/></li> <!-- griffion -->
-		<li><img src="/images/logos/4.png" alt=""/></li> <!-- vert.x -->
-		<li><img src="/images/logos/5.png" alt=""/></li> <!-- ratpack -->
-		<li><img src="/images/logos/6.png" alt=""/></li> <!-- gradle -->
-		<li><img src="/images/logos/7.png" alt=""/></li> <!-- spock -->
-		<li><img src="/images/logos/8.png" alt=""/></li> <!-- geb -->
-		<li><img src="/images/logos/9.png" alt=""/></li> <!-- galek -->
+		<li><r:img dir="images/logos/" file="1.png" alt="groovy" /></li>
+		<li><r:img dir="images/logos/" file="2.png" alt="grails" /></li>
+		<li><r:img dir="images/logos/" file="3.png" alt="griffion" /></li>
+		<li><r:img dir="images/logos/" file="4.png" alt="vert.x" /></li>
+		<li><r:img dir="images/logos/" file="5.png" alt="ratpack" /></li>
+		<li><r:img dir="images/logos/" file="6.png" alt="gradle" /></li>
+		<li><r:img dir="images/logos/" file="7.png" alt="spock" /></li>
+		<li><r:img dir="images/logos/" file="8.png" alt="geb" /></li>
+		<li><r:img dir="images/logos/" file="9.png" alt="galek" /></li>
 	</ul>
 
 </div>
