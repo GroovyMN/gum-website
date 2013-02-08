@@ -111,10 +111,15 @@
 <div class="clients-carousel">
 
 	<ul class="slides clients">
-		<li><img src="/images/logos/1.png" alt=""/></li> <!-- refactr -->
-		<li><img src="/images/logos/2.png" alt=""/></li> <!-- reachlocal -->
-		<li><img src="/images/logos/3.png" alt=""/></li> <!-- target -->
-		<li><img src="/images/logos/4.png" alt=""/></li> <!-- opi -->
+		<li><img src="/images/logos/1.png" alt=""/></li> <!-- groovy -->
+		<li><img src="/images/logos/2.png" alt=""/></li> <!-- grails -->
+		<li><img src="/images/logos/3.png" alt=""/></li> <!-- griffion -->
+		<li><img src="/images/logos/4.png" alt=""/></li> <!-- vert.x -->
+		<li><img src="/images/logos/5.png" alt=""/></li> <!-- ratpack -->
+		<li><img src="/images/logos/6.png" alt=""/></li> <!-- gradle -->
+		<li><img src="/images/logos/7.png" alt=""/></li> <!-- spock -->
+		<li><img src="/images/logos/8.png" alt=""/></li> <!-- geb -->
+		<li><img src="/images/logos/9.png" alt=""/></li> <!-- galek -->
 	</ul>
 
 </div>
