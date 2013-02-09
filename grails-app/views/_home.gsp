@@ -14,7 +14,7 @@
 
 		<g:render template="/sponsors" />
 
-		<g:render template="/groovyProjects" />
+		<g:render template="/technologies" />
 
 	</div>
 	<!-- end: Container -->
