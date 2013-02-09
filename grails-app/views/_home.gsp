@@ -8,13 +8,13 @@
 
 		<g:render template="/groovy" />
 
+		<g:render template="/technologies" />
+
 		<calendar:events maxResults="1" />
 
 		<hr />
 
 		<g:render template="/sponsors" />
-
-		<g:render template="/technologies" />
 
 	</div>
 	<!-- end: Container -->
