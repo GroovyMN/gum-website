@@ -10,6 +10,8 @@
 
 		<calendar:events maxResults="1" />
 
+		<hr />
+
 		<g:render template="/sponsors" />
 
 	</div>
