@@ -21,10 +21,10 @@
 				<div class="social-info-wrap">
 					<div class="social-info">
 						<div class="social-info-front social-github">
-							<a href="https://github.com/GroovyMN"></a>
+							<a href="http://github.com/GroovyMN"></a>
 						</div>
 						<div class="social-info-back social-github-hover">
-							<a href="https://github.com/GroovyMN"></a>
+							<a href="http://github.com/GroovyMN"></a>
 						</div>
 					</div>
 				</div>

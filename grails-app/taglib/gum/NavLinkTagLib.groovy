@@ -20,7 +20,7 @@ class NavLinkTagLib {
 
 		if (href == "group") {
 			out << """<li class="hidden-phone${action == href ? ' active' : ''}"><a href="${href}">${value}</a></li>"""
-			out << """<li class="visible-phone${action == href ? ' active' : ''}"><a href="https://groups.google.com/forum/?fromgroups#!forum/groovymn" target="_blank">Google Group</a></li>"""
+			out << """<li class="visible-phone${action == href ? ' active' : ''}"><a href="http://groups.google.com/forum/?fromgroups#!forum/groovymn" target="_blank">Google Group</a></li>"""
 		} else {
 			out << """<li class="${action == href ? 'active' : ''}"><a href="${href}">${value}</a></li>"""
 		}

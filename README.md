@@ -2,7 +2,7 @@ GUM Website
 ===========
 Website for Groovy Users of Minnesota. [http://groovy.mn](http://groovy.mn)
 
-This site is built with [Grails](http://grails.org) and deployed on [AppFog](https://www.appfog.com).
+This site is built with [Grails](http://grails.org) and deployed on [AppFog](http://www.appfog.com).
 
 Adding Content
 --------------

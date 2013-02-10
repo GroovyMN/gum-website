@@ -15,7 +15,7 @@
 			markers: [
 				{
 					address: '11 Fourth Street NE, Minneapolis MN, 55413',
-					html: "<b>2nd Tuesday of the month at 6:00 pm</b><br /> 11 Fourth Street NE, Minneapolis MN, 55413",
+					html: "<strong>GroovMN</strong><br /><b>2nd Tuesday of the month at 6:00 pm</b><br /> 11 Fourth Street NE, Suite 300, Minneapolis MN, 55413",
 					popup: true
 				}
 			]
