@@ -8,7 +8,7 @@
 
 		<g:render template="/groovy" />
 
-		<g:render template="/technologies" />
+		<g:render template="/projects" />
 
 		<calendar:events maxResults="1" />
 
