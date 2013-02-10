@@ -15,7 +15,7 @@ class PagesSpec extends GebReportingSpec {
 		when:
 			to ContactPage
 		then:
-			at CalendarPage
+			at ContactPage
 	}
 
 	def "can get to calendar"() {
