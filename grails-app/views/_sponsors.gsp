@@ -58,7 +58,6 @@
 	<div class="span3">
 
 		<!-- start: Testimonials-->
-
 		<div class="testimonial-container">
 
 			<div class="title"><h3>Twitter</h3></div>
@@ -67,35 +66,13 @@
 
 				<ul class="carousel">
 
-					<li class="testimonial">
-						<div id="tweet0" class="testimonials"></div>
-						<div class="testimonials-bg"></div>
-						<div class="testimonials-author"><a href="http://twitter.com/groovymn">@GroovyMN</a></div>
-					</li>
-
-					<li class="testimonial">
-						<div id="tweet1" class="testimonials"></div>
-						<div class="testimonials-bg"></div>
-						<div class="testimonials-author"><a href="http://twitter.com/groovymn">@GroovyMN</a></div>
-					</li>
-
-					<li class="testimonial">
-						<div id="tweet2" class="testimonials"></div>
-						<div class="testimonials-bg"></div>
-						<div class="testimonials-author"><a href="http://twitter.com/groovymn">@GroovyMN</a></div>
-					</li>
-
-					<li class="testimonial">
-						<div id="tweet3" class="testimonials"></div>
-						<div class="testimonials-bg"></div>
-						<div class="testimonials-author"><a href="http://twitter.com/groovymn">@GroovyMN</a></div>
-					</li>
-
-					<li class="testimonial">
-						<div id="tweet4" class="testimonials"></div>
-						<div class="testimonials-bg"></div>
-						<div class="testimonials-author"><a href="http://twitter.com/groovymn">@GroovyMN</a></div>
-					</li>
+					<g:each var="index" in="${0..<5}">
+						<li class="testimonial">
+							<div id="tweet${index}" class="testimonials"></div>
+							<div class="testimonials-bg"></div>
+							<div class="testimonials-author"><a href="http://twitter.com/groovymn">@GroovyMN</a></div>
+						</li>
+					</g:each>
 
 				</ul>
 
@@ -104,12 +81,11 @@
 		</div>
 
 		<r:script>
+			// Rate limit of 150/hr
 			$.getJSON("https://api.twitter.com/1/statuses/user_timeline/groovymn.json?count=5&include_rts=1&callback=?", function(data) {
-				$("#tweet0").html(data[0].text);
-				$("#tweet1").html(data[1].text);
-				$("#tweet2").html(data[2].text);
-				$("#tweet3").html(data[3].text);
-				$("#tweet4").html(data[4].text);
+				for(var i=0; i<5; i++) {
+					$("#tweet"+i).html(data[i].text);
+				}
 			});
 		</r:script>
 		<!-- end: Testimonials-->
