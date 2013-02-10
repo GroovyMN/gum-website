@@ -17,7 +17,6 @@ driver = {
 }
 
 environments {
-
 	// run as “grails -Dgeb.env=chrome test-app”
 	// See: http://code.google.com/p/selenium/wiki/ChromeDriver
 	chrome {
@@ -29,5 +28,4 @@ environments {
 	firefox {
 		driver = { new FirefoxDriver() }
 	}
-
 }
