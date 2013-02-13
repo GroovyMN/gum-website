@@ -27,9 +27,20 @@
 		// Rate limit of 150/hr
 		$.getJSON("https://api.twitter.com/1/statuses/user_timeline/groovymn.json?count=5&include_rts=1&callback=?", function(data) {
 			for(var i=0; i<5; i++) {
-				$("#tweet"+i).html(data[i].text);
+				$("#tweet"+i).html(processTweetLinks(data[i].text));
 			}
 		});
+
+		// http://stackoverflow.com/questions/8020739/regex-how-to-replace-twitter-links
+		function processTweetLinks(text) {
+			var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i;
+			text = text.replace(exp, "<a href='$1' target='_blank'>$1</a>");
+			exp = /(^|\s)#(\w+)/g;
+			text = text.replace(exp, "$1<a href='http://search.twitter.com/search?q=%23$2' target='_blank'>#$2</a>");
+			exp = /(^|\s)@(\w+)/g;
+			text = text.replace(exp, "$1<a href='http://www.twitter.com/$2' target='_blank'>@$2</a>");
+			return text;
+		}
 	</r:script>
 	<!-- end: Testimonials-->
 
