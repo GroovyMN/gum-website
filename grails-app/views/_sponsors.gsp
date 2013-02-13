@@ -29,7 +29,7 @@
 				</div>
 				<div class="picture">
 					<a href="http://objectpartners.com" title="Target">
-						<r:img dir="images/sponsors/" file="opi-logo.jpg" alt="Object Partners logo" />
+						<r:img dir="images/sponsors/" file="opi-logo-text.png" alt="Object Partners logo" />
 						<div class="image-overlay-link"></div>
 					</a>
 				</div>
