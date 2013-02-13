@@ -43,6 +43,7 @@
 			return text;
 		}
 
+		// http://stackoverflow.com/questions/6549223/javascript-code-to-display-twitter-created-at-as-xxxx-ago
 		function parseTwitterDate(tdate) {
 			var system_date = new Date(Date.parse(tdate));
 			var user_date = new Date();
