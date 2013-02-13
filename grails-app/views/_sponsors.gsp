@@ -28,10 +28,10 @@
 					<h4>Food Sponsor</h4>
 				</div>
 				<div class="picture">
-					%{--<a href="http://target.com" title="Target">--}%
-						%{--<r:img dir="images/sponsors/" file="target-logo-300x150.jpg" alt="Target logo" />--}%
-						%{--<div class="image-overlay-link"></div>--}%
-					%{--</a>--}%
+					<a href="http://objectpartners.com" title="Target">
+						<r:img dir="images/sponsors/" file="opi-logo.jpg" alt="Object Partners logo" />
+						<div class="image-overlay-link"></div>
+					</a>
 				</div>
 
 			</div>
