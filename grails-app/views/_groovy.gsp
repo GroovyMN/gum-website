@@ -45,5 +45,6 @@
 
 	</div>
 	<!-- end: Icon Boxes -->
+
 </div>
 <!-- end: Row -->
