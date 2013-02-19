@@ -30,14 +30,13 @@
 			<h2>Want to Present?</h2>
 			<p class="slider-text">Have a Groovy/Grails topic and want to present at an upcoming meeting.  Submit your topic and we will contact you with upcoming openings in our presentation schedule.</p>
 			<g:link controller="navigation" action="group" class="da-link">Read more</g:link>
-			<div class="da-img"><r:img dir="images/parallax-slider" file="jesse-detail.png" alt="present" /></div>
+			<div class="da-img"><r:img dir="images/gum/logos" file="GUM-unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png" alt="gum logo" /></div>
 		</div>
 		<nav class="da-arrows">
 			<span class="da-arrows-prev"></span>
 			<span class="da-arrows-next"></span>
 		</nav>
 	</div>
-
 </div>
 <!-- end: Slider -->
 
