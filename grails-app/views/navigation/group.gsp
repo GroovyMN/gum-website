@@ -14,9 +14,9 @@
 			height="700">
 		</iframe>
 	</div>
-	<script type="text/javascript">
+	<r:script>
 		document.getElementById("forum_embed").src =
-			"http://groups.google.com/forum/embed/?place=forum/groovymn&showsearch=true&showpopout=true";
-	</script>
+				"http://groups.google.com/forum/embed/?place=forum/groovymn&showsearch=true&showpopout=true";
+	</r:script>
 </body>
 </html>
