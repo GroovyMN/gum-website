@@ -1,13 +1,12 @@
 web-app/WEB-INF/applicationContext.xml
 web-app/WEB-INF/sitemesh.xml
 web-app/WEB-INF/tld/
-stacktrace.log
+*.log
 target/
 classes/
 out/
 *.iml
 *.tmproj
-stacktrace.log
 *.DS_Store
 .idea/
 
@@ -52,4 +51,3 @@ stacktrace.log
 
 # other
 *.iws
-
