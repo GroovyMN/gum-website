@@ -39,4 +39,7 @@ modules = {
 		resource url:"js/carousel.js"
 		resource url:"js/custom.js"
 	}
+	timeago {
+		resource url:"js/jquery.timeago.js"
+	}
 }
