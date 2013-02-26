@@ -33,11 +33,10 @@
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
 		<!-- end: CSS -->
 
-		<g:external uri="/images/favicon.ico"/>
+		<g:external file="/images/favicon.ico" />
 
 		<g:layoutHead/>
 
-		<r:require module="jquery" />
 		<r:require module="bootstrap" />
 		<r:require module="fancybox" />
 		<r:require module="common" />
@@ -51,10 +50,6 @@
 		<g:layoutBody/>
 		<g:render template="/footerMenu" />
 		<g:render template="/footer" />
-
-		<r:require module="jquery" />
-		<r:require module="bootstrap" />
-		<r:require module="fancybox" />
 
 		<r:layoutResources />
 	</body>

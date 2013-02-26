@@ -3,6 +3,8 @@ modules = {
 		resource url:'js/jquery-1.8.2.js'
 	}
 	bootstrap {
+		dependsOn 'jquery'
+
 		resource url:"css/bootstrap.css"
 		resource url:"css/bootstrap-responsive.css"
 		resource url:"js/bootstrap.js"
@@ -17,17 +19,21 @@ modules = {
 		resource url:"css/style-overrides.css"
 	}
 	fancybox {
+		dependsOn 'jquery'
+
 		resource url:"css/fancybox.css"
 		resource url:"js/fancybox.js"
 	}
 	isotope {
+		dependsOn 'jquery'
+
 		resource url:"js/isotope.js"
 	}
 	slider {
-		dependsOn 'common'
 		dependsOn 'jquery'
-		dependsOn 'fancybox'
 		dependsOn 'bootstrap'
+		dependsOn 'common'
+		dependsOn 'fancybox'
 		dependsOn 'isotope'
 
 		resource url:"css/parallax-slider.css"
@@ -40,6 +46,8 @@ modules = {
 		resource url:"js/custom.js"
 	}
 	timeago {
+		dependsOn 'jquery'
+
 		resource url:"js/jquery.timeago.js"
 	}
 }
