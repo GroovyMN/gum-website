@@ -33,7 +33,7 @@
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Economica:700,400italic">
 		<!-- end: CSS -->
 
-		<g:external file="/images/favicon.ico" />
+		<g:external file="/favicon.ico" />
 
 		<g:layoutHead/>
 
