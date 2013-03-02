@@ -21,7 +21,7 @@
 }
 
 /* Google Map
-=================================================================== */
+====================================================================== */
 
 #googlemaps img {
 	max-width: none;
@@ -60,7 +60,7 @@
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
-=================================================================== */
+====================================================================== */
 
 @media only screen and (max-width: 479px) {
 	.logo a {
@@ -71,25 +71,24 @@
 /* Calendar Styles */
 
 .event {
-    margin-top: 15px;
-    padding: 20px;
-    background: #EEE;
+	margin-top: 15px;
+	padding: 20px;
+	background: #EEE;
 }
 
 .first-event.event {
-    border: solid 2px #29A9DF;
+	border: solid 2px #29A9DF;
 }
 
 .container.calendar h2, .container.calendar h3 {
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 /* Map Styles */
 
 #small-map-container {
-	-webkit-border-radius: 150em;
-	-moz-border-radius: 150em;
-	border-radius: 150em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 	height: 300px;
 	width: 300px;
 	margin-bottom: -305px;
@@ -98,17 +97,15 @@
 }
 
 #small-map-container a {
-	-webkit-border-radius: 150em;
-	-moz-border-radius: 150em;
-	border-radius: 150em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 	height: 300px;
 	width: 300px;
 	margin-left: -20px;
 }
 
 #small-map {
-	-webkit-border-radius: 150em;
-	-moz-border-radius: 150em;
-	border-radius: 150em;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
 	margin-left: -20px;
 }
