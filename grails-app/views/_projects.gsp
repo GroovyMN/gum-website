@@ -4,18 +4,18 @@
 <div class="clients-carousel">
 
 	<ul class="slides clients">
-		<li><a href="http://groovy.codehaus.org"><r:img dir="images/groovy/" file="groovy-lang.png" alt="groovy" /></a></li>
-		<li><a href="http://grails.org"><r:img dir="images/groovy/" file="grails-campaign-btn.png" alt="grails" /></a></li>
-		%{--<li><a href="http://hudson.grails.org"><r:img dir="images/groovy/" file="grails-hudson-builds.png" alt="hudson" /></a></li>--}%
-		<li><a href="http://jenkins-ci.org"><r:img dir="images/groovy/" file="jenkins-logo.png" alt="hudson" /></a></li>
-		<li><a href="http://grails.org/download/ubuntu"><r:img dir="images/groovy/" file="grails-ubuntu.png" alt="ubuntu" /></a></li>
-		<li><a href="http://gvmtool.net"><r:img dir="images/groovy/" file="gvm.png" alt="gvm" /></a></li>
-		%{--<li><a href="#"><r:img dir="images/logos/" file="5.png" alt="ratpack" /></a></li>--}%
-		<li><a href="http://griffon.codehaus.org"><r:img dir="images/groovy/" file="griffion-64x64.jpg" alt="griffon" /></a></li>
-		<li><a href="http://gradle.org"><r:img dir="images/groovy/" file="gradle-logo_sign.jpg" alt="gradle" /></a></li>
-		%{--<li><a href="#"><r:img dir="images/logos/" file="7.png" alt="spock" /></a></li>--}%
-		%{--<li><a href="#"><r:img dir="images/logos/" file="8.png" alt="geb" /></a></li>--}%
-		<li><a href="http://gaelyk.appspot.com"><r:img dir="images/groovy/" file="google-app-engine-groovy.png" alt="gaelyk" /></a></li>
+		<li><a href="http://groovy.codehaus.org"><r:img dir="images/groovy/" file="groovy-lang.png" alt="groovy" class="rounded-corners" /></a></li>
+		<li><a href="http://grails.org"><r:img dir="images/groovy/" file="grails-campaign-btn.png" alt="grails" class="rounded-corners" /></a></li>
+		<li><a href="http://jenkins-ci.org"><r:img dir="images/groovy/" file="jenkins-logo.png" alt="hudson" class="rounded-corners" /></a></li>
+		<li><a href="http://grails.org/download/ubuntu"><r:img dir="images/groovy/" file="grails-ubuntu.png" alt="ubuntu" class="rounded-corners" /></a></li>
+		<li><a href="http://gvmtool.net"><r:img dir="images/groovy/" file="gvm.png" alt="gvm" class="rounded-corners" /></a></li>
+		<li><a href="http://griffon.codehaus.org"><r:img dir="images/groovy/" file="griffion-64x64.jpg" alt="griffon" class="rounded-corners"  /></a></li>
+		<li><a href="http://gradle.org"><r:img dir="images/groovy/" file="gradle-logo_sign.jpg" alt="gradle" class="rounded-corners" /></a></li>
+		<li><a href="http://gaelyk.appspot.com"><r:img dir="images/groovy/" file="google-app-engine-groovy.png" alt="gaelyk" class="rounded-corners" /></a></li>
+		<li><a href="http://code.google.com/p/spock"><r:img dir="images/groovy/" file="spock-cookie-jar-200x200.jpg" alt="spock" class="rounded-corners" /></a></li>
+		<li><a href="http://gebish.org"><r:img dir="images/groovy/" file="geb-luke-daley.jpg" alt="geb" class="rounded-corners" /></a></li>
+		<li><a href="http://groovyfx.org"><r:img dir="images/groovy/" file="groovyfx-logo.png" alt="gaelyk" class="rounded-corners" /></a></li>
+		<li><a href="https://github.com/tlberglund/ratpack-template"><r:img dir="images/groovy/" file="ratpack-tim-bergland.jpg" alt="ratpack" class="rounded-corners" /></a></li>
 	</ul>
 
 </div>
