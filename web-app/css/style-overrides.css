@@ -84,28 +84,9 @@
 	margin-top: 15px;
 }
 
-/* Map Styles */
+/* Misc
+====================================================================== */
 
-#small-map-container {
+.rounded-corners {
 	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	height: 300px;
-	width: 300px;
-	margin-bottom: -305px;
-
-	margin-left: -20px;
-}
-
-#small-map-container a {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	height: 300px;
-	width: 300px;
-	margin-left: -20px;
-}
-
-#small-map {
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	margin-left: -20px;
 }
