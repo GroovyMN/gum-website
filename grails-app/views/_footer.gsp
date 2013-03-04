@@ -10,7 +10,7 @@
 			<!-- start: Location -->
 			<div class="span2">
 				<div class="title"><h3>Meeting Location</h3></div>
-				<p><b>Refactr Office</b></p>
+				<p><b>SmartThings Office</b></p>
 				<p>11 Fourth Street NE | Suite 300</p>
 				<p>Minneapolis, MN 55413</p>
 			</div>

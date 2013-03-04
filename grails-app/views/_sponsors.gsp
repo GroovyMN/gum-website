@@ -14,8 +14,8 @@
 				</div>
 
 				<div class="picture">
-					<a href="http://refactr.com" title="Refactr">
-						<r:img dir="images/sponsors/" file="refactr.png" alt="Refactr logo" />
+					<a href="http://smartthings.com" title="SmartThings">
+						<r:img dir="images/sponsors/" file="smart-things-logo-250x250.png" alt="SmartThings logo" />
 						<div class="image-overlay-link"></div>
 					</a>
 				</div>
