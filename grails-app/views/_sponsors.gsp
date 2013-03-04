@@ -15,7 +15,7 @@
 
 				<div class="picture">
 					<a href="http://smartthings.com" title="SmartThings">
-						<r:img dir="images/sponsors/" file="smart-things-logo-250x250.png" alt="SmartThings logo" />
+						<r:img dir="images/sponsors/" file="smart-things-logo-text.png" alt="SmartThings logo" />
 						<div class="image-overlay-link"></div>
 					</a>
 				</div>
