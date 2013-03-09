@@ -31,4 +31,11 @@ class PagesSpec extends GebReportingSpec {
 		then:
 			at GroupPage
 	}
+
+	def "can get to talks"() {
+		when:
+		to TalksPage
+		then:
+		at TalksPage
+	}
 }

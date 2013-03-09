@@ -8,4 +8,6 @@ class NavigationController {
 	def group() { }
 
 	def home() { }
+
+	def talks() { }
 }
