@@ -15,7 +15,8 @@
 		<li><a href="http://code.google.com/p/spock"><r:img dir="images/groovy/" file="spock-cookie-jar-200x200.jpg" alt="spock" class="rounded-corners" /></a></li>
 		<li><a href="http://gebish.org"><r:img dir="images/groovy/" file="geb-luke-daley.jpg" alt="geb" class="rounded-corners" /></a></li>
 		<li><a href="http://groovyfx.org"><r:img dir="images/groovy/" file="groovyfx-logo.png" alt="gaelyk" class="rounded-corners" /></a></li>
-		<li><a href="https://github.com/tlberglund/ratpack-template"><r:img dir="images/groovy/" file="ratpack-tim-bergland.jpg" alt="ratpack" class="rounded-corners" /></a></li>
+		<li><a href="http://github.com/tlberglund/ratpack-template"><r:img dir="images/groovy/" file="ratpack-tim-bergland.jpg" alt="ratpack" class="rounded-corners" /></a></li>
+		<li><a href="http://gpars.codehaus.org"><r:img dir="images/groovy/" file="gpars-logo.jpg" alt="gpars" class="rounded-corners" /></a></li>
 	</ul>
 
 </div>
