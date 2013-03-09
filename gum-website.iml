@@ -75,6 +75,10 @@
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.apache.commons/commons-exec/jars/commons-exec-1.1.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/org.json/json/jars/json-20080701.jar!/" />
           <root url="jar://$USER_HOME$/.grails/ivy-cache/cglib/cglib-nodep/jars/cglib-nodep-2.1_3.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.2.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/junit/junit-dep/jars/junit-dep-4.9.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-core/jars/spock-core-0.6-groovy-1.8.jar!/" />
+          <root url="jar://$USER_HOME$/.grails/ivy-cache/org.spockframework/spock-grails-support/jars/spock-grails-support-0.6-groovy-1.8.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -82,6 +86,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="grails-2.1.4" level="application" />
+    <orderEntry type="module" module-name="gum-website-grailsPlugins" />
   </component>
 </module>
 
