@@ -6,7 +6,7 @@
 </head>
 <body>
 	<calendar:events />
-
+	<br >
 	<div class="container">
 		<h2><g:link action="talks">Archived Talks</g:link></h2>
 	</div>
