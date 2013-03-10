@@ -34,8 +34,8 @@ class PagesSpec extends GebReportingSpec {
 
 	def "can get to talks"() {
 		when:
-		to TalksPage
+			to TalksPage
 		then:
-		at TalksPage
+			at TalksPage
 	}
 }

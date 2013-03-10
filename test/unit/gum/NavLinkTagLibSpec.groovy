@@ -35,5 +35,6 @@ class NavLinkTagLibSpec extends Specification {
 			result == applyTemplate(template, [href: "home", action: "test"])
 		then:
 		def e = thrown(GrailsTagException)
-		e.message.contains("is missing required attribute [value]")	}
+		e.message.contains("is missing required attribute [value]")
+	}
 }
