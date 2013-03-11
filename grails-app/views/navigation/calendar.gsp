@@ -5,7 +5,7 @@
 	<title>GUM Calendar</title>
 </head>
 <body>
-	<calendar:events />
+	<calendar:events max="${max}" />
 	<br >
 	<div class="container">
 		<h2><g:link action="talks">Archived Talks</g:link></h2>

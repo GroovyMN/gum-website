@@ -4,8 +4,8 @@ class CalendarTagLib {
 	static namespace = "calendar"
 
 	def events = { attrs ->
-		def maxResults = attrs.remove("maxResults") ?: 5
+		def max = attrs.remove("max") ?: 5
 
-		out << g.render(template: "/eventCalendar", model: [maxResults: maxResults])
+		out << g.render(template: "/eventCalendar", model: [max: max])
 	}
 }

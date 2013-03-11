@@ -1,7 +1,7 @@
 package gum
 
-class TalkTagLib {
-	static namespace = "talk"
+class TalksTagLib {
+	static namespace = "talks"
 
 	def talk = { attrs, body ->
 		def imageFileName = attrs.remove('imageFileName')

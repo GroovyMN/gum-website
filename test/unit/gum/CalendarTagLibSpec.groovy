@@ -18,9 +18,9 @@ class CalendarTagLibSpec extends Specification {
 
 	def "Test maxResults of 1 passed"() {
 		given:
-			def template = """<calendar:events maxResults="${1}" />"""
+			def template = """<calendar:events max="${1}" />"""
 		when:
-			result = applyTemplate(template, [maxResults: 1])
+			result = applyTemplate(template, [max: 1])
 		then:
 			result.contains("max-results=1")
 	}

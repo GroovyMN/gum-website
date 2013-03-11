@@ -10,7 +10,7 @@
 
 		<g:render template="/projects" />
 
-		<calendar:events maxResults="1" />
+		<calendar:events max="1" />
 
 		<hr />
 

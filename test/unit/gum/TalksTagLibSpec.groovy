@@ -4,12 +4,12 @@ import grails.test.mixin.TestFor
 import org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException
 
 @TestFor(CalendarTagLib)
-class TalkTagLibSpec {
+class TalksTagLibSpec {
 	def result
 
 	def "Expect tag error if not passed imageFileName"() {
 		given:
-			def template = """<talk:talk talkDate="2013" title="title" presenter="you" url="http://groovy.mn">"""
+			def template = """<talks:talk talkDate="2013" title="title" presenter="you" url="http://groovy.mn">"""
 		when:
 			result == applyTemplate(template, [talkDate: "2013", title: "title", presenter: "you", url:" http://groovy.mn"])
 		then:
@@ -19,7 +19,7 @@ class TalkTagLibSpec {
 
 	def "Expect tag error if not passed talkDate"() {
 		given:
-			def template = """<talk:talk imageFileName="test.jpg" title="title" presenter="you" url="http://groovy.mn">"""
+			def template = """<talks:talk imageFileName="test.jpg" title="title" presenter="you" url="http://groovy.mn">"""
 		when:
 			result == applyTemplate(template, [imageFileName: "test.jpg", title: "title", presenter: "you", url:" http://groovy.mn"])
 		then:
@@ -29,7 +29,7 @@ class TalkTagLibSpec {
 
 	def "Expect tag error if not passed presenter"() {
 		given:
-			def template = """<talk:talk imageFileName="test.jpg" talkDate="2013" title="title" url="http://groovy.mn">"""
+			def template = """<talks:talk imageFileName="test.jpg" talkDate="2013" title="title" url="http://groovy.mn">"""
 		when:
 			result == applyTemplate(template, [imageFileName: "test.jpg", talkDate: "2013", title: "title", url:" http://groovy.mn"])
 		then:
@@ -39,7 +39,7 @@ class TalkTagLibSpec {
 
 	def "Expect tag error if not passed title"() {
 		given:
-			def template = """<talk:talk imageFileName="test.jpg" talkDate="2013" presenter="you" url="http://groovy.mn">"""
+			def template = """<talks:talk imageFileName="test.jpg" talkDate="2013" presenter="you" url="http://groovy.mn">"""
 		when:
 			result == applyTemplate(template, [imageFileName: "test.jpg", talkDate: "2013", presenter: "you", url:" http://groovy.mn"])
 		then:
@@ -49,7 +49,7 @@ class TalkTagLibSpec {
 
 	def "Expect tag error if not passed url"() {
 		given:
-			def template = """<talk:talk imageFileName="test.jpg" talkDate="2013" title="title" presenter="you">"""
+			def template = """<talks:talk imageFileName="test.jpg" talkDate="2013" title="title" presenter="you">"""
 		when:
 			result == applyTemplate(template, [imageFileName: "test.jpg", talkDate: "2013", title: "title", presenter: "you"])
 		then:
