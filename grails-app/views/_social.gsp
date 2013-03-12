@@ -44,6 +44,20 @@
 				</div>
 			</div>
 		</li>
+		<li>
+			<div class="social-item">
+				<div class="social-info-wrap">
+					<div class="social-info">
+						<div class="social-info-front social-youtube">
+							<a href="http://www.youtube.com/user/grailsmn"></a>
+						</div>
+						<div class="social-info-back social-youtube-hover">
+							<a href="http://www.youtube.com/user/grailsmn"></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</li>
 	</ul>
 </div>
 <!-- end: Social Sites -->
