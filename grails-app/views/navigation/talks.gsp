@@ -48,7 +48,7 @@
 					%{--<strong>GitHub:</strong> <a href="https://github.com/ctoestreich/gperf">https://github.com/ctoestreich/gperf</a>--}%
 				</talks:talk>
 
-				<talks:talk imageFileName="20111112-chris-bartling-coffeescript.jpg" talkDate="Nov 2010" title="CoffeeScript" presenter="Chris Bartline" url="http://bartling.blogspot.com">
+				<talks:talk imageFileName="20111112-chris-bartling-coffeescript.jpg" talkDate="Nov 2010" title="CoffeeScript" presenter="Chris Bartling" url="http://bartling.blogspot.com">
 					%{--Find pdf slides and githumb--}%
 					%{--<strong>PDF Slides:</strong> <a href="http://www.slideshare.net/ctoestreich/gperf-using-jesque">http://www.slideshare.net/ctoestreich/gperf-using-jesque</a><br />--}%
 					%{--<strong>GitHub:</strong> <a href="https://github.com/ctoestreich/gperf">https://github.com/ctoestreich/gperf</a>--}%
