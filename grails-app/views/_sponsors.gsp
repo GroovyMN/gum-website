@@ -8,47 +8,9 @@
 		<!-- start: Row -->
 		<div class="row">
 
-			<div class="span3">
-				<div class="item-description">
-					<h4>Space Sponsor</h4>
-				</div>
-
-				<div class="picture">
-					<a href="http://smartthings.com" title="SmartThings">
-						<r:img dir="images/sponsors/" file="smart-things-logo-text.png" alt="SmartThings logo" />
-						<div class="image-overlay-link"></div>
-					</a>
-				</div>
-
-			</div>
-
-			<div class="span3">
-
-				<div class="item-description">
-					<h4>Food Sponsor</h4>
-				</div>
-				<div class="picture">
-					<a href="http://objectpartners.com" title="Target">
-						<r:img dir="images/sponsors/" file="opi-logo-text.png" alt="Object Partners logo" />
-						<div class="image-overlay-link"></div>
-					</a>
-				</div>
-
-			</div>
-
-			<div class="span3">
-
-				<div class="item-description">
-					<h4>Beverage Sponsor</h4>
-				</div>
-				<div class="picture">
-					<a href="http://reachlocal.com" title="ReachLocal">
-						<r:img dir="images/sponsors/" file="reachlocal.jpg" alt="ReachLocal logo" />
-						<div class="image-overlay-link"></div>
-					</a>
-				</div>
-
-			</div>
+			<g:render template="/sponsor" model="${[type: "Space Sponsor", url: "http://smartthings.com", title:"SmartThings", file:"smart-things-logo-text.png"]}" />
+			<g:render template="/sponsor" model="${[type: "Food Sponsor", url: "http://objectpartners.com", title:"Object Partners", file:"opi-logo-text.png"]}" />
+			<g:render template="/sponsor" model="${[type: "Beverage Sponsor", url: "http://reachlocal.com", title:"ReachLocal", file:"reachlocal.jpg"]}" />
 
 		</div>
 		<!-- end: Row -->
