@@ -14,7 +14,8 @@
 			<div id="portfolio-wrapper" class="row">
 
 				<talks:talk imageFileName="2013-03-12-gradle.jpg" talkDate="Mar 2013" title="Gradle" presenter="Shaun Jurgemeyer" url="http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy">
-					%{--links--}%
+					<strong>GitHub slide source:</strong> <a href="http://github.com/sjurgemeyer/gradlePresentation/tree/master/slides">htts://github.com/sjurgemeyer/gradlePresentation/tree/master/slides</a><br />
+					<strong>GitHub source, example project:</strong> <a href="https://github.com/sjurgemeyer/gradlePresentation/tree/master/code">https://github.com/sjurgemeyer/gradlePresentation/tree/master/code</a>
 				</talks:talk>
 
 				<talks:talk imageFileName="2013-02-12-dropwizard.jpg" talkDate="Feb 2013" title="Dropwizard" presenter="Kyle Boon" url="http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy">
