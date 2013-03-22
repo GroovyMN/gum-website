@@ -1,14 +1,11 @@
 <div class="span3">
-
 	<!-- start: Testimonials-->
 	<div class="testimonial-container">
-
 		<div class="title"><h3>Twitter</h3></div>
 
 		<div class="testimonials-carousel" data-autorotate="3000">
 
 			<ul class="carousel">
-
 				<g:each var="index" in="${4..0}">
 					<li class="testimonial">
 						<div id="tweet${index}" class="testimonials"></div>
@@ -16,11 +13,9 @@
 						<div class="testimonials-author"><a href="http://twitter.com/groovymn">@GroovyMN</a> <span id="time${index}"></span></div>
 					</li>
 				</g:each>
-
 			</ul>
 
 		</div>
-
 	</div>
 
 	<r:require module="timeago" />
@@ -46,5 +41,4 @@
 		}
 	</r:script>
 	<!-- end: Testimonials-->
-
 </div>

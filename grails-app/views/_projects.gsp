@@ -2,7 +2,6 @@
 <div class="title"><h3>Groovy Projects</h3></div>
 
 <div class="clients-carousel">
-
 	<ul class="slides clients">
 		<li><a href="http://grails.org"><r:img dir="images/parallax-slider" file="grails-logo.png" alt="grails" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://jenkins-ci.org"><r:img dir="images/groovy/" file="jenkins-logo.png" alt="hudson" height="200" width="200" class="rounded-corners" /></a></li>
@@ -17,6 +16,5 @@
 		<li><a href="http://gvmtool.net"><r:img dir="images/groovy/" file="gvm.png" alt="gvm" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://grails.org/download/ubuntu"><r:img dir="images/groovy/" file="grails-ubuntu.png" alt="ubuntu" height="200" width="200" class="rounded-corners" /></a></li>
 	</ul>
-
 </div>
 <!-- end Clients List -->

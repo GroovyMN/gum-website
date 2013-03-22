@@ -1,6 +1,5 @@
 <!-- start: Row -->
 <div class="row">
-
 	<!-- start: Icon Boxes -->
 	<div class="icons-box-vert-container">
 
@@ -18,6 +17,5 @@
 
 	</div>
 	<!-- end: Icon Boxes -->
-
 </div>
 <!-- end: Row -->

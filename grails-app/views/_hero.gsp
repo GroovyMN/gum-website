@@ -1,5 +1,4 @@
 <div class="container">
-
 	<!-- start: Hero Unit - Main hero unit for a primary marketing message or call to action -->
 	<div class="hero-unit">
 		<h3>
@@ -12,5 +11,4 @@
 		</h3>
 	</div>
 	<!-- end: Hero Unit -->
-
 </div>

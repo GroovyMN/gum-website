@@ -1,6 +1,5 @@
 <!-- start: Header -->
 <header>
-
 	<!-- start: Container -->
 	<div class="container">
 
@@ -28,6 +27,5 @@
 
 	</div>
 	<!-- end: Container -->
-
 </header>
 <!-- end: Header -->
