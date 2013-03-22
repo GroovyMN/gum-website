@@ -48,10 +48,24 @@
 		$slidewrap        = this,
 		dBody            = (document.body || document.documentElement),
 		transitionSupport = function() {
-			dBody.setAttribute('style', 'transition:top 1s ease;-webkit-transition:top 1s ease;-moz-transition:top 1s ease;');
-			var tSupport = !!(dBody.style.transition || dBody.style.webkitTransition || dBody.style.msTransition || dBody.style.OTransition || dBody.style.MozTransition )
+			// Original code from Modernizr : http://www.modernizr.com/
+			var prop = 'transitionProperty',
+			modElem = document.createElement('tester'),
+			mStyle = modElem.style,
+			prefixes = ' -webkit- -moz- -o- -ms- -khtml- '.split(' '),
+			domPrefixes = 'Webkit Moz O ms Khtml'.split(' '),
+			ucProp  = prop.charAt(0).toUpperCase() + prop.substr(1),
+			props   = (prop + ' ' + domPrefixes.join(ucProp + ' ') + ucProp).split(' ');
 			
-			return tSupport;
+			for ( var i in props ) {
+				
+				if ( mStyle[ props[i] ] !== undefined ) {
+			          return true;
+				}
+
+ 			}
+			
+			return false;
 		},
 		carousel = {
 			init : function() {				

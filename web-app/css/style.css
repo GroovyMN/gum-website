@@ -1,8 +1,8 @@
 /*
-* Author: ≈Åukasz Holeczek
+* Author: Łukasz Holeczek
 * Template: Smart Bootstrap Theme
-* Version: 1.0.3
-* Bootstrap version: 2.2.1
+* Version: 1.0.4
+* Bootstrap version: 2.2.2
 * Copyright 2012 creativeLabs
 * www: http://clabs.co
 * mail: lukasz@clabs.co
@@ -12,6 +12,8 @@
 /* Import Section
 =================================================================== */
 /* Removed imports as grails resources plugin errored. */
+
+html { -webkit-font-smoothing: antialiased; }
 
 .clear {
 	clear:both;
@@ -68,6 +70,7 @@ hr {
   border-bottom: 1px solid #ffffff;
 }
 
+
 .title {
 	border-bottom: 3px double #f6f6f6;
 	margin-bottom: 10px;
@@ -84,6 +87,7 @@ hr {
 
 #wrapper {
 	background: #fff;
+
 }
 
 /* #Lists
@@ -110,24 +114,21 @@ header {
 	border-bottom: 5px solid #f6f6f6;
 }
 
-.logo  {
-	height: 60px;
-}
-
-.logo i{
-	margin-top:-25px;
-}
-
-
-.logo a{
-	color: #ddd;
-	text-decoration: none;
-	font-size: 28px;
-	line-height: 68px;
+.brand  {
+	color: #ddd !important;
+	text-decoration: none !important;
+	font-size: 28px !important;
 	margin-left: 10px;
+	text-shadow: none !important;
+	margin-top: 10px;
 }
 
-.logo span {
+.brand  i {
+	margin-top: -10px;
+	margin-right: 10px;
+}
+
+.brand span {
 	color: #29a9df;
 }
 
@@ -145,7 +146,6 @@ header {
 .navbar-inner,
 .nav,
 .navbar-inverse {
-	float: right;
 	background: #fff !important;
 	filter: none !important;
 	border: none;
@@ -166,8 +166,8 @@ header {
 	border-top:4px solid #fff;
 	text-shadow: none;
 	font-size: 16px;
-	padding: 20px;
-	padding: 20px 15px \9;
+	padding: 22px;
+	padding: 22px 15px \9;
 }
 
 .navbar .nav > li > a:focus,
@@ -219,9 +219,7 @@ header {
 }
 
 .navbar .btn-navbar {
-	position: absolute;
-	right: 25px;
-	top: 15px;
+	margin-top: 15px;
 }
 
 .nav .active .dropdown-toggle .caret {
@@ -326,7 +324,6 @@ header {
 #portfolio-wrapper .portfolio-item {
 	margin-bottom: 20px;
 }
-
 
 .picture img {width: 100%; height: auto; }
 
@@ -524,7 +521,6 @@ html[xmlns] .slides {display: block;}
 	cursor: default;
 }
 
-
 /* Caption
 =================================================================== */
 .slide-caption {
@@ -551,7 +547,6 @@ html[xmlns] .slides {display: block;}
 	margin:0;
 	line-height: 33px;
 }
-
 .slide-caption p {
 	margin:0;
 	line-height: 19px;
@@ -974,8 +969,11 @@ input[type="button"] {
 	display: block;
 	letter-spacing: 0;
 	outline: none;
-	padding: 0 16px;
+	padding: 0 10px;
 	text-decoration: none;
+	white-space: nowrap;
+	overflow:hidden !important;
+	text-overflow: ellipsis;
 }
 
 .ie7 .tabs-nav li a {height: 35px;}
@@ -1055,25 +1053,24 @@ input[type="button"] {
 	-webkit-box-shadow: 0px 1px 1px rgba(0,0,0,.25);
     box-shadow: 0px 1px 1px rgba(0,0,0,.25);
 	font-family: "Boogaloo";
-
 }
 
-	.quote, .author {
-		line-height: 28px;
-		font-size: 24px;
-		padding: 15px;
-		color: #fff;
-		font-family: "Boogaloo";
-	}
+.quote, .author {
+	line-height: 28px;
+	font-size: 24px;
+	padding: 15px;
+	color: #fff;
+	font-family: "Boogaloo";
+}
 
-	.author {
-		font-size: 14px;
-		text-align: center;
-	}
+.author {
+	font-size: 14px;
+	text-align: center;
+}
 
-	.quote, .author {
-		background: #29a9df;
-	}
+.quote, .author {
+	background: #29a9df;
+}
 
 
 /* Dropcaps
@@ -1093,15 +1090,15 @@ input[type="button"] {
 	border: 1px solid #f6f6f6;
 }
 
-	.dropcap.dark {
-		background: #3a3a3a;
-		color: #fff;
-	}
+.dropcap.dark {
+	background: #3a3a3a;
+	color: #fff;
+}
 
-	.dropcap.color {
-		background: #29a9df;
-		color: #fff;
-	}
+.dropcap.color {
+	background: #29a9df;
+	color: #fff;
+}
 
 
 /* Clients List
@@ -1266,7 +1263,6 @@ ol li ol.childlist .comment-des {
 
 .ie7 .comment-by .date {display: none;}
 
-
 /* Contact Form
 =================================================================== */
 .field textarea {
@@ -1315,7 +1311,6 @@ ol li ol.childlist .comment-des {
 .four-tables .pricing-table {
 	width: 25%;
 }
-
 .three-tables .pricing-table {
 	width: 33%;
 }
@@ -1571,7 +1566,6 @@ a.buy:hover {
 	margin: 5px 0px;
 	padding: 10px 5px;
 	border-top: 1px solid #eee;
-
 }
 
 .post-meta a {
@@ -1865,7 +1859,6 @@ li.current {
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	font-weight: bold;
-
 }
 
 #footer-menu-links ul li:first-child a {
@@ -1991,7 +1984,6 @@ form#newsletter input[type=submit] {
 	-webkit-border-bottom-right-radius: 3px;
 	   -moz-border-radius-bottomright: 3px;
 			border-bottom-right-radius: 3px;
-
 }
 
 /* Copyright
@@ -2252,6 +2244,9 @@ form#newsletter input[type=submit] {
 ====================================================================== */
 @media only screen and (min-width: 1200px) {
 
+	.nav-collapse {
+		float: right;
+	}
 
 }
 
@@ -2260,25 +2255,12 @@ form#newsletter input[type=submit] {
 
 @media only screen and (min-width: 960px) and (max-width: 1199px){
 
-	header {
-		height: 64px;
-	}
-
-
-	#wrapper {
-
-	}
+  .nav-collapse {
+		float: right;
+  }
 
 	.navbar .nav > li > a {
-		padding: 20px 10px;
-	}
-
-	#footer-menu {
-
-	}
-
-	#footer {
-
+		padding: 22px 10px;
 	}
 
 	.flexslider.home {
@@ -2293,6 +2275,10 @@ form#newsletter input[type=submit] {
 
 	header {
 		min-height: 64px;
+	}
+
+	.brand  {
+		margin-top: 10px !important;
 	}
 
 	.navbar .nav > li > a {
@@ -2310,15 +2296,25 @@ form#newsletter input[type=submit] {
 ====================================================================== */
 @media only screen and (max-width: 767px) {
 
-	header {
-		min-height: 64px;
+	body {
+		padding: 0px;
+	}
+
+	header,
+	#wrapper,
+	#footer-menu,
+	#footer {
+		padding: 0px 10px;
+	}
+
+	.brand  {
+		margin-top: 10px !important;
 	}
 
 	#contact-details {
 		text-align: center;
 		float: left;
 	}
-
 
 	.post-meta {
 		display: none;
@@ -2380,7 +2376,6 @@ form#newsletter input[type=submit] {
 	.comment-des{
 		width:83%;
 	}
-
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
