@@ -5,7 +5,7 @@
 		<!-- start: Row -->
 		<div class="row">
 			<g:render template="/sponsor" model="${[type: "Space Sponsor", url: "http://smartthings.com", title:"SmartThings", file:"smart-things-logo-text.png"]}" />
-			<g:render template="/sponsor" model="${[type: "Food Sponsor", url: "http://objectpartners.com", title:"Object Partners", file:"opi-logo-text.png"]}" />
+			<g:render template="/sponsor" model="${[type: "Food Sponsor", url: "http://smartthings.com", title:"SmartThings", file:"smart-things-logo-text.png"]}" />
 			<g:render template="/sponsor" model="${[type: "Beverage Sponsor", url: "http://reachlocal.com", title:"ReachLocal", file:"reachlocal.jpg"]}" />
 		</div>
 		<!-- end: Row -->
