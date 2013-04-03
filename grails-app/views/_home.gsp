@@ -11,5 +11,6 @@
 		<g:render template="/sponsors" />
 	</div>
 	<!-- end: Container -->
+
 </div>
 <!-- end: Wrapper -->
