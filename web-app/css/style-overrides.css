@@ -57,6 +57,10 @@
 	.navbar .btn-navbar {
 		right:15px;
 	}
+
+	.brand-subtitle{
+		font-size: 20px !important;
+	}
 }
 
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers)
@@ -99,4 +103,9 @@
 
 .social-googleplus-hover {
 	background: #ff0000 url(../images/icons/social/googleplus.png) no-repeat;
+}
+
+/* Force line break for long links */
+.item-description {
+	word-wrap:break-word
 }

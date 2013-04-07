@@ -11,7 +11,11 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</a>
-				<a class="brand" href="http://groovy.mn"><span>Groovy&nbsp;Users&nbsp;of&nbsp;MN</span></a>
+				<a class="brand" href="http://groovy.mn">
+					<span>Groovy Users
+						<span class="brand-subtitle"> of MN</span>
+					</span>
+				</a>
 				<div class="nav-collapse collapse">
 					<ul class="nav">
 						<nav:link href="home" value="Home" action="${actionName}" />
