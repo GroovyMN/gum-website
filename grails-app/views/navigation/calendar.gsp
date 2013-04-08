@@ -4,10 +4,12 @@
 	<meta name="layout" content="main" />
 	<title>GUM Calendar</title>
 </head>
+
 <body>
 	<div id="wrapper">
 		<calendar:events max="${max}" />
-		<br >
+		<br />
+
 		<div class="container">
 			<h2><g:link action="talks">Archived Talks</g:link></h2>
 		</div>

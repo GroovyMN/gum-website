@@ -4,9 +4,9 @@
 .twitter-name h3 {
 	color: #fff;
 	font-size: 18px;
-	margin:0;
+	margin: 0;
 	line-height: 33px;
-	display:inline;
+	display: inline;
 }
 
 .da-slide p.slider-text {
@@ -17,7 +17,7 @@
 ====================================================================== */
 
 #footer .btn-primary {
-	color:#fff !important;
+	color: #fff !important;
 }
 
 /* Google Map
@@ -32,33 +32,33 @@
 
 @media only screen and (max-width: 767px) {
 	.logo a {
-		font-size:22px;
+		font-size: 22px;
 	}
 
 	.btn-primary {
-		display:block;
-		margin:10px 0;
+		display: block;
+		margin: 10px 0;
 	}
 
 	#footer {
-		padding:20px;
+		padding: 20px;
 	}
 
 	#footer .title {
-		border:none;
-		margin-bottom:0;
+		border: none;
+		margin-bottom: 0;
 	}
 
 	#footer .title h3 {
-		width:100%;
-		margin:0 0 10px 0 !important;
+		width: 100%;
+		margin: 0 0 10px 0 !important;
 	}
 
 	.navbar .btn-navbar {
-		right:15px;
+		right: 15px;
 	}
 
-	.brand-subtitle{
+	.brand-subtitle {
 		font-size: 20px !important;
 	}
 }
@@ -68,11 +68,12 @@
 
 @media only screen and (max-width: 479px) {
 	.logo a {
-		font-size:22px;
+		font-size: 22px;
 	}
 }
 
-/* Calendar Styles */
+/* Calendar Styles
+====================================================================== */
 
 .event {
 	margin-top: 15px;
@@ -91,6 +92,11 @@
 /* Misc
 ====================================================================== */
 
+/* Force line break for long links */
+.item-description {
+	word-wrap: break-word;
+}
+
 .rounded-corners {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
@@ -103,9 +109,4 @@
 
 .social-googleplus-hover {
 	background: #ff0000 url(../images/icons/social/googleplus.png) no-repeat;
-}
-
-/* Force line break for long links */
-.item-description {
-	word-wrap:break-word
 }
