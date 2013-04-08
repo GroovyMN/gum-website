@@ -15,8 +15,8 @@
 			<!-- end: Location -->
 
 			<div class="span5">
-				<div><g:link controller="navigation" action="contact" /></div>
-				<iframe width="100%" height="90%" frameborder="0" scrolling="yes" marginheight="0" marginwidth="0" class="rounded-corners" src="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=11+4th+Street+Northeast,+Minneapolis,+MN&amp;aq=0&amp;oq=11+Fourth+Street+NE,+Minn&amp;sll=44.988825,-93.25521&amp;sspn=0.006321,0.01398&amp;ie=UTF8&amp;hq=&amp;hnear=11+4th+St+NE,+Minneapolis,+Hennepin,+Minnesota+55413&amp;ll=44.988826,-93.255215&amp;spn=0.00629,0.01398&amp;t=m&amp;z=14&amp;iwloc=near&amp;output=embed"></iframe>
+				%{--<div><g:link controller="navigation" action="contact" /></div>--}%
+				<div id="map-canvas" style="height: 350px;"/>
 			</div>
 
 			<!-- start: Contact Form -->
@@ -36,3 +36,36 @@
 	<!-- end: Container -->
 </div>
 <!-- end: Wrapper -->
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyCi-Xx21wep8dFibmC-p1eXtIJctEzDB_o&sensor=true"/>
+<r:script>
+	function initialize() {
+		var mapOptions = {
+			center: new google.maps.LatLng(44.990056, -93.254871),
+			zoom: 14,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		var map = new google.maps.Map(document.getElementById("map-canvas"),
+			mapOptions);
+		var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(44.990056, -93.254871),
+			map: map,
+			title:"11 Fourth Street NE, Minneapolis MN, 55413"
+		});
+
+		var infoWindow = new google.maps.InfoWindow({
+			content: "<div>11 Fourth Street NE, Minneapolis MN, 55413</div>"
+		})
+
+		google.maps.event.addListener(marker, 'click', function() {
+			infoWindow.open(map, marker);
+		})
+
+		google.maps.event.trigger(marker, 'click');
+		map.panBy(0, -100);
+		// To add the marker to the map, call setMap();
+//		marker.setMap(map);
+	}
+
+	google.maps.event.addDomListener(window, 'load', initialize);
+
+</r:script>
