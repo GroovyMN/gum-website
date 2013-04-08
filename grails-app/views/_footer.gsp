@@ -16,7 +16,7 @@
 
 			<div class="span5">
 				%{--<div><g:link controller="navigation" action="contact" /></div>--}%
-				<div id="map-canvas" style="height: 350px;"/>
+				<div id="map-canvas" style="height: 350px;" ></div>
 			</div>
 
 			<!-- start: Contact Form -->
