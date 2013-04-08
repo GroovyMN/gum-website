@@ -4,7 +4,7 @@
 	<div id="googlemaps-container-top"></div>
 	<div id="googlemaps" class="google-map google-map-full"></div>
 	<div id="googlemaps-container-bottom"></div>
-	<script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	%{--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>--}%
 	<script src="js/jquery.gmap.min.js"></script>
 	<r:script>
 		$('#googlemaps').gMap({
