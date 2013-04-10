@@ -26,6 +26,8 @@ class TalksTagLib {
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [url]")
 		}
 
-		out << g.render(template: "/talk", model: [imageFileName:imageFileName, presenter:presenter, talkDate:talkDate, title:title, url:url], body)
+
+
+		out << g.render(template: "/talk", model: [imageFileName: imageFileName, presenter: presenter, talkDate: talkDate, title: title, url: url, presenterUrl: attrs.remove('presenterUrl')], body)
 	}
 }

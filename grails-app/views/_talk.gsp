@@ -6,6 +6,16 @@
 				${body()}
 			</p>
 		</div>
-		<div class="post-meta"><span><i class="mini-ico-calendar"></i>${talkDate}</span> <span><i class="mini-ico-user"></i> <a href="${url}">${presenter}</a></span></div>
+		<div class="post-meta">
+			<span><i class="mini-ico-calendar"></i>${talkDate}</span>
+			<span><i class="mini-ico-user"></i>
+				<g:if test="${presenterUrl}">
+					<a href="${presenterUrl}" target="_blank">${presenter}</a>
+				</g:if>
+				<g:else>
+					${presenter}
+				</g:else>
+			</span>
+		</div>
 	</div>
 </div>
