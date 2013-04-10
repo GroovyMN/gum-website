@@ -110,3 +110,13 @@
 .social-googleplus-hover {
 	background: #ff0000 url(../images/icons/social/googleplus.png) no-repeat;
 }
+
+/* Force line break for long links */
+.item-description {
+	word-wrap:break-word
+}
+
+/* Fix for google map */
+#map-canvas img{
+	max-width:none;
+}
