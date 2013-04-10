@@ -55,7 +55,7 @@
 		});
 
 		var infoWindow = new google.maps.InfoWindow({
-			content: '<div id="brad-test">11 Fourth Street NE, Minneapolis MN, 55413</div>'
+			content: '<div>11 Fourth Street NE, Minneapolis MN, 55413</div>'
 		});
 
 		google.maps.event.addListener(marker, 'click', function() {
