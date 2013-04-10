@@ -4,10 +4,7 @@ class TalksTagLib {
 	static namespace = "talks"
 
 	def talk = { attrs, body ->
-		def imageFileName = attrs.remove('imageFileName')
-		if (!imageFileName) {
-			throwTagError("Tag [${attrs.tagName}] is missing required attribute [imageFileName]")
-		}
+		def imageFileName = attrs.remove('imageFileName') ?: "GUM-unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
 
 		def talkDate = attrs.remove('talkDate')
 		if (!talkDate) {
@@ -29,6 +26,8 @@ class TalksTagLib {
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [url]")
 		}
 
-		out << g.render(template: "/talk", model: [imageFileName:imageFileName, presenter:presenter, talkDate:talkDate, title:title, url:url], body)
+
+
+		out << g.render(template: "/talk", model: [imageFileName: imageFileName, presenter: presenter, talkDate: talkDate, title: title, url: url, presenterUrl: attrs.remove('presenterUrl')], body)
 	}
 }
