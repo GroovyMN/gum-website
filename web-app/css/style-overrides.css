@@ -109,3 +109,8 @@
 .item-description {
 	word-wrap:break-word
 }
+
+/* Fix for google map */
+#map-canvas img{
+	max-width:none;
+}
