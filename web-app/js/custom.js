@@ -1,206 +1,199 @@
 /* ------------------- Flex Slider --------------------- */
 
-jQuery(document).ready(function($){
-	
+jQuery(document).ready(function ($) {
+
 	$('#flex1').flexslider();
 
-
 	$('#flex2').flexslider({
-	 	animation: "slide",
-	   	controlNav: "thumbnails"
+		animation: "slide",
+		controlNav: "thumbnails"
 	});
-	
+
 	$('.clients-carousel').flexslider({
-	    animation: "slide",
+		animation: "slide",
 		easing: "swing",
-	    animationLoop: true,
-	    itemWidth: 1,
-	    itemMargin: 1,
-	    minItems: 1,
-	    maxItems: 8,
+		animationLoop: true,
+		itemWidth: 1,
+		itemMargin: 1,
+		minItems: 1,
+		maxItems: 8,
 		controlNav: false,
 		directionNav: false,
 		move: 2
-      });
+	});
 
 });
 
+jQuery(document).ready(function ($) {
 
-jQuery(document).ready(function($){
-	
 	/* ------------------- Fancybox --------------------- */
 
-	(function() {
+	(function () {
 
 		$('[rel=image]').fancybox({
-			type        : 'image',
-			openEffect  : 'fade',
-			closeEffect	: 'fade',
-			nextEffect  : 'fade',
-			prevEffect  : 'fade',
-			helpers     : {
-				title   : {
-					type : 'inside'
+			type: 'image',
+			openEffect: 'fade',
+			closeEffect: 'fade',
+			nextEffect: 'fade',
+			prevEffect: 'fade',
+			helpers: {
+				title: {
+					type: 'inside'
 				}
 			}
 		});
 
 		$('[rel=image-gallery]').fancybox({
-			nextEffect  : 'fade',
-			prevEffect  : 'fade',
-			helpers     : {
-				title   : {
-					type : 'inside'
+			nextEffect: 'fade',
+			prevEffect: 'fade',
+			helpers: {
+				title: {
+					type: 'inside'
 				},
-				buttons  : {},
-				media    : {}
+				buttons: {},
+				media: {}
 			}
 		});
 
-
 	})();
-	
-	
+
 	/* ------------------ Back To Top ------------------- */
 
-	jQuery('#footer-menu-back-to-top a').click(function(){
-		jQuery('html, body').animate({scrollTop:0}, 300); 
-		return false; 
+	jQuery('#footer-menu-back-to-top a').click(function () {
+		jQuery('html, body').animate({scrollTop: 0}, 300);
+		return false;
 	});
-	
 
-	/* --------------------- Tabs ------------------------ */	
+	/* --------------------- Tabs ------------------------ */
 
-		(function() {
+	(function () {
 
-			var $tabsNav    = $('.tabs-nav'),
-				$tabsNavLis = $tabsNav.children('li'),
-				$tabContent = $('.tab-content');
+		var $tabsNav = $('.tabs-nav'),
+			$tabsNavLis = $tabsNav.children('li'),
+			$tabContent = $('.tab-content');
 
-			$tabsNav.each(function() {
-				var $this = $(this);
+		$tabsNav.each(function () {
+			var $this = $(this);
 
-				$this.next().children('.tab-content').stop(true,true).hide()
-													 .first().show();
+			$this.next().children('.tab-content').stop(true, true).hide()
+				.first().show();
 
-				$this.children('li').first().addClass('active').stop(true,true).show();
-			});
+			$this.children('li').first().addClass('active').stop(true, true).show();
+		});
 
-			$tabsNavLis.on('click', function(e) {
-				var $this = $(this);
+		$tabsNavLis.on('click', function (e) {
+			var $this = $(this);
 
-				$this.siblings().removeClass('active').end()
-					 .addClass('active');
+			$this.siblings().removeClass('active').end()
+				.addClass('active');
 
-				$this.parent().next().children('.tab-content').stop(true,true).hide()
-															  .siblings( $this.find('a').attr('href') ).fadeIn();
+			$this.parent().next().children('.tab-content').stop(true, true).hide()
+				.siblings($this.find('a').attr('href')).fadeIn();
 
-				e.preventDefault();
-			});
+			e.preventDefault();
+		});
 
-		})();
-		
-			
+	})();
+
 });
 
 /* ------------------ Tooltips ----------------- */
 
-jQuery(document).ready(function() {
+jQuery(document).ready(function () {
 
-    $('.tooltips').tooltip({
-      selector: "a[rel=tooltip]"
-    })
+	$('.tooltips').tooltip({
+		selector: "a[rel=tooltip]"
+	})
 
 });
 
-/* ------------------ Progress Bar ------------------- */	
+/* ------------------ Progress Bar ------------------- */
 
-jQuery(document).ready(function($){
-	
-	$(".meter > span").each(function() {
+jQuery(document).ready(function ($) {
+
+	$(".meter > span").each(function () {
 		$(this)
-		.data("origWidth", $(this).width())
-		.width(0)
-		.animate({
-			width: $(this).data("origWidth")
-		}, 1200);
+			.data("origWidth", $(this).width())
+			.width(0)
+			.animate({
+				width: $(this).data("origWidth")
+			}, 1200);
 	});
 });
 
 /* ------------------- Parallax --------------------- */
 
-jQuery(document).ready(function($){
-	
+jQuery(document).ready(function ($) {
+
 	$('#da-slider').cslider({
-		autoplay	: true,
-		bgincrement	: 50
+		autoplay: true,
+		bgincrement: 50
 	});
 
 });
 
 /* ------------------ Image Overlay ----------------- */
 
-jQuery(document).ready(function($) {
-	
+jQuery(document).ready(function ($) {
+
 	$('.picture a').hover(function () {
 		$(this).find('.image-overlay-zoom, .image-overlay-link').stop().fadeTo('fast', 1);
-	},function () {
+	}, function () {
 		$(this).find('.image-overlay-zoom, .image-overlay-link').stop().fadeTo('fast', 0);
 	});
-	
+
 });
 
 /* -------------------- Isotope --------------------- */
 
-jQuery(document).ready(function($) {
-	
-	$('#portfolio-wrapper').imagesLoaded(function() {
-		
+jQuery(document).ready(function ($) {
+
+	$('#portfolio-wrapper').imagesLoaded(function () {
+
 		var $container = $('#portfolio-wrapper');
-			$select = $('#filters select');
+		$select = $('#filters select');
 
 		// initialize Isotope
 		$container.isotope({
-		// options...
-		resizable: false, // disable normal resizing
-		// set columnWidth to a percentage of container width
-	  	masonry: { columnWidth: $container.width() / 12 }
+			// options...
+			resizable: false, // disable normal resizing
+			// set columnWidth to a percentage of container width
+			masonry: { columnWidth: $container.width() / 12 }
 		});
 
 		// update columnWidth on window resize
-		$(window).smartresize(function(){
-		
+		$(window).smartresize(function () {
+
 			$container.isotope({
-			// update columnWidth to a percentage of container width
-			masonry: { columnWidth: $container.width() / 12 }
+				// update columnWidth to a percentage of container width
+				masonry: { columnWidth: $container.width() / 12 }
 			});
 		});
-
 
 		$container.isotope({
-			itemSelector : '.portfolio-item'
+			itemSelector: '.portfolio-item'
 		});
 
-		$select.change(function() {
-			
+		$select.change(function () {
+
 			var filters = $(this).val();
 
-				$container.isotope({
-					filter: filters
-				});
-			
+			$container.isotope({
+				filter: filters
 			});
 
-			var $optionSets = $('#filters .option-set'),
-		  	$optionLinks = $optionSets.find('a');
+		});
 
-		  	$optionLinks.click(function(){
-			
-				var $this = $(this);
-				// don't proceed if already selected
-				if ( $this.hasClass('selected') ) {
-			  		return false;
-				}
+		var $optionSets = $('#filters .option-set'),
+			$optionLinks = $optionSets.find('a');
+
+		$optionLinks.click(function () {
+
+			var $this = $(this);
+			// don't proceed if already selected
+			if ($this.hasClass('selected')) {
+				return false;
+			}
 			var $optionSet = $this.parents('.option-set');
 			$optionSet.find('.selected').removeClass('selected');
 			$this.addClass('selected');
@@ -212,18 +205,420 @@ jQuery(document).ready(function($) {
 			// parse 'false' as false boolean
 			value = value === 'false' ? false : value;
 			options[ key ] = value;
-			if ( key === 'layoutMode' && typeof changeLayoutMode === 'function' ) {
-			  // changes in layout modes need extra logic
-			  changeLayoutMode( $this, options )
+			if (key === 'layoutMode' && typeof changeLayoutMode === 'function') {
+				// changes in layout modes need extra logic
+				changeLayoutMode($this, options)
 			} else {
-			  // otherwise, apply new options
-			  $container.isotope( options );
+				// otherwise, apply new options
+				$container.isotope(options);
 			}
 
 			return false;
-			
-		  });
-		
+
+		});
+
 	});
-	
+
+});
+
+/* -------------------- Charts --------------------- */
+
+jQuery(document).ready(function ($) {
+
+	function randNum() {
+		return (Math.floor(Math.random() * (1 + 40 - 20)) ) + 20;
+	}
+
+	if ($("#stockPrice").length) {
+		var price = [
+			[1, randNum() - 10],
+			[2, randNum() - 10],
+			[3, randNum() - 10],
+			[4, randNum()],
+			[5, randNum()],
+			[6, 4 + randNum()],
+			[7, 5 + randNum()],
+			[8, 6 + randNum()],
+			[9, 6 + randNum()],
+			[10, 8 + randNum()],
+			[11, 9 + randNum()],
+			[12, 10 + randNum()],
+			[13, 11 + randNum()],
+			[14, 12 + randNum()],
+			[15, 13 + randNum()],
+			[16, 14 + randNum()],
+			[17, 15 + randNum()],
+			[18, 15 + randNum()],
+			[19, 16 + randNum()],
+			[20, 17 + randNum()],
+			[21, 18 + randNum()],
+			[22, 19 + randNum()],
+			[23, 20 + randNum()],
+			[24, 21 + randNum()],
+			[25, 14 + randNum()],
+			[26, 24 + randNum()],
+			[27, 25 + randNum()],
+			[28, 26 + randNum()],
+			[29, 27 + randNum()],
+			[30, 31 + randNum()]
+		];
+
+		var plot = $.plot($("#stockPrice"),
+			[
+				{ data: price, label: "price" }
+			], {
+				series: {
+					lines: { show: true,
+						lineWidth: 2,
+						fill: true, fillColor: { colors: [
+							{ opacity: 0.5 },
+							{ opacity: 0.2 }
+						] }
+					},
+					points: { show: true },
+					shadowSize: 1
+				},
+				grid: { hoverable: true,
+					clickable: true,
+					tickColor: "#eee",
+					borderWidth: 0,
+				},
+				colors: ["#414141"],
+				xaxis: {ticks: 11, tickDecimals: 0},
+				yaxis: {tickFormatter: function (v) { return v + "USD"; }},
+			});
+
+		function showTooltip(x, y, contents) {
+			$('<div id="tooltip">' + contents + '</div>').css({
+				position: 'absolute',
+				display: 'none',
+				top: y + 5,
+				left: x + 5,
+				border: '1px solid #fdd',
+				padding: '2px',
+				'background-color': '#dfeffc',
+				opacity: 0.80
+			}).appendTo("body").fadeIn(200);
+		}
+
+		var previousPoint = null;
+		$("#stockPrice").bind("plothover", function (event, pos, item) {
+			$("#x").text(pos.x.toFixed(2));
+			$("#y").text(pos.y.toFixed(2));
+
+			if (item) {
+				if (previousPoint != item.dataIndex) {
+					previousPoint = item.dataIndex;
+
+					$("#tooltip").remove();
+					var x = item.datapoint[0].toFixed(2),
+						y = item.datapoint[1].toFixed(2);
+
+					showTooltip(item.pageX, item.pageY,
+						item.series.label + " of " + x + " = " + y);
+				}
+			}
+			else {
+				$("#tooltip").remove();
+				previousPoint = null;
+			}
+
+		});
+
+	}
+
+	function randNumFB() {
+		return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20);
+	}
+
+	/* ---------- Chart with points ---------- */
+	if ($("#facebookChart").length) {
+		var likes = [
+			[1, 5 + randNumFB()],
+			[2, 10 + randNumFB()],
+			[3, 15 + randNumFB()],
+			[4, 20 + randNumFB()],
+			[5, 25 + randNumFB()],
+			[6, 30 + randNumFB()],
+			[7, 35 + randNumFB()],
+			[8, 40 + randNumFB()],
+			[9, 45 + randNumFB()],
+			[10, 50 + randNumFB()],
+			[11, 55 + randNumFB()],
+			[12, 60 + randNumFB()],
+			[13, 65 + randNumFB()],
+			[14, 70 + randNumFB()],
+			[15, 75 + randNumFB()],
+			[16, 80 + randNumFB()],
+			[17, 85 + randNumFB()],
+			[18, 90 + randNumFB()],
+			[19, 85 + randNumFB()],
+			[20, 80 + randNumFB()],
+			[21, 75 + randNumFB()],
+			[22, 80 + randNumFB()],
+			[23, 75 + randNumFB()],
+			[24, 70 + randNumFB()],
+			[25, 65 + randNumFB()],
+			[26, 75 + randNumFB()],
+			[27, 80 + randNumFB()],
+			[28, 85 + randNumFB()],
+			[29, 90 + randNumFB()],
+			[30, 95 + randNumFB()]
+		];
+
+		var plot = $.plot($("#facebookChart"),
+			[
+				{ data: likes, label: "Fans"}
+			], {
+				series: {
+					lines: { show: true,
+						lineWidth: 2,
+						fill: true, fillColor: { colors: [
+							{ opacity: 0.5 },
+							{ opacity: 0.2 }
+						] }
+					},
+					points: { show: true,
+						lineWidth: 2
+					},
+					shadowSize: 0
+				},
+				grid: { hoverable: true,
+					clickable: true,
+					tickColor: "#ddd",
+					borderWidth: 0
+				},
+				colors: ["#3B5998"],
+				xaxis: {ticks: 6, tickDecimals: 0},
+				yaxis: {ticks: 3, tickDecimals: 0},
+			});
+
+		function showTooltip(x, y, contents) {
+			$('<div id="tooltip">' + contents + '</div>').css({
+				position: 'absolute',
+				display: 'none',
+				top: y + 5,
+				left: x + 5,
+				border: '1px solid #fdd',
+				padding: '2px',
+				'background-color': '#dfeffc',
+				opacity: 0.80
+			}).appendTo("body").fadeIn(200);
+		}
+
+		var previousPoint = null;
+		$("#facebookChart").bind("plothover", function (event, pos, item) {
+			$("#x").text(pos.x.toFixed(2));
+			$("#y").text(pos.y.toFixed(2));
+
+			if (item) {
+				if (previousPoint != item.dataIndex) {
+					previousPoint = item.dataIndex;
+
+					$("#tooltip").remove();
+					var x = item.datapoint[0].toFixed(2),
+						y = item.datapoint[1].toFixed(2);
+
+					showTooltip(item.pageX, item.pageY,
+						item.series.label + " of " + x + " = " + y);
+				}
+			}
+			else {
+				$("#tooltip").remove();
+				previousPoint = null;
+			}
+		});
+
+	}
+
+	function randNumTW() {
+		return ((Math.floor(Math.random() * (1 + 40 - 20)) ) + 20);
+	}
+
+	/* ---------- Chart with points ---------- */
+	if ($("#twitterChart").length) {
+		var followers = [
+			[1, 5 + randNumTW()],
+			[2, 10 + randNumTW()],
+			[3, 15 + randNumTW()],
+			[4, 20 + randNumTW()],
+			[5, 25 + randNumTW()],
+			[6, 30 + randNumTW()],
+			[7, 35 + randNumTW()],
+			[8, 40 + randNumTW()],
+			[9, 45 + randNumTW()],
+			[10, 50 + randNumTW()],
+			[11, 55 + randNumTW()],
+			[12, 60 + randNumTW()],
+			[13, 65 + randNumTW()],
+			[14, 70 + randNumTW()],
+			[15, 75 + randNumTW()],
+			[16, 80 + randNumTW()],
+			[17, 85 + randNumTW()],
+			[18, 90 + randNumTW()],
+			[19, 85 + randNumTW()],
+			[20, 80 + randNumTW()],
+			[21, 75 + randNumTW()],
+			[22, 80 + randNumTW()],
+			[23, 75 + randNumTW()],
+			[24, 70 + randNumTW()],
+			[25, 65 + randNumTW()],
+			[26, 75 + randNumTW()],
+			[27, 80 + randNumTW()],
+			[28, 85 + randNumTW()],
+			[29, 90 + randNumTW()],
+			[30, 95 + randNumTW()]
+		];
+
+		var plot = $.plot($("#twitterChart"),
+			[
+				{ data: followers, label: "Followers"}
+			], {
+				series: {
+					lines: { show: true,
+						lineWidth: 2,
+						fill: true, fillColor: { colors: [
+							{ opacity: 0.5 },
+							{ opacity: 0.2 }
+						] }
+					},
+					points: { show: true,
+						lineWidth: 2
+					},
+					shadowSize: 0
+				},
+				grid: { hoverable: true,
+					clickable: true,
+					tickColor: "#ddd",
+					borderWidth: 0
+				},
+				colors: ["#1BB2E9"],
+				xaxis: {ticks: 6, tickDecimals: 0},
+				yaxis: {ticks: 3, tickDecimals: 0},
+			});
+
+		function showTooltip(x, y, contents) {
+			$('<div id="tooltip">' + contents + '</div>').css({
+				position: 'absolute',
+				display: 'none',
+				top: y + 5,
+				left: x + 5,
+				border: '1px solid #fdd',
+				padding: '2px',
+				'background-color': '#dfeffc',
+				opacity: 0.80
+			}).appendTo("body").fadeIn(200);
+		}
+
+		var previousPoint = null;
+		$("#twitterChart").bind("plothover", function (event, pos, item) {
+			$("#x").text(pos.x.toFixed(2));
+			$("#y").text(pos.y.toFixed(2));
+
+			if (item) {
+				if (previousPoint != item.dataIndex) {
+					previousPoint = item.dataIndex;
+
+					$("#tooltip").remove();
+					var x = item.datapoint[0].toFixed(2),
+						y = item.datapoint[1].toFixed(2);
+
+					showTooltip(item.pageX, item.pageY,
+						item.series.label + " of " + x + " = " + y);
+				}
+			}
+			else {
+				$("#tooltip").remove();
+				previousPoint = null;
+			}
+		});
+
+	}
+
+});
+
+/* ----------------- Contact Form ------------------- */
+
+jQuery(document).ready(function ($) {
+
+	var animateSpeed = 100;
+	var emailReg = /^[a-zA-Z0-9._-]+@([a-zA-Z0-9.-]+\.)+[a-zA-Z0-9.-]{2,4}$/;
+
+	// Validating
+
+	function validateName(name) {
+
+		if (name.val() == '*') {
+			name.addClass('validation-error', animateSpeed);
+			return false;
+		}
+		else {
+			name.removeClass('validation-error', animateSpeed);
+			return true;
+		}
+
+	}
+
+	function validateEmail(email, regex) {
+
+		if (!regex.test(email.val())) {
+			email.addClass('validation-error', animateSpeed);
+			return false;
+		}
+		else {
+			email.removeClass('validation-error', animateSpeed);
+			return true;
+		}
+
+	}
+
+	function validateMessage(message) {
+
+		if (message.val() == '') {
+			message.addClass('validation-error', animateSpeed);
+			return false;
+		}
+		else {
+			message.removeClass('validation-error', animateSpeed);
+			return true;
+		}
+
+	}
+
+	$('input[name=name]').blur(function () {validateName($(this));});
+	$('input[name=email]').blur(function () {validateEmail($(this), emailReg); });
+	$('textarea[name=message]').blur(function () {validateMessage($(this)); });
+
+});
+
+jQuery(document).ready(function ($) {
+
+	$('#send').click(function () {
+
+		$.post("contactForm.php", {
+
+			new_message: 1,
+			name: $('input[name=name]').val(),
+			message_email: $('input[name=email]').val(),
+			www: $('input[name=www]').val(),
+			message: $('textarea[name=message]').val()
+
+		}, function (data) {
+
+			if (data == 1) {
+
+				alert('Message was sent');
+
+			} else {
+
+				alert('Ooops something goes wrong, try one more time!');
+
+			}
+
+		});
+
+		return false;
+
+	});
+
 });
