@@ -2,8 +2,11 @@
 <div>
 	<!-- starts: Google Maps -->
 	<div id="googlemaps-container-top"></div>
+
 	<div id="googlemaps" class="google-map google-map-full"></div>
+
 	<div id="googlemaps-container-bottom"></div>
+	%{-- TODO: Should use something like r:require to ensure google maps js is included. --}%
 	%{--<script src="http://maps.google.com/maps/api/js?sensor=true"></script>--}%
 	<script src="js/jquery.gmap.min.js"></script>
 	<r:script>
@@ -20,6 +23,6 @@
 			]
 		});
 	</r:script>
-	<!-- end: Google Maps -->
+<!-- end: Google Maps -->
 </div>
 <!-- end: Map -->
