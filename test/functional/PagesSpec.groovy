@@ -6,36 +6,36 @@ import spock.lang.Stepwise
 class PagesSpec extends GebReportingSpec {
 	def "can get to home"() {
 		when:
-			to HomePage
+		to HomePage
 		then:
-			at HomePage
+		at HomePage
 	}
 
-	def "can get to contact"() {
+	def "can get to location"() {
 		when:
-			to ContactPage
+		to LocationPage
 		then:
-			at ContactPage
+		at LocationPage
 	}
 
 	def "can get to calendar"() {
 		when:
-			to CalendarPage
+		to CalendarPage
 		then:
-			at CalendarPage
+		at CalendarPage
 	}
 
 	def "can get to group"() {
 		when:
-			to GroupPage
+		to GroupPage
 		then:
-			at GroupPage
+		at GroupPage
 	}
 
-	def "can get to talks"() {
+	def "can get to archive"() {
 		when:
-			to TalksPage
+		to ArchivePage
 		then:
-			at TalksPage
+		at ArchivePage
 	}
 }

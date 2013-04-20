@@ -18,7 +18,7 @@
 					<talks:talk talkDate="Apr 2013" title="JSON View Layer" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.colinharrington.net" />
 					<talks:talk talkDate="Apr 2013" title="Spring Social Plugin" presenter="Doug Sabers" presenterUrl="http://twitter.com/lightsabersd" url="http://grails.org/plugin/spring-social-core" />
 					<talks:talk talkDate="Mar 2013" title="GVM Intro" presenter="Jeff Beck" presenterUrl="http://twitter.com/beckje01" url="http://www.rvl.io/beckje01/gvm-lightning-talk">
-						<strong>Link:</strong> <a href="http://gvmtool.net/">GVM Tool</a>
+						<strong>Link:</strong> <a href="http://gvmtool.net">GVM Tool</a>
 					</talks:talk>
 				</div>
 

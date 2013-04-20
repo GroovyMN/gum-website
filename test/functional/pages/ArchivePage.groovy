@@ -2,8 +2,8 @@ package pages
 
 import geb.Page
 
-class TalksPage extends Page {
-	static url = "talks"
+class ArchivePage extends Page {
+	static url = "archive"
 
 	static at = {
 		title ==~ /Archived Presentations/

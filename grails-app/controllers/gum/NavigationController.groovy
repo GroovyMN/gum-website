@@ -13,11 +13,11 @@ class NavigationController {
 		return [max: max]
 	}
 
-	def contact() { }
+	def home() {}
 
-	def group() { }
+	def archive() {}
 
-	def home() { }
+	def group() {}
 
-	def talks() { }
+	def location() {}
 }

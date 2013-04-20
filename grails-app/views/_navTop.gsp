@@ -13,16 +13,15 @@
 				</a>
 				<a class="brand" href="http://groovy.mn">
 					<span>Groovy Users
-						<span class="brand-subtitle"> of MN</span>
+						<span class="brand-subtitle">of MN</span>
 					</span>
 				</a>
+				<button onclick="TowTruck(this);
+				return false;">Contact</button>
+
 				<div class="nav-collapse collapse">
 					<ul class="nav">
-						<nav:link href="home" value="Home" action="${actionName}" />
-						<nav:link href="talks" value="Archive" action="${actionName}" />
-						<nav:link href="calendar" value="Calendar" action="${actionName}" />
-						<nav:link href="group" value="Discussion" action="${actionName}" />
-						<nav:link href="contact" value="Location" action="${actionName}" />
+						<g:render template="/navLinks" />
 					</ul>
 				</div>
 			</div>
