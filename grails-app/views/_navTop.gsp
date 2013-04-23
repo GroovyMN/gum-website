@@ -16,8 +16,6 @@
 						<span class="brand-subtitle">of MN</span>
 					</span>
 				</a>
-				<button onclick="TowTruck(this);
-				return false;">Contact</button>
 
 				<div class="nav-collapse collapse">
 					<ul class="nav">

@@ -44,7 +44,6 @@
 	<r:layoutResources />
 
 	<g:render template="/analyticsJS" />
-	<g:render template="/towTruckJS" />
 </head>
 
 <body>
