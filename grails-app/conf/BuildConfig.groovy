@@ -10,6 +10,8 @@ def gebVersion = "0.7.2"
 def seleniumVersion = "2.21.0"
 
 grails.project.dependency.resolution = {
+	// legacyResolve true // Wait for Gradle
+
 	// Inherit Grails' default dependencies
 	inherits("global") {
 		// Specify dependency exclusions here; for example, uncomment this to disable ehcache:
