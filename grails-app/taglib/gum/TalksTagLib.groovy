@@ -4,7 +4,7 @@ class TalksTagLib {
 	static namespace = "talks"
 
 	def talk = { attrs, body ->
-		def imageFileName = attrs.remove('imageFileName') ?: "GUM-unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
+		def imageFileName = attrs.remove('imageFileName') ?: "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
 
 		def talkDate = attrs.remove('talkDate')
 		if (!talkDate) {

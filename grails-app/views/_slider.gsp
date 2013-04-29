@@ -16,7 +16,7 @@
 		<g:render template="/slide" model="${[title: "Join Our Mailing List", action: "group", alt: "Groovy logo", dir: "images/parallax-slider", file: "groovy-logo.png"]}">
 			Keep up to date with info on upcoming talks and get answers to your Groovy & Grails questions from our community. Only your email is needed and best of all it's free!
 		</g:render>
-		<g:render template="/slide" model="${[title: "Want to Present?", action: "group", alt: "GUM logo", dir: "images/gum/logos", file: "GUM-unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"]}">
+		<g:render template="/slide" model="${[title: "Want to Present?", action: "group", alt: "GUM logo", dir: "images/gum/logos", file: "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"]}">
 			Have a Groovy/Grails topic and want to present at an upcoming meeting.  Submit your topic and we will contact you with upcoming openings in our presentation schedule.
 		</g:render>
 

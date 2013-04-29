@@ -14,7 +14,7 @@ class TalksTagLibSpec extends Specification {
 		when:
 		result = applyTemplate(template, [talkDate: "2013", title: "title", presenter: "you", url: " http://groovy.mn"])
 		then:
-		result.contains("GUM-unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png")
+		result.contains("unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png")
 	}
 
 	def "Expect tag error if not passed talkDate"() {
