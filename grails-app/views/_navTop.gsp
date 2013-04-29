@@ -3,7 +3,7 @@
 	<!-- start: Container -->
 	<div class="container">
 
-		<!--start: Navbar -->
+		<!-- start: Navbar -->
 		<div class="navbar navbar-inverse">
 			<div class="navbar-inner">
 				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">

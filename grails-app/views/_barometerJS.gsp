@@ -6,9 +6,10 @@
 </script>
 --}%
 
-%{--<r:external url="http://getbarometer.s3.amazonaws.com/assets/barometer/css/barometer.css" />--}%
+%{-- Commenting out for now. Brad will fix style when he as the chance.
 <link rel="stylesheet" type="text/css" href="http://getbarometer.s3.amazonaws.com/assets/barometer/css/barometer.css" />
 <script src='http://getbarometer.s3.amazonaws.com/assets/barometer/javascripts/barometer.js' type='text/javascript'></script>
 <script type="text/javascript" charset="utf-8">
 	BAROMETER.load('FXdpEKhOXbaps8YOOwS1Z');
 </script>
+--}%

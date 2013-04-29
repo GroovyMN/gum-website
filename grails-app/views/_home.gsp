@@ -1,4 +1,4 @@
-<!--start: Wrapper-->
+<!-- start: Wrapper-->
 <div id="wrapper">
 	<g:render template="/hero" />
 
