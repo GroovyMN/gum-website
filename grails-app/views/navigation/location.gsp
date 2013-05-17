@@ -6,7 +6,7 @@
 </head>
 
 <body>
-	<g:render template="/map" />
+	<g:render template="/map/map" />
 	<g:render template="/hero" />
 </body>
 </html>

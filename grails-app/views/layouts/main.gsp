@@ -47,10 +47,10 @@
 </head>
 
 <body>
-	<g:render template="/navTop" />
+	<g:render template="/navigation/navTop" />
 	<g:layoutBody />
-	<g:render template="/footerMenu" />
-	<g:render template="/footer" />
+	<g:render template="/footer/footerMenu" />
+	<g:render template="/footer/footer" />
 
 	<r:layoutResources />
 

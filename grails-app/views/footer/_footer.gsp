@@ -9,7 +9,7 @@
 
 			<g:render template="/mailingList" />
 
-			<g:render template="/social" />
+			<g:render template="/social/social" />
 		</div>
 		<!-- end: Row -->
 

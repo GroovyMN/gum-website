@@ -5,7 +5,7 @@
 	<r:require module="slider" />
 </head>
 <body>
-	<g:render template="/slider" />
+	<g:render template="/slider/slider" />
 	<g:render template="/home" />
 </body>
 </html>

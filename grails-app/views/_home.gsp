@@ -8,7 +8,7 @@
 		<g:render template="/projects" />
 		<calendar:events max="1" />
 		<hr />
-		<g:render template="/sponsors" />
+		<g:render template="/sponsor/sponsors" />
 	</div>
 	<!-- end: Container -->
 

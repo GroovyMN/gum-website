@@ -1,13 +1,9 @@
 <!-- start: Location -->
 <div class="span2">
 	<div class="title"><h3>Meeting Location</h3></div>
-
 	<p><b>SmartThings Office</b></p>
-
 	<p>11 Fourth Street NE #300</p>
-
 	<p>Minneapolis, MN 55413</p>
-
 	<p>Google Voice: 612.208.7022</p>
 </div>
 <!-- end: Location -->
@@ -16,7 +12,7 @@
 	<div id="map-canvas" style="height: 200px;"></div>
 </div>
 
-<g:render template="/googleMapJS"/>
+<g:render template="/map/googleMapJS" />
 <r:script>
 	function initialize() {
 		var addr = "11 Fourth Street NE, Minneapolis MN, 55413";
