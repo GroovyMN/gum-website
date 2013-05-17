@@ -6,13 +6,14 @@
 </head>
 
 <body>
-	<div id="wrapper">
-		<!-- start: Container -->
-		<div class="container">
-			<p><strong>Attention:</strong> Presenters if you've given a talk, please send us a pull request to this page on <a href="https://github.com/GroovyMN/gum-website">GitHub</a> for inclusion.
-			</p>
+<div id="wrapper">
+	<!-- start: Container -->
+	<div class="container">
+		<p><strong>Attention:</strong> Presenters if you've given a talk, please send us a pull request to this page on <a href="https://github.com/GroovyMN/gum-website">GitHub</a> for inclusion.
+		</p>
 
-			<!-- start: Portfolio -->
+		<!-- start: Portfolio -->
+		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
 					<talks:talk imageFileName="20130412-json-view-layer-colin-harrington.jpg" talkDate="Apr 2013" title="JSON View Layer" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.colinharrington.net" />
@@ -39,16 +40,23 @@
 				</div>
 
 				<div class="row">
+					<talks:talk talkDate="June 2012" title="Continuous Integration" presenter="Mike Hugo" presenterUrl="http://github.com/mjhugo" url="http://github.com/mjhugo">
+						<strong>PDF Slides:</strong> <a href="https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git">https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git</a><br />
+					</talks:talk>
 					<talks:talk imageFileName="2011-tednaleid-encryption-grails.jpg" talkDate="2011" title="Grails Encryption" presenter="Ted Naleid" presenterUrl="http://twitter.com/tednaleid" url="http://naleid.com/blog" />
 					<talks:talk imageFileName="2011-grails-RDF.jpg" talkDate="2011" title="Grails RDF" presenter="Mike Hugo" presenterUrl="http://github.com/mjhugo" url="http://github.com/mjhugo" />
-					<talks:talk imageFileName="201211-grails-db-migrations-josh-steve.jpg" talkDate="Nov 2011" title="Grails DB Migrations" presenter="Josh Reed &amp; Steve Vlaminck" url="http://refactr.com" />
 				</div>
 
 				<div class="row">
+					<talks:talk imageFileName="201211-grails-db-migrations-josh-steve.jpg" talkDate="Nov 2011" title="Grails DB Migrations" presenter="Josh Reed &amp; Steve Vlaminck" url="http://refactr.com" />
 					<talks:talk imageFileName="20100914-zan-thrash-grails-2.jpg" talkDate="Sep 2010" title="Grails 2 Testing" presenter="Zan Thrash" presenterUrl="http://twitter.com/zanthrash" url="http://zanthrash.com" />
 					<talks:talk imageFileName="20100914-git-colin-harrington.jpg" talkDate="Sep 2010" title="Git" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.colinharrington.net" />
-					<talks:talk imageFileName="20111112-chris-bartling-coffeescript.jpg" talkDate="Nov 2010" title="CoffeeScript" presenter="Chris Bartling" presenterUrl="http://bartling.blogspot.com" url="http://bartling.blogspot.com" />
 				</div>
+
+				<div class="row">
+					<talks:talk imasgeFileName="20111112-chris-bartling-coffeescript.jpg" talkDate="Nov 2010" title="CoffeeScript" presenter="Chris Bartling" presenterUrl="http://bartling.blogspot.com" url="http://bartling.blogspot.com" />
+				</div>
+
 			</div>
 			<!-- end: Portfolio -->
 
