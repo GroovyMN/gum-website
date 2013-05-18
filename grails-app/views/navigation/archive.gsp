@@ -9,18 +9,21 @@
 <div id="wrapper">
 	<!-- start: Container -->
 	<div class="container">
-		<p><strong>Attention:</strong> Presenters if you've given a talk, please send us a pull request to this page on <a href="https://github.com/GroovyMN/gum-website">GitHub</a> for inclusion.
+		<p>
+			<strong>Attention:</strong> Presenters if you've given a talk, please send us a pull request to this page on
+			<a href="https://github.com/GroovyMN/gum-website">GitHub</a> for inclusion.
 		</p>
 
 		<!-- start: Portfolio -->
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk talkDate="Apr 2012" title="Hack Session" presenter="N/A" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn">
-						Archive Page - Lead <a href="http://twitter.com/lightsabersd">Doug Sabers</a><br />
-						Sonar pom plugin - Lead: <a href="http://twitter.com/jbeck01">Jeff Beck</a><br />
+					<talks:talk talkDate="Apr 2012" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/erickinsella" url="http://groovy.mn">
+						Groovy.MN Archive Page - Lead: <a href="http://twitter.com/lightsabersd">Doug Sabers</a><br />
+						Sonar pom plugin - Lead: <a href="http://twitter.com/beckje01">Jeff Beck</a><br />
 						Contributing back to Grails - Lead: <a href="http://twitter.com/bobbywarner">Bobby Warner</a>
-					</talks:talk>          <talks:talk imageFileName="20130412-json-view-layer-colin-harrington.jpg" talkDate="Apr 2013" title="JSON View Layer" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.colinharrington.net" />
+					</talks:talk>
+					<talks:talk imageFileName="20130412-json-view-layer-colin-harrington.jpg" talkDate="Apr 2013" title="JSON View Layer" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://colinharrington.net/blog/2010/02/grails-the-view-layer-gum" />
 					<talks:talk talkDate="Apr 2013" title="Spring Social Plugin" presenter="Doug Sabers" presenterUrl="http://twitter.com/lightsabersd" url="http://grails.org/plugin/spring-social-core" />
 				</div>
 
@@ -40,12 +43,33 @@
 				</div>
 
 				<div class="row">
+					<talks:talk talkDate="November 2012" title="Upgrading to Grails 2.0" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://github.com/rappleg" />
+					<talks:talk talkDate="October 2012" title="Ember.js" presenter="Brad Marsh" presenterUrl="http://twitter.com/bbqhacker" url="http://github.com/dottertrotter" />
+					<talks:talk talkDate="September 2012" title="Contributing Back to Grails" presenter="Bobby Warner" presenterUrl="http://bobbywarner.com" url="http://www.bobbywarner.com/2012/07/31/gr8conf">
+						<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>
+					</talks:talk>
+				</div>
+
+				<div class="row">
+					<talks:talk talkDate="June 2012" title="Continuous Integration" presenter="Mike Hugo" presenterUrl="http://github.com/mjhugo" url="http://github.com/mjhugo">
+						<strong>PDF Slides:</strong> <a href="https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git">https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git</a><br />
+					</talks:talk>
+					<talks:talk talkDate="May 2012" title="Spring Security" presenter="Aaron Zirbes" presenterUrl="http://prezi.com/mczbfzjyvczl/grails-spring-security-core/" url="http://twitter.com/aaronzirbes">
+						<strong>Slides:</strong> <a href="http://prezi.com/mczbfzjyvczl/grails-spring-security-core/">http://prezi.com/mczbfzjyvczl/grails-spring-security-core/</a>
+						<strong>Source Code - Demo App:</strong> <a href="https://github.com/aaronzirbes/gum-may2012-custom-spring-sec">https://github.com/aaronzirbes/gum-may2012-custom-spring-sec</a>
+					</talks:talk>
 					<talks:talk imageFileName="20120410-jesque-grails.jpg" talkDate="Apr 2012" title="GPref using Jesque" presenter="Christian Oestreich" presenterUrl="http://twitter.com/ctoestreich" url="http://grails.org/plugin/jesque">
 						<strong>PDF Slides:</strong> <a href="http://www.slideshare.net/ctoestreich/gperf-using-jesque">http://www.slideshare.net/ctoestreich/gperf-using-jesque</a><br />
 						<strong>GitHub:</strong> <a href="http://github.com/ctoestreich/gperf">http://github.com/ctoestreich/gperf</a>
 					</talks:talk>
-					<talks:talk talkDate="June 2012" title="Continuous Integration" presenter="Mike Hugo" presenterUrl="http://github.com/mjhugo" url="http://github.com/mjhugo">
-						<strong>PDF Slides:</strong> <a href="https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git">https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git</a><br />
+				</div>
+
+				<div class="row">
+					<talks:talk talkDate="March 2012" title="Tropo" presenter="Chris Bartling" presenterUrl="http://bartling.blogspot.com" url="https://bitbucket.org/cebartling/tropo-presentations">
+						<strong>Presentation:</strong> <a href="https://bitbucket.org/cebartling/tropo-presentations">https://bitbucket.org/cebartling/tropo-presentations</a><br />
+					</talks:talk>
+					<talks:talk talkDate="Janurary 2012" title="There and back again: A story of of a simple HTTP request" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">
+						<strong>Presentation:</strong> <a href="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-swww</a><br />
 					</talks:talk>
 					<talks:talk imageFileName="2011-tednaleid-encryption-grails.jpg" talkDate="2011" title="Grails Encryption" presenter="Ted Naleid" presenterUrl="http://twitter.com/tednaleid" url="http://naleid.com/blog" />
 				</div>
