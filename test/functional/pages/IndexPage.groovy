@@ -2,8 +2,8 @@ package pages
 
 import geb.Page
 
-class HomePage extends Page {
-	static url = "home"
+class IndexPage extends Page {
+	static url = "index"
 
 	static at = {
 		title ==~ /Groovy Users of MN/

@@ -4,6 +4,8 @@ class PagesController {
 	static int DEFAULT = 5
 	static int MAX = DEFAULT * DEFAULT
 
+	def archive() {}
+
 	def calendar() {
 		def max = params.remove('max') ?: DEFAULT
 		if (max > MAX) {
@@ -13,11 +15,9 @@ class PagesController {
 		return [max: max]
 	}
 
-	def home() {}
-
-	def archive() {}
-
 	def group() {}
+
+	def index() {}
 
 	def location() {}
 }
