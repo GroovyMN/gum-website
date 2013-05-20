@@ -3,8 +3,10 @@ package gum
 class TalksTagLib {
 	static namespace = "talks"
 
+	static DEFAULT_IMG = "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
+
 	def talk = { attrs, body ->
-		def imageFileName = attrs.remove('imageFileName') ?: "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
+		def imageFileName = attrs.remove('imageFileName') ?: DEFAULT_IMG
 
 		def talkDate = attrs.remove('talkDate')
 		if (!talkDate) {
