@@ -49,7 +49,7 @@
 <body>
 	<g:render template="/nav/top" />
 	<g:layoutBody />
-	<g:render template="/footer/footerMenu" />
+	<g:render template="/footer/menu" />
 	<g:render template="/footer/footer" />
 
 	<r:layoutResources />
