@@ -6,7 +6,7 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 // grails.project.war.file = "target/${appName}-${appVersion}.war"
 
-def gebVersion = "0.7.2"
+def gebVersion = "0.9.0"
 def seleniumVersion = "2.21.0"
 
 grails.project.dependency.resolution = {
@@ -40,8 +40,8 @@ grails.project.dependency.resolution = {
 		test("org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion")
 		test("org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion")
 
-		test "org.codehaus.geb:geb-spock:$gebVersion"
-		test "org.codehaus.geb:geb-junit4:$gebVersion"
+		test "org.gebish:geb-spock:$gebVersion"
+		test "org.gebish:geb-junit4:$gebVersion"
 
 		test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
 	}
