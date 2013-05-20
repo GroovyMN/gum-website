@@ -17,7 +17,7 @@
 			<div class="span7">
 				<div id="footer-menu-links">
 					<ul id="footer-nav">
-						<g:render template="/nav/navLinks" />
+						<g:render template="/nav/links" />
 					</ul>
 				</div>
 			</div>
