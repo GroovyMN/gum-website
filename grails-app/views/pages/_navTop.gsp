@@ -19,7 +19,7 @@
 
 				<div class="nav-collapse collapse">
 					<ul class="nav">
-						<g:render template="/navigation/navLinks" />
+						<g:render template="/pages/navLinks" />
 					</ul>
 				</div>
 			</div>

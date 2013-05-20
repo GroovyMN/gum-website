@@ -1,6 +1,6 @@
 package gum
 
-class NavigationController {
+class PagesController {
 	static int DEFAULT = 5
 	static int MAX = DEFAULT * DEFAULT
 

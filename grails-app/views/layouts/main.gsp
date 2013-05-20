@@ -47,7 +47,7 @@
 </head>
 
 <body>
-	<g:render template="/navigation/navTop" />
+	<g:render template="/pages/navTop" />
 	<g:layoutBody />
 	<g:render template="/footer/footerMenu" />
 	<g:render template="/footer/footer" />

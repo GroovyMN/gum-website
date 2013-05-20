@@ -6,12 +6,12 @@ class UrlMappings {
 			}
 		}
 
-		"/"(controller: "navigation", action: "home")
-		"/calendar"(controller: "navigation", action: "calendar")
-		"/location"(controller: "navigation", action: "location")
-		"/group"(controller: "navigation", action: "group")
-		"/home"(controller: "navigation", action: "home")
-		"/archive"(controller: "navigation", action: "archive")
+		"/"(controller: "pages", action: "home")
+		"/calendar"(controller: "pages", action: "calendar")
+		"/location"(controller: "pages", action: "location")
+		"/group"(controller: "pages", action: "group")
+		"/home"(controller: "pages", action: "home")
+		"/archive"(controller: "pages", action: "archive")
 
 		"500"(view: '/error')
 	}
