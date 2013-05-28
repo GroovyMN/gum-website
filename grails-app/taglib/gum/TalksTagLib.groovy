@@ -6,6 +6,9 @@ class TalksTagLib {
 	static DEFAULT_IMG = "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
 
 	def talk = { attrs, body ->
+		log.debug "attrs: $attrs"
+		log.debug "body: $body"
+
 		def imageFileName = attrs.remove('imageFileName') ?: DEFAULT_IMG
 
 		def talkDate = attrs.remove('talkDate')

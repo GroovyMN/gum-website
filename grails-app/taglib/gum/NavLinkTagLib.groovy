@@ -4,6 +4,8 @@ class NavLinkTagLib {
 	static namespace = "nav"
 
 	def link = { attrs ->
+		log.debug "attrs: $attrs"
+
 		def action = attrs.remove('action')
 		if (!action) {
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [action]")
