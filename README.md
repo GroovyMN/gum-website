@@ -14,4 +14,5 @@ Thanks To
 * Jeff Beck - [@beckje01](http://twitter.com/beckje01)
 * Eric Kinsella - [@staticnull](http://twitter.com/staticnull)
 * Brad Marsh - [@bbqhacker](http://twitter.com/bbqhacker)
+* Josh Reed - [@joshareed](http://twitter.com/joshareed)
 * Doug Sabers - [@lightsabersd](http://twitter.com/lightsabersd)
