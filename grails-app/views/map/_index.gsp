@@ -8,7 +8,7 @@
 	<div id="googlemaps-container-bottom"></div>
 	%{-- TODO: Should use something like r:require to ensure google maps js is included. --}%
 	%{-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script> --}%
-	<script src="/gum/js/jquery.gmap.min.js"></script>
+	<script src="js/jquery.gmap.min.js"></script>
 
 	<r:script>
 		$('#googlemaps').gMap({
