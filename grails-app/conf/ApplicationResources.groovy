@@ -51,4 +51,7 @@ modules = {
 
 		resource url: "js/jquery.timeago.js"
 	}
+	map {
+		resource url: "js/jquery.gmap.min.js"
+	}
 }
