@@ -49,7 +49,7 @@
 				</div>
 
 				<div class="row">
-					<talks:talk talkDate="November 2012" title="Upgrading to Grails 2.0" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://github.com/rappleg" />
+					<talks:talk talkDate="November 2012" title="Upgrading to Grails 2.0" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/upgrading-to-grails-2" />
 					<talks:talk talkDate="October 2012" title="Ember.js" presenter="Brad Marsh" presenterUrl="http://twitter.com/bbqhacker" url="http://github.com/dottertrotter" />
 					<talks:talk talkDate="September 2012" title="Contributing Back to Grails" presenter="Bobby Warner" presenterUrl="http://bobbywarner.com" url="http://www.bobbywarner.com/2012/07/31/gr8conf">
 						<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>
