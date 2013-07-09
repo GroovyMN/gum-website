@@ -23,7 +23,7 @@ class PagesController {
 		log.debug "params: $params"
 	}
 
-	def index() {
+	def home() {
 		log.debug "params: $params"
 	}
 
