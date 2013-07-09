@@ -18,13 +18,13 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk talkDate="June 2012" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://smartthings.com" />
-					<talks:talk imageFileName="20130611-geb-craig-atkinson.jpg" talkDate="May 2012" title="Geb Testing" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://gebish.org" />
-					<talks:talk imageFileName="20130611-gr8-conf-eu-colin-harrington-jeff-beck.jpg" talkDate="May 2012" title="GR8 Conf EU Breakdown" presenter="Coling Harrington & Jeff Beck" presenterUrl="http://twitter.com/ColinHarrington" url="http://gr8conf.org" />
+					<talks:talk talkDate="July 2013" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/vert-x" />
+					<talks:talk imageFileName="20130611-geb-craig-atkinson.jpg" talkDate="June 2013" title="Geb Testing" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://gebish.org" />
+					<talks:talk imageFileName="20130611-gr8-conf-eu-colin-harrington-jeff-beck.jpg" talkDate="June 2013" title="GR8 Conf EU Breakdown" presenter="Coling Harrington & Jeff Beck" presenterUrl="http://twitter.com/ColinHarrington" url="http://gr8conf.org" />
 				</div>
 
 				<div class="row">
-					<talks:talk talkDate="Apr 2012" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/erickinsella" url="http://groovy.mn">
+					<talks:talk talkDate="May 2013" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/erickinsella" url="http://groovy.mn">
 						Groovy.MN Archive Page - Lead: <a href="http://twitter.com/lightsabersd">Doug Sabers</a><br />
 						Sonar pom plugin - Lead: <a href="http://twitter.com/beckje01">Jeff Beck</a><br />
 						Contributing back to Grails - Lead: <a href="http://twitter.com/bobbywarner">Bobby Warner</a>
@@ -49,7 +49,7 @@
 				</div>
 
 				<div class="row">
-					<talks:talk talkDate="November 2012" title="Upgrading to Grails 2.0" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://github.com/rappleg" />
+					<talks:talk talkDate="November 2012" title="Upgrading to Grails 2.0" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/upgrading-to-grails-2" />
 					<talks:talk talkDate="October 2012" title="Ember.js" presenter="Brad Marsh" presenterUrl="http://twitter.com/bbqhacker" url="http://github.com/dottertrotter" />
 					<talks:talk talkDate="September 2012" title="Contributing Back to Grails" presenter="Bobby Warner" presenterUrl="http://bobbywarner.com" url="http://www.bobbywarner.com/2012/07/31/gr8conf">
 						<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>
