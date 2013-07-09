@@ -18,13 +18,13 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk talkDate="June 2012" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://smartthings.com" />
-					<talks:talk imageFileName="20130611-geb-craig-atkinson.jpg" talkDate="May 2012" title="Geb Testing" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://gebish.org" />
-					<talks:talk imageFileName="20130611-gr8-conf-eu-colin-harrington-jeff-beck.jpg" talkDate="May 2012" title="GR8 Conf EU Breakdown" presenter="Coling Harrington & Jeff Beck" presenterUrl="http://twitter.com/ColinHarrington" url="http://gr8conf.org" />
+					<talks:talk talkDate="July 2013" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/vert-x" />
+					<talks:talk imageFileName="20130611-geb-craig-atkinson.jpg" talkDate="June 2013" title="Geb Testing" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://gebish.org" />
+					<talks:talk imageFileName="20130611-gr8-conf-eu-colin-harrington-jeff-beck.jpg" talkDate="June 2013" title="GR8 Conf EU Breakdown" presenter="Coling Harrington & Jeff Beck" presenterUrl="http://twitter.com/ColinHarrington" url="http://gr8conf.org" />
 				</div>
 
 				<div class="row">
-					<talks:talk talkDate="Apr 2012" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/erickinsella" url="http://groovy.mn">
+					<talks:talk talkDate="May 2013" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/erickinsella" url="http://groovy.mn">
 						Groovy.MN Archive Page - Lead: <a href="http://twitter.com/lightsabersd">Doug Sabers</a><br />
 						Sonar pom plugin - Lead: <a href="http://twitter.com/beckje01">Jeff Beck</a><br />
 						Contributing back to Grails - Lead: <a href="http://twitter.com/bobbywarner">Bobby Warner</a>
