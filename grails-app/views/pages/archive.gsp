@@ -18,7 +18,7 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk talkDate="July 2013" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/vert-x" />
+					<talks:talk imageFileName="20130709-vertx-ryan-applegate.jpg" talkDate="July 2013" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/vert-x" />
 					<talks:talk imageFileName="20130611-geb-craig-atkinson.jpg" talkDate="June 2013" title="Geb Testing" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://gebish.org" />
 					<talks:talk imageFileName="20130611-gr8-conf-eu-colin-harrington-jeff-beck.jpg" talkDate="June 2013" title="GR8 Conf EU Breakdown" presenter="Coling Harrington & Jeff Beck" presenterUrl="http://twitter.com/ColinHarrington" url="http://gr8conf.org" />
 				</div>
