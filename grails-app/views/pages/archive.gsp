@@ -18,7 +18,13 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
+					<talks:talk talkDate="Sep 2013" title="FishBowl" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
+					<talks:talk talkDate="Aug 2013" title="Grails Anti-Patterns" presenter="Aaron Hanson" presenterUrl="http://twitter.com/aaronhanson" url="http://grails.org" />
 					<talks:talk imageFileName="20130709-vertx-ryan-applegate.jpg" talkDate="July 2013" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/vert-x" />
+				</div>
+
+				<div class="row">
+					<talks:talk imageFileName="20130709-kyle-boon-lazybones.jpg" talkDate="July 2013" title="Lazybones" presenter="Kyle Boon" presenterUrl="http://twitter.com/kyleboon" url="http://github.com/pledbrook/lazybones" />
 					<talks:talk imageFileName="20130611-geb-craig-atkinson.jpg" talkDate="June 2013" title="Geb Testing" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://gebish.org" />
 					<talks:talk imageFileName="20130611-gr8-conf-eu-colin-harrington-jeff-beck.jpg" talkDate="June 2013" title="GR8 Conf EU Breakdown" presenter="Coling Harrington & Jeff Beck" presenterUrl="http://twitter.com/ColinHarrington" url="http://gr8conf.org" />
 				</div>
