@@ -20,7 +20,9 @@
 				<div class="row">
 					<talks:talk talkDate="Sep 2013" title="FishBowl" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
 					<talks:talk talkDate="Aug 2013" title="Grails Anti-Patterns" presenter="Aaron Hanson" presenterUrl="http://twitter.com/aaronhanson" url="http://grails.org" />
-					<talks:talk imageFileName="20130709-vertx-ryan-applegate.jpg" talkDate="July 2013" title="SmartThings + Groovy = Vert.x" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/vert-x" />
+					<talks:talk imageFileName="20130709-vertx-ryan-applegate.jpg" talkDate="July 2013" title="Groovy + Vert.x @ SmartThings" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://vertx.io">
+						<strong>Slides:</strong> <a href="http://slid.es/rappleg/vert-x">http://slid.es/rappleg/vert-x</a>
+					</talks:talk>
 				</div>
 
 				<div class="row">
@@ -55,7 +57,9 @@
 				</div>
 
 				<div class="row">
-					<talks:talk talkDate="November 2012" title="Upgrading to Grails 2.0" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://slid.es/rappleg/upgrading-to-grails-2" />
+					<talks:talk talkDate="November 2012" title="Upgrading to Grails 2.0" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://grails.org">
+						<strong>Slides:</strong> <a href="http://slid.es/rappleg/upgrading-to-grails-2">http://slid.es/rappleg/upgrading-to-grails-2</a>
+					</talks:talk>
 					<talks:talk talkDate="October 2012" title="Ember.js" presenter="Brad Marsh" presenterUrl="http://twitter.com/bbqhacker" url="http://github.com/dottertrotter" />
 					<talks:talk talkDate="September 2012" title="Contributing Back to Grails" presenter="Bobby Warner" presenterUrl="http://bobbywarner.com" url="http://www.bobbywarner.com/2012/07/31/gr8conf">
 						<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>
