@@ -1,8 +1,7 @@
-<%@ page import="gum.Presentation" %>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="crud">
 		<g:set var="entityName" value="${message(code: 'presentation.label', default: 'Presentation')}" />
 		<title><g:message code="default.edit.label" args="[entityName]" /></title>
 	</head>

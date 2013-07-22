@@ -1,9 +1,7 @@
-
-<%@ page import="gum.Speaker" %>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="crud">
 		<g:set var="entityName" value="${message(code: 'speaker.label', default: 'Speaker')}" />
 		<title><g:message code="default.list.label" args="[entityName]" /></title>
 	</head>
@@ -23,33 +21,33 @@
 			<table>
 				<thead>
 					<tr>
-					
+
 						<g:sortableColumn property="name" title="${message(code: 'speaker.name.label', default: 'Name')}" />
-					
+
 						<g:sortableColumn property="twitterId" title="${message(code: 'speaker.twitterId.label', default: 'Twitter Id')}" />
-					
+
 						<g:sortableColumn property="githubId" title="${message(code: 'speaker.githubId.label', default: 'Github Id')}" />
-					
+
 						<g:sortableColumn property="company" title="${message(code: 'speaker.company.label', default: 'Company')}" />
-					
+
 						<g:sortableColumn property="about" title="${message(code: 'speaker.about.label', default: 'About')}" />
-					
+
 					</tr>
 				</thead>
 				<tbody>
 				<g:each in="${speakerInstanceList}" status="i" var="speakerInstance">
 					<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-					
+
 						<td><g:link action="show" id="${speakerInstance.id}">${fieldValue(bean: speakerInstance, field: "name")}</g:link></td>
-					
+
 						<td>${fieldValue(bean: speakerInstance, field: "twitterId")}</td>
-					
+
 						<td>${fieldValue(bean: speakerInstance, field: "githubId")}</td>
-					
+
 						<td>${fieldValue(bean: speakerInstance, field: "company")}</td>
-					
+
 						<td>${fieldValue(bean: speakerInstance, field: "about")}</td>
-					
+
 					</tr>
 				</g:each>
 				</tbody>

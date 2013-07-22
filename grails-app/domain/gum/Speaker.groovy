@@ -9,13 +9,13 @@ class Speaker {
 
 	static hasMany = [presentations: Presentation]
 
-    static constraints = {
+	static constraints = {
 		name(blank: false, nullable: false)
-		twitterId(blank:true, nullable: true)
-		githubId(blank:true, nullable: true)
+		twitterId(blank: true, nullable: true)
+		githubId(blank: true, nullable: true)
 		company(blank: true, nullable: true)
 		about(blank: true, nullable: true)
-    }
+	}
 
 	String toString() {
 		this.name

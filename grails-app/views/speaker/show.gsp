@@ -1,9 +1,7 @@
-
-<%@ page import="gum.Speaker" %>
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main">
+		<meta name="layout" content="crud">
 		<g:set var="entityName" value="${message(code: 'speaker.label', default: 'Speaker')}" />
 		<title><g:message code="default.show.label" args="[entityName]" /></title>
 	</head>
@@ -22,63 +20,63 @@
 			<div class="message" role="status">${flash.message}</div>
 			</g:if>
 			<ol class="property-list speaker">
-			
+
 				<g:if test="${speakerInstance?.name}">
 				<li class="fieldcontain">
 					<span id="name-label" class="property-label"><g:message code="speaker.name.label" default="Name" /></span>
-					
+
 						<span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${speakerInstance}" field="name"/></span>
-					
+
 				</li>
 				</g:if>
-			
+
 				<g:if test="${speakerInstance?.twitterId}">
 				<li class="fieldcontain">
 					<span id="twitterId-label" class="property-label"><g:message code="speaker.twitterId.label" default="Twitter Id" /></span>
-					
+
 						<span class="property-value" aria-labelledby="twitterId-label"><g:fieldValue bean="${speakerInstance}" field="twitterId"/></span>
-					
+
 				</li>
 				</g:if>
-			
+
 				<g:if test="${speakerInstance?.githubId}">
 				<li class="fieldcontain">
 					<span id="githubId-label" class="property-label"><g:message code="speaker.githubId.label" default="Github Id" /></span>
-					
+
 						<span class="property-value" aria-labelledby="githubId-label"><g:fieldValue bean="${speakerInstance}" field="githubId"/></span>
-					
+
 				</li>
 				</g:if>
-			
+
 				<g:if test="${speakerInstance?.company}">
 				<li class="fieldcontain">
 					<span id="company-label" class="property-label"><g:message code="speaker.company.label" default="Company" /></span>
-					
+
 						<span class="property-value" aria-labelledby="company-label"><g:fieldValue bean="${speakerInstance}" field="company"/></span>
-					
+
 				</li>
 				</g:if>
-			
+
 				<g:if test="${speakerInstance?.about}">
 				<li class="fieldcontain">
 					<span id="about-label" class="property-label"><g:message code="speaker.about.label" default="About" /></span>
-					
+
 						<span class="property-value" aria-labelledby="about-label"><g:fieldValue bean="${speakerInstance}" field="about"/></span>
-					
+
 				</li>
 				</g:if>
-			
+
 				<g:if test="${speakerInstance?.presentations}">
 				<li class="fieldcontain">
 					<span id="presentations-label" class="property-label"><g:message code="speaker.presentations.label" default="Presentations" /></span>
-					
+
 						<g:each in="${speakerInstance.presentations}" var="p">
 						<span class="property-value" aria-labelledby="presentations-label"><g:link controller="presentation" action="show" id="${p.id}">${p?.encodeAsHTML()}</g:link></span>
 						</g:each>
-					
+
 				</li>
 				</g:if>
-			
+
 			</ol>
 			<g:form>
 				<fieldset class="buttons">

@@ -54,4 +54,7 @@ modules = {
 	map {
 		resource url: "js/jquery.gmap.min.js"
 	}
+	crud {
+		resource url: "css/main.css"
+	}
 }

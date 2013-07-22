@@ -81,7 +81,6 @@ log4j = {
 			logPattern += '[%d{yyyy-MM-dd HH:mm:ss.SSS}]'
 		}
 
-		// logPattern += ' %5p [%t] %-30.30c{2} - %m%n'
 		logPattern += ' %5p [%t] %c{2} - %m%n'
 		logPattern = pattern(conversionPattern: logPattern)
 
