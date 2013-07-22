@@ -30,13 +30,13 @@ environments {
 			pooled = true
 			properties {
 				maxActive = -1
-				minEvictableIdleTimeMillis=1800000
-				timeBetweenEvictionRunsMillis=1800000
-				numTestsPerEvictionRun=3
-				testOnBorrow=true
-				testWhileIdle=true
-				testOnReturn=true
-				validationQuery="SELECT 1"
+				minEvictableIdleTimeMillis = 1800000
+				timeBetweenEvictionRunsMillis = 1800000
+				numTestsPerEvictionRun = 3
+				testOnBorrow = true
+				testWhileIdle = true
+				testOnReturn = true
+				validationQuery = "SELECT 1"
 			}
 		}
 	}

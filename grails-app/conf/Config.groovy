@@ -14,18 +14,18 @@ grails.project.groupId = appName // Change this to alter the default package nam
 grails.mime.file.extensions = true // Enables the parsing of file extensions from URLs into the request format
 grails.mime.use.accept.header = false
 grails.mime.types = [
-	all:           '*/*',
-	atom:          'application/atom+xml',
-	css:           'text/css',
-	csv:           'text/csv',
-	form:          'application/x-www-form-urlencoded',
-	html:          ['text/html','application/xhtml+xml'],
-	js:            'text/javascript',
-	json:          ['application/json', 'text/json'],
+	all: '*/*',
+	atom: 'application/atom+xml',
+	css: 'text/css',
+	csv: 'text/csv',
+	form: 'application/x-www-form-urlencoded',
+	html: ['text/html', 'application/xhtml+xml'],
+	js: 'text/javascript',
+	json: ['application/json', 'text/json'],
 	multipartForm: 'multipart/form-data',
-	rss:           'application/rss+xml',
-	text:          'text/plain',
-	xml:           ['text/xml', 'application/xml']
+	rss: 'application/rss+xml',
+	text: 'text/plain',
+	xml: ['text/xml', 'application/xml']
 ]
 
 // URL Mapping Cache Max Size, defaults to 5000
@@ -50,7 +50,7 @@ grails.enable.native2ascii = true
 // Packages to include in Spring bean scanning
 grails.spring.bean.packages = []
 // Whether to disable processing of multi part requests
-grails.web.disable.multipart=false
+grails.web.disable.multipart = false
 
 // Request parameters to mask when logging exceptions
 grails.exceptionresolver.params.exclude = ['password']
@@ -60,7 +60,7 @@ grails.hibernate.cache.queries = false
 
 environments {
 	development {
-		grails.resources.debug=false
+		grails.resources.debug = false
 		grails.logging.jul.usebridge = true
 	}
 	production {
@@ -83,29 +83,29 @@ log4j = {
 
 		// logPattern += ' %5p [%t] %-30.30c{2} - %m%n'
 		logPattern += ' %5p [%t] %c{2} - %m%n'
-		logPattern = pattern(conversionPattern:logPattern)
+		logPattern = pattern(conversionPattern: logPattern)
 
-		console name:'stdout', layout:logPattern
+		console name: 'stdout', layout: logPattern
 
-	trace 'grails.app.filters'
+		trace 'grails.app.filters'
 
-	debug 'grails.app.conf',
-		'grails.app.services',
-		'grails.app.domain',
-		'grails.app.taglib',
-		'grails.app.controllers'
+		debug 'grails.app.conf',
+			'grails.app.services',
+			'grails.app.domain',
+			'grails.app.taglib',
+			'grails.app.controllers'
 
-	info 'grails.app.tagLib.org.grails.plugin.resource'
+		info 'grails.app.tagLib.org.grails.plugin.resource'
 
-	error 'org.codehaus.groovy.grails.web.servlet',    // Controllers
-		'org.codehaus.groovy.grails.web.pages',          // GSP
-		'org.codehaus.groovy.grails.web.sitemesh',       // Layouts
-		'org.codehaus.groovy.grails.web.mapping.filter', // URL mapping
-		'org.codehaus.groovy.grails.web.mapping',        // URL mapping
-		'org.codehaus.groovy.grails.commons',            // Core / Classloading
-		'org.codehaus.groovy.grails.plugins',            // Plugins
-		'org.codehaus.groovy.grails.orm.hibernate',      // Hibernate integration
-		'org.springframework',
-		'org.hibernate'
+		error 'org.codehaus.groovy.grails.web.servlet',    // Controllers
+			'org.codehaus.groovy.grails.web.pages',          // GSP
+			'org.codehaus.groovy.grails.web.sitemesh',       // Layouts
+			'org.codehaus.groovy.grails.web.mapping.filter', // URL mapping
+			'org.codehaus.groovy.grails.web.mapping',        // URL mapping
+			'org.codehaus.groovy.grails.commons',            // Core / Classloading
+			'org.codehaus.groovy.grails.plugins',            // Plugins
+			'org.codehaus.groovy.grails.orm.hibernate',      // Hibernate integration
+			'org.springframework',
+			'org.hibernate'
 	}
 }
