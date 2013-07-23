@@ -1,18 +1,20 @@
-package gum
+package gum.admin
 
+import gum.Speaker
 import org.springframework.dao.DataIntegrityViolationException
 
 class SpeakerController {
-
 	static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
+	static prefix = "/admin/speaker/"
+
 	def index() {
-		redirect(action: "list", params: params)
+		redirect action: "list", params: params
 	}
 
 	def list(Integer max) {
 		params.max = Math.min(max ?: 10, 100)
-		[speakerInstanceList: Speaker.list(params), speakerInstanceTotal: Speaker.count()]
+		render view: prefix + "list", model: [speakerInstanceList: Speaker.list(params), speakerInstanceTotal: Speaker.count()]
 	}
 
 	def create() {
@@ -22,7 +24,7 @@ class SpeakerController {
 	def save() {
 		def speakerInstance = new Speaker(params)
 		if (!speakerInstance.save(flush: true)) {
-			render(view: "create", model: [speakerInstance: speakerInstance])
+			render view: prefix + "create", model: [speakerInstance: speakerInstance]
 			return
 		}
 
@@ -34,29 +36,29 @@ class SpeakerController {
 		def speakerInstance = Speaker.get(id)
 		if (!speakerInstance) {
 			flash.message = message(code: 'default.not.found.message', args: [message(code: 'speaker.label', default: 'Speaker'), id])
-			redirect(action: "list")
+			redirect action: "list"
 			return
 		}
 
-		[speakerInstance: speakerInstance]
+		render view: prefix + "show", model: [speakerInstance: speakerInstance]
 	}
 
 	def edit(Long id) {
 		def speakerInstance = Speaker.get(id)
 		if (!speakerInstance) {
 			flash.message = message(code: 'default.not.found.message', args: [message(code: 'speaker.label', default: 'Speaker'), id])
-			redirect(action: "list")
+			redirect action: "list"
 			return
 		}
 
-		[speakerInstance: speakerInstance]
+		render view: prefix + "edit", model: [speakerInstance: speakerInstance]
 	}
 
 	def update(Long id, Long version) {
 		def speakerInstance = Speaker.get(id)
 		if (!speakerInstance) {
 			flash.message = message(code: 'default.not.found.message', args: [message(code: 'speaker.label', default: 'Speaker'), id])
-			redirect(action: "list")
+			redirect action: "list"
 			return
 		}
 
@@ -65,7 +67,7 @@ class SpeakerController {
 				speakerInstance.errors.rejectValue("version", "default.optimistic.locking.failure",
 					[message(code: 'speaker.label', default: 'Speaker')] as Object[],
 					"Another user has updated this Speaker while you were editing")
-				render(view: "edit", model: [speakerInstance: speakerInstance])
+				render view: prefix + "edit", model: [speakerInstance: speakerInstance]
 				return
 			}
 		}
@@ -73,30 +75,30 @@ class SpeakerController {
 		speakerInstance.properties = params
 
 		if (!speakerInstance.save(flush: true)) {
-			render(view: "edit", model: [speakerInstance: speakerInstance])
+			render view: prefix + "edit", model: [speakerInstance: speakerInstance]
 			return
 		}
 
 		flash.message = message(code: 'default.updated.message', args: [message(code: 'speaker.label', default: 'Speaker'), speakerInstance.id])
-		redirect(action: "show", id: speakerInstance.id)
+		redirect action: "show", id: speakerInstance.id
 	}
 
 	def delete(Long id) {
 		def speakerInstance = Speaker.get(id)
 		if (!speakerInstance) {
 			flash.message = message(code: 'default.not.found.message', args: [message(code: 'speaker.label', default: 'Speaker'), id])
-			redirect(action: "list")
+			redirect action: "list"
 			return
 		}
 
 		try {
 			speakerInstance.delete(flush: true)
 			flash.message = message(code: 'default.deleted.message', args: [message(code: 'speaker.label', default: 'Speaker'), id])
-			redirect(action: "list")
+			redirect action: "list"
 		}
 		catch (DataIntegrityViolationException e) {
 			flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'speaker.label', default: 'Speaker'), id])
-			redirect(action: "show", id: id)
+			redirect action: "show", id: id
 		}
 	}
 }
