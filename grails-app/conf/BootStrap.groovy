@@ -1,16 +1,5 @@
 import gum.*
 
-/**
-
- <talks:talk imageFileName="2011-tednaleid-encryption-grails.jpg" talkDate="2011" title="Grails Encryption" presenter="Ted Naleid" presenterUrl="http://twitter.com/tednaleid" url="http://naleid.com/blog" />
- <talks:talk imageFileName="2011-grails-RDF.jpg" talkDate="2011" title="Grails RDF" presenter="Mike Hugo" presenterUrl="http://github.com/mjhugo" url="http://github.com/mjhugo" />
- <talks:talk imageFileName="201211-grails-db-migrations-josh-steve.jpg" talkDate="Nov 2011" title="Grails DB Migrations" presenter="Josh Reed &amp; Steve Vlaminck" url="http://refactr.com" />
- <talks:talk imageFileName="20100914-zan-thrash-grails-2.jpg" talkDate="Sep 2010" title="Grails 2 Testing" presenter="Zan Thrash" presenterUrl="http://twitter.com/zanthrash" url="http://zanthrash.com" />
- <talks:talk imageFileName="20100914-git-colin-harrington.jpg" talkDate="Sep 2010" title="Git" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.colinharrington.net" />
- <talks:talk imasgeFileName="20111112-chris-bartling-coffeescript.jpg" talkDate="Nov 2010" title="CoffeeScript" presenter="Chris Bartling" presenterUrl="http://bartling.blogspot.com" url="http://bartling.blogspot.com" />
-
- **/
-
 class BootStrap {
 	def init = { servletContext ->
 		def groovyMn = new Speaker([name: "GroovyMN", twitterId: "groovymn", githubId: "groovymn", company: "GroovyMN", about: "Groovy Users Group of Minnesota"]).save()
@@ -28,9 +17,39 @@ class BootStrap {
 		def marsh = new Speaker([name: "Brad Marsh", twitterId: "bbqhacker", githubId: "dottertrotter", company: "ReachLocal"]).save()
 		def naleid = new Speaker([name: "Ted Naleid", twitterId: "tednaleid", githubId: "tednaleid", website: "http://naleid.com/blog"]).save()
 		def oestreich = new Speaker([name: "Christian Oestreich", twitterId: "ctoestreich", githubId: "ctoestreich"]).save()
+		def reed = new Speaker([name: "Josh Reed", twitterId: "joshareed", githubId: "joshareed"]).save()
 		def sabers = new Speaker([name: "Doug Sabers", twitterId: "lightsabersd", githubId: "sabersd", company: "OPI"]).save()
+		def thrash = new Speaker([name: "Zan Thrash", twitterId: "zanthrash", githubId: "zanthrash", company: "OPI", website: "http://zanthrash.com"]).save()
+		def vlaminck = new Speaker([name: "Steve Vlaminck", twitterId: "beerduino", githubId: "???"]).save()
 		def warner = new Speaker([name: "Bobby Warner", twitterId: "bobbywarner", githubId: "bobbywarner", company: "Target"]).save()
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
+
+		// 20111112-chris-bartling-coffeescript.jpg
+		def _2010coffee = new Presentation([title: "CoffeeScript", sourceUrl: "http://bartling.blogspot.com", presentationDate: new Date("2010/11")]).save()
+		bartling.addToPresentations(_2010coffee)
+		_2010coffee.addToSpeakers(bartling)
+
+		// 20100914-git-colin-harrington.jpg
+		def _2010git = new Presentation([title: "Git", sourceUrl: "http://www.colinharrington.net", presentationDate: new Date("2010/09")]).save()
+		harrington.addToPresentations(_2010git)
+		_2010git.addToSpeakers(harrington)
+
+		// 20100914-zan-thrash-grails-2.jpg
+		def _2010testing = new Presentation([title: "Grails 2 Testing", sourceUrl: "http://zanthrash.com", presentationDate: new Date("2010/09")]).save()
+		thrash.addToPresentations(_2010testing)
+		_2010testing.addToSpeakers(thrash)
+
+		// 201211-grails-db-migrations-josh-steve.jpg
+		def _2011db = new Presentation([title: "Grails DB Migrations", sourceUrl: "http://refactr.com", presentationDate: new Date("2011/11")]).save()
+		reed.addToPresentations(_2011db)
+		vlaminck.addToPresentations(_2011db)
+		_2011db.addToSpeakers(reed)
+		_2011db.addToSpeakers(vlaminck)
+
+		// 2011-grails-RDF.jpg
+		def _2011rdf = new Presentation([title: "Grails RDF", sourceUrl: "http://github.com/mjhugo", presentationDate: new Date("2011")]).save()
+		hugo.addToPresentations(_2011rdf)
+		_2011rdf.addToSpeakers(hugo)
 
 		def _2011encryption = new Presentation([title: "Grails Encryption", sourceUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2011")]).save()
 		naleid.addToPresentations(_2011encryption)
