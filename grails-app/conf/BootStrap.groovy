@@ -2,9 +2,6 @@ import gum.*
 
 /**
 
- <talks:talk talkDate="Janurary 2012" title="There and back again: A story of of a simple HTTP request" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">
- <strong>Presentation:</strong> <a href="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-swww</a><br />
- </talks:talk>
  <talks:talk imageFileName="2011-tednaleid-encryption-grails.jpg" talkDate="2011" title="Grails Encryption" presenter="Ted Naleid" presenterUrl="http://twitter.com/tednaleid" url="http://naleid.com/blog" />
  <talks:talk imageFileName="2011-grails-RDF.jpg" talkDate="2011" title="Grails RDF" presenter="Mike Hugo" presenterUrl="http://github.com/mjhugo" url="http://github.com/mjhugo" />
  <talks:talk imageFileName="201211-grails-db-migrations-josh-steve.jpg" talkDate="Nov 2011" title="Grails DB Migrations" presenter="Josh Reed &amp; Steve Vlaminck" url="http://refactr.com" />
@@ -33,6 +30,11 @@ class BootStrap {
 		def sabers = new Speaker([name: "Doug Sabers", twitterId: "lightsabersd", githubId: "sabersd", company: "OPI"]).save()
 		def warner = new Speaker([name: "Bobby Warner", twitterId: "bobbywarner", githubId: "bobbywarner", company: "Target"]).save()
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
+
+		def _201201 = new Presentation([title: "There and back again: A story of of a simple HTTP request", sourceUrl: "http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s", presentationDate: new Date("2012/01/10"),
+			description: """<strong>Presentation:</strong> <a href="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-swww</a>"""]).save()
+		harrington.addToPresentations(_201201)
+		_201201.addToSpeakers(harrington)
 
 		def _201203 = new Presentation([title: "Tropo", sourceUrl: "http://bitbucket.org/cebartling/tropo-presentations", presentationDate: new Date("2012/03/13"),
 			description: """<strong>Presentation:</strong> <a href="https://bitbucket.org/cebartling/tropo-presentations">https://bitbucket.org/cebartling/tropo-presentations</a><br />"""]).save()
