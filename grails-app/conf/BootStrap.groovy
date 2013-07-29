@@ -2,13 +2,6 @@ import gum.*
 
 /**
 
- <talks:talk imageFileName="20120410-jesque-grails.jpg" talkDate="Apr 2012" title="GPref using Jesque" presenter="Christian Oestreich" presenterUrl="http://twitter.com/ctoestreich" url="http://grails.org/plugin/jesque">
- <strong>PDF Slides:</strong> <a href="http://www.slideshare.net/ctoestreich/gperf-using-jesque">http://www.slideshare.net/ctoestreich/gperf-using-jesque</a><br />
- <strong>GitHub:</strong> <a href="http://github.com/ctoestreich/gperf">http://github.com/ctoestreich/gperf</a>
- </talks:talk>
- <talks:talk talkDate="March 2012" title="Tropo" presenter="Chris Bartling" presenterUrl="http://bartling.blogspot.com" url="https://bitbucket.org/cebartling/tropo-presentations">
- <strong>Presentation:</strong> <a href="https://bitbucket.org/cebartling/tropo-presentations">https://bitbucket.org/cebartling/tropo-presentations</a><br />
- </talks:talk>
  <talks:talk talkDate="Janurary 2012" title="There and back again: A story of of a simple HTTP request" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">
  <strong>Presentation:</strong> <a href="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-swww</a><br />
  </talks:talk>
@@ -27,6 +20,7 @@ class BootStrap {
 
 		def applegate = new Speaker([name: "Ryan Applegate", twitterId: "rappleg", githubId: "rappleg", company: "SmartThings"]).save()
 		def atkinson = new Speaker([name: "Craig Atkinson", twitterId: "craigatk1", githubId: "craigatk", company: "OPI"]).save()
+		def bartling = new Speaker([name: "Chris Bartling", twitterId: "cbartling", githubId: "cbartling", website: "http://bartling.blogspot.com"]).save()
 		def beck = new Speaker([name: "Jeff Beck", twitterId: "beckje01", githubId: "beckje01", company: "ReachLocal"]).save()
 		def boon = new Speaker([name: "Kyle Boon", twitterId: "kyleboon", githubId: "kyleboon", company: "Bloom Health"]).save()
 		def hanson = new Speaker([name: "Aaron Hanson", twitterId: "aaronhanson", company: "ReachLocal"]).save()
@@ -35,9 +29,22 @@ class BootStrap {
 		def jurgemeyer = new Speaker([name: "Shaun Jurgemeyer", twitterId: "sjurgemeyer", githubId: "sjurgemeyer", company: "OPI"]).save()
 		def kinsella = new Speaker([name: "Eric Kinsella", twitterId: "staticnull", githubId: "staticnull", website: "http://surlylabs.com", company: "Surly Labs"]).save()
 		def marsh = new Speaker([name: "Brad Marsh", twitterId: "bbqhacker", githubId: "dottertrotter", company: "ReachLocal"]).save()
+		def oestreich = new Speaker([name: "Christian Oestreich", twitterId: "ctoestreich", githubId: "ctoestreich"]).save()
 		def sabers = new Speaker([name: "Doug Sabers", twitterId: "lightsabersd", githubId: "sabersd", company: "OPI"]).save()
 		def warner = new Speaker([name: "Bobby Warner", twitterId: "bobbywarner", githubId: "bobbywarner", company: "Target"]).save()
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
+
+		def _201203 = new Presentation([title: "Tropo", sourceUrl: "http://bitbucket.org/cebartling/tropo-presentations", presentationDate: new Date("2012/03/13"),
+			description: """<strong>Presentation:</strong> <a href="https://bitbucket.org/cebartling/tropo-presentations">https://bitbucket.org/cebartling/tropo-presentations</a><br />"""]).save()
+		bartling.addToPresentations(_201203)
+		_201203.addToSpeakers(bartling)
+
+		// 20120410-jesque-grails.jpg
+		def _201204 = new Presentation([title: "GPref using Jesque", sourceUrl: "http://www.slideshare.net/ctoestreich/gperf-using-jesque", presentationDate: new Date("2012/04/10"),
+			description: """<strong>PDF Slides:</strong> <a href="http://www.slideshare.net/ctoestreich/gperf-using-jesque">http://www.slideshare.net/ctoestreich/gperf-using-jesque</a><br />
+			<strong>GitHub:</strong> <a href="http://github.com/ctoestreich/gperf">http://github.com/ctoestreich/gperf</a>"""]).save()
+		oestreich.addToPresentations(_201204)
+		_201204.addToSpeakers(oestreich)
 
 		def _201205 = new Presentation([title: "Spring Security", sourceUrl: "http://prezi.com/mczbfzjyvczl/grails-spring-security-core/", presentationDate: new Date("2012/05/08"),
 			description: """<strong>Slides:</strong> <a href="http://prezi.com/mczbfzjyvczl/grails-spring-security-core/">http://prezi.com/mczbfzjyvczl/grails-spring-security-core/</a>
