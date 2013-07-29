@@ -26,10 +26,15 @@ class BootStrap {
 		def jurgemeyer = new Speaker([name: "Shaun Jurgemeyer", twitterId: "sjurgemeyer", githubId: "sjurgemeyer", company: "OPI"]).save()
 		def kinsella = new Speaker([name: "Eric Kinsella", twitterId: "staticnull", githubId: "staticnull", website: "http://surlylabs.com", company: "Surly Labs"]).save()
 		def marsh = new Speaker([name: "Brad Marsh", twitterId: "bbqhacker", githubId: "dottertrotter", company: "ReachLocal"]).save()
+		def naleid = new Speaker([name: "Ted Naleid", twitterId: "tednaleid", githubId: "tednaleid", website: "http://naleid.com/blog"]).save()
 		def oestreich = new Speaker([name: "Christian Oestreich", twitterId: "ctoestreich", githubId: "ctoestreich"]).save()
 		def sabers = new Speaker([name: "Doug Sabers", twitterId: "lightsabersd", githubId: "sabersd", company: "OPI"]).save()
 		def warner = new Speaker([name: "Bobby Warner", twitterId: "bobbywarner", githubId: "bobbywarner", company: "Target"]).save()
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
+
+		def _2011encryption = new Presentation([title: "Grails Encryption", sourceUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2011")]).save()
+		naleid.addToPresentations(_2011encryption)
+		_2011encryption.addToSpeakers(naleid)
 
 		def _201201 = new Presentation([title: "There and back again: A story of of a simple HTTP request", sourceUrl: "http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s", presentationDate: new Date("2012/01/10"),
 			description: """<strong>Presentation:</strong> <a href="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-swww</a>"""]).save()
