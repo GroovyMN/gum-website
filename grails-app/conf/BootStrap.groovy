@@ -2,7 +2,7 @@ import gum.*
 
 class BootStrap {
 	def init = { servletContext ->
-		def groovyMn = new Speaker([name: "GroovyMN", twitterId: "groovymn", githubId: "groovymn", company: "GroovyMN", about: "Groovy Users Group of Minnesota"]).save()
+		def groovyMn = new Speaker([name: "GroovyMN", twitterId: "groovymn", githubId: "groovymn", company: "GroovyMN", about: "Groovy Users of Minnesota"]).save()
 
 		def applegate = new Speaker([name: "Ryan Applegate", twitterId: "rappleg", githubId: "rappleg", company: "SmartThings"]).save()
 		def atkinson = new Speaker([name: "Craig Atkinson", twitterId: "craigatk1", githubId: "craigatk", company: "OPI"]).save()
@@ -25,33 +25,33 @@ class BootStrap {
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
 
 		// 20111112-chris-bartling-coffeescript.jpg
-		def _2010coffee = new Presentation([title: "CoffeeScript", sourceUrl: "http://bartling.blogspot.com", presentationDate: new Date("2010/11")]).save()
+		def _2010coffee = new Presentation([title: "CoffeeScript", sourceUrl: "http://bartling.blogspot.com", presentationDate: new Date("2010/11/01")]).save()
 		bartling.addToPresentations(_2010coffee)
 		_2010coffee.addToSpeakers(bartling)
 
 		// 20100914-git-colin-harrington.jpg
-		def _2010git = new Presentation([title: "Git", sourceUrl: "http://www.colinharrington.net", presentationDate: new Date("2010/09")]).save()
+		def _2010git = new Presentation([title: "Git", sourceUrl: "http://www.colinharrington.net", presentationDate: new Date("2010/09/01")]).save()
 		harrington.addToPresentations(_2010git)
 		_2010git.addToSpeakers(harrington)
 
 		// 20100914-zan-thrash-grails-2.jpg
-		def _2010testing = new Presentation([title: "Grails 2 Testing", sourceUrl: "http://zanthrash.com", presentationDate: new Date("2010/09")]).save()
+		def _2010testing = new Presentation([title: "Grails 2 Testing", sourceUrl: "http://zanthrash.com", presentationDate: new Date("2010/09/01")]).save()
 		thrash.addToPresentations(_2010testing)
 		_2010testing.addToSpeakers(thrash)
 
 		// 201211-grails-db-migrations-josh-steve.jpg
-		def _2011db = new Presentation([title: "Grails DB Migrations", sourceUrl: "http://refactr.com", presentationDate: new Date("2011/11")]).save()
+		def _2011db = new Presentation([title: "Grails DB Migrations", sourceUrl: "http://refactr.com", presentationDate: new Date("2011/11/01")]).save()
 		reed.addToPresentations(_2011db)
 		vlaminck.addToPresentations(_2011db)
 		_2011db.addToSpeakers(reed)
 		_2011db.addToSpeakers(vlaminck)
 
 		// 2011-grails-RDF.jpg
-		def _2011rdf = new Presentation([title: "Grails RDF", sourceUrl: "http://github.com/mjhugo", presentationDate: new Date("2011")]).save()
+		def _2011rdf = new Presentation([title: "Grails RDF", sourceUrl: "http://github.com/mjhugo", presentationDate: new Date("2011/01/01")]).save()
 		hugo.addToPresentations(_2011rdf)
 		_2011rdf.addToSpeakers(hugo)
 
-		def _2011encryption = new Presentation([title: "Grails Encryption", sourceUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2011")]).save()
+		def _2011encryption = new Presentation([title: "Grails Encryption", sourceUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2011/01/01")]).save()
 		naleid.addToPresentations(_2011encryption)
 		_2011encryption.addToSpeakers(naleid)
 
