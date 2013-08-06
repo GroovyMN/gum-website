@@ -6,6 +6,7 @@ class TalksTagLib {
 	static DEFAULT_IMG = "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
 
 	def talk = { attrs, body ->
+		attrs.tagName = "${namespace}:talk"
 		log.debug "attrs: $attrs"
 		log.debug "body: $body"
 
@@ -13,7 +14,7 @@ class TalksTagLib {
 
 		def talkDate = attrs.remove('talkDate')
 		if (!talkDate) {
-			throwTagError("Tag [${attrs.tagName}] is missing required attribute [talkDate]")
+			throwTagError("Tag [${}] is missing required attribute [talkDate]")
 		}
 
 		def presenter = attrs.remove('presenter')

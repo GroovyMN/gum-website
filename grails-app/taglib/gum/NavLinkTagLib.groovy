@@ -4,14 +4,17 @@ class NavLinkTagLib {
 	static namespace = "nav"
 
 	def link = { attrs ->
+		attrs.tagName = "${namespace}:link"
 		log.debug "attrs: $attrs"
 
+		// Action not required for external links, use full href url.
 		def action = attrs.remove('action')
-		if (!action) {
-			throwTagError("Tag [${attrs.tagName}] is missing required attribute [action]")
+		def href = attrs.remove('href')
+		if (!action && !href) {
+			throwTagError("Tag [${attrs.tagName}] is missing required attribute [action or href]")
 		}
 
-		def href = attrs.remove('href')
+		// Href must exists with either full url or relative action path.
 		if (!href) {
 			throwTagError("Tag [${attrs.tagName}] is missing required attribute [href]")
 		}
