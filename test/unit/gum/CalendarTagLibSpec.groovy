@@ -7,7 +7,7 @@ import spock.lang.*
 class CalendarTagLibSpec extends Specification {
 	def result
 
-	def "Test no maxResults passed"() {
+	def "Expect default max-results when no maxResults passed"() {
 		given:
 			def template = "<calendar:events />"
 		when:
@@ -16,7 +16,7 @@ class CalendarTagLibSpec extends Specification {
 			result.contains("max-results=5")
 	}
 
-	def "Test maxResults of 1 passed"() {
+	def "Expect maxResults of 1 if passed 1"() {
 		given:
 			def template = """<calendar:events max="${1}" />"""
 		when:
