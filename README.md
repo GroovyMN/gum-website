@@ -8,6 +8,10 @@ Adding Content
 --------------
 Something missing from the site you think everyone needs to see? No problem, just open a pull request.
 
+Meetup
+--------------
+Join us on [meetup](http://www.meetup.com/groovymn/).
+
 Thanks To
 ---------
 * Ryan Applegate - [@rappleg](http://twitter.com/rappleg)
