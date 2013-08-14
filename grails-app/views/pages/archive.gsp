@@ -19,7 +19,9 @@
 			<div id="portfolio-wrapper">
 				<div class="row">
 					<talks:talk talkDate="Sep 2013" title="FishBowl" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
-					<talks:talk talkDate="Aug 2013" title="Grails Anti-Patterns" presenter="Aaron Hanson" presenterUrl="http://twitter.com/aaronhanson" url="http://grails.org" />
+					<talks:talk imageFileName="20130813-where-be-dragons.jpg" talkDate="Aug 2013" title="Where Be Dragons" presenter="Aaron Hanson" presenterUrl="http://twitter.com/aaronhanson" url="http://github.com/aaronhanson/gum-2013-where-be-dragons">
+						<a href="http://aaronhanson.github.io/gum-2013-where-be-dragons">Slides on github.io</a>
+					</talks:talk>
 					<talks:talk imageFileName="20130709-vertx-ryan-applegate.jpg" talkDate="July 2013" title="Groovy + Vert.x @ SmartThings" presenter="Ryan Applegate" presenterUrl="http://twitter.com/rappleg" url="http://vertx.io">
 						<strong>Slides:</strong> <a href="http://slid.es/rappleg/vert-x">http://slid.es/rappleg/vert-x</a>
 					</talks:talk>
