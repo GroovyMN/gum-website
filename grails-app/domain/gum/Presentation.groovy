@@ -19,4 +19,8 @@ class Presentation {
 		presentationDate(blank: false, nullable: false)
 		photo(blank: true, nullable: true)
 	}
+
+	String toString() {
+		return title
+	}
 }

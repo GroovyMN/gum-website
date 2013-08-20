@@ -20,6 +20,6 @@ class Speaker {
 	}
 
 	String toString() {
-		this.name
+		return name
 	}
 }

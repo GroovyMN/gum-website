@@ -7,13 +7,10 @@
 </head>
 <body>
 <a href="#show-speaker" class="skip" tabindex="-1"><g:message code="default.link.skip.label" default="Skip to content&hellip;" /></a>
-<div class="nav" role="navigation">
-	<ul>
-		<li><a class="home" href="${createLink(uri: '/admin')}"><g:message code="default.admin.label" /></a></li>
+<nav:admin>
 		<li><g:link class="list" action="list"><g:message code="default.list.label" args="[entityName]" /></g:link></li>
 		<li><g:link class="create" action="create"><g:message code="default.new.label" args="[entityName]" /></g:link></li>
-	</ul>
-</div>
+</nav:admin>
 
 <div id="show-speaker" class="content scaffold-show" role="main">
 	<h1><g:message code="default.show.label" args="[entityName]" /></h1>
