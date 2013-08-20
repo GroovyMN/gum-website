@@ -30,7 +30,7 @@ class UrlMappings {
 
 		// Admin
 		// TODO: ??? should be secured, also add check for them in a list ["presentation", "speaker"]
-		"/admin"(controller: "presentation")
+		"/admin"(view: '/admin/index')
 		"/admin/presentation/$action?/$id?"(controller: "presentation")
 		"/admin/speaker/$action?/$id?"(controller: "speaker")
 
