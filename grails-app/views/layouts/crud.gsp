@@ -41,7 +41,6 @@
 	<r:require module="crud" />
 
 	<r:layoutResources />
-
 </head>
 
 <body>
