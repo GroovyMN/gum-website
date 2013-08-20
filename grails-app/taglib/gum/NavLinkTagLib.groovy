@@ -31,4 +31,8 @@ class NavLinkTagLib {
 			out << """<li class="${action == href ? 'active' : ''}"><a href="${href}">${value}</a></li>"""
 		}
 	}
+
+	def admin = { attrs, body ->
+		out << g.render(template: "/admin/nav", body)
+	}
 }
