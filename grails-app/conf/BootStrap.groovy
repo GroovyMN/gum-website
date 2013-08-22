@@ -147,7 +147,8 @@ class BootStrap {
 		boon.addToPresentations(_201307lazy)
 		_201307lazy.addToSpeakers(boon)
 
-		def _201307 = new Presentation([title: "vert.x", description: "Groovy + Vert.x", presentationDate: new Date("2013/07/09")]).save()
+		def _201307 = new Presentation([title: "vert.x", slidesUrl: "http://slid.es/rappleg/vert-x", description: "Groovy + Vert.x @ SmartThings", presentationDate: new Date("2013/07/09"),
+		description: """<strong>Slides:</strong> <a href="http://slid.es/rappleg/vert-x">http://slid.es/rappleg/vert-x</a>"""]).save()
 		applegate.addToPresentations(_201307)
 		_201307.addToSpeakers(applegate)
 
