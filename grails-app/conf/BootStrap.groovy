@@ -6,12 +6,12 @@ class BootStrap {
 
 		def applegate = new Speaker([name: "Ryan Applegate", twitterId: "rappleg", githubId: "rappleg", company: "SmartThings"]).save()
 		def atkinson = new Speaker([name: "Craig Atkinson", twitterId: "craigatk1", githubId: "craigatk", company: "OPI"]).save()
-		def bartling = new Speaker([name: "Chris Bartling", twitterId: "cbartling", githubId: "cbartling", website: "http://bartling.blogspot.com"]).save()
+		def bartling = new Speaker([name: "Chris Bartling", twitterId: "cbartling", githubId: "cebartling", website: "http://bartling.blogspot.com"]).save()
 		def beck = new Speaker([name: "Jeff Beck", twitterId: "beckje01", githubId: "beckje01", company: "ReachLocal"]).save()
 		def boon = new Speaker([name: "Kyle Boon", twitterId: "kyleboon", githubId: "kyleboon", company: "Bloom Health"]).save()
 		def hanson = new Speaker([name: "Aaron Hanson", twitterId: "aaronhanson", company: "ReachLocal"]).save()
 		def harrington = new Speaker([name: "Colin Harrington", twitterId: "ColinHarrington", githubId: "ColinHarrington", website: "http://colinharrington.net", company: "OPI"]).save()
-		def hugo = new Speaker([name: "Mike Hugo", twitterId: "mjhugo", githubId: "mjhugo", website: "http://colinharrington.net", company: "OPI"]).save()
+		def hugo = new Speaker([name: "Mike Hugo", twitterId: "piragua", githubId: "mjhugo", website: "http://colinharrington.net", company: "OPI"]).save()
 		def jurgemeyer = new Speaker([name: "Shaun Jurgemeyer", twitterId: "sjurgemeyer", githubId: "sjurgemeyer", company: "OPI"]).save()
 		def kinsella = new Speaker([name: "Eric Kinsella", twitterId: "staticnull", githubId: "staticnull", website: "http://surlylabs.com", company: "Surly Labs"]).save()
 		def marsh = new Speaker([name: "Brad Marsh", twitterId: "bbqhacker", githubId: "dottertrotter", company: "ReachLocal"]).save()
@@ -20,7 +20,7 @@ class BootStrap {
 		def reed = new Speaker([name: "Josh Reed", twitterId: "joshareed", githubId: "joshareed"]).save()
 		def sabers = new Speaker([name: "Doug Sabers", twitterId: "lightsabersd", githubId: "sabersd", company: "OPI"]).save()
 		def thrash = new Speaker([name: "Zan Thrash", twitterId: "zanthrash", githubId: "zanthrash", company: "OPI", website: "http://zanthrash.com"]).save()
-		def vlaminck = new Speaker([name: "Steve Vlaminck", twitterId: "beerduino", githubId: "???"]).save()
+		def vlaminck = new Speaker([name: "Steve Vlaminck", twitterId: "bearduino", githubId: "vlaminck"]).save()
 		def warner = new Speaker([name: "Bobby Warner", twitterId: "bobbywarner", githubId: "bobbywarner", company: "Target"]).save()
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
 
