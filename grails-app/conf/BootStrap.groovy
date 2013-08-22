@@ -51,54 +51,54 @@ class BootStrap {
 		hugo.addToPresentations(_2011rdf)
 		_2011rdf.addToSpeakers(hugo)
 
-		def _2011encryption = new Presentation([title: "Grails Encryption", sourceUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2011/01/01")]).save()
+		def _2011encryption = new Presentation([title: "Grails Encryption", slidesUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2011/01/01")]).save()
 		naleid.addToPresentations(_2011encryption)
 		_2011encryption.addToSpeakers(naleid)
 
-		def _201201 = new Presentation([title: "There and back again: A story of of a simple HTTP request", sourceUrl: "http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s", presentationDate: new Date("2012/01/10"),
+		def _201201 = new Presentation([title: "There and back again: A story of of a simple HTTP request", slidesUrl: "http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s", presentationDate: new Date("2012/01/10"),
 			description: """<strong>Presentation:</strong> <a href="http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-s">http://www.slideshare.net/laelfrog/there-and-back-again-a-story-of-a-swww</a>"""]).save()
 		harrington.addToPresentations(_201201)
 		_201201.addToSpeakers(harrington)
 
-		def _201203 = new Presentation([title: "Tropo", sourceUrl: "http://bitbucket.org/cebartling/tropo-presentations", presentationDate: new Date("2012/03/13"),
+		def _201203 = new Presentation([title: "Tropo", slidesUrl: "http://bitbucket.org/cebartling/tropo-presentations", presentationDate: new Date("2012/03/13"),
 			description: """<strong>Presentation:</strong> <a href="https://bitbucket.org/cebartling/tropo-presentations">https://bitbucket.org/cebartling/tropo-presentations</a><br />"""]).save()
 		bartling.addToPresentations(_201203)
 		_201203.addToSpeakers(bartling)
 
 		// 20120410-jesque-grails.jpg
-		def _201204 = new Presentation([title: "GPref using Jesque", sourceUrl: "http://www.slideshare.net/ctoestreich/gperf-using-jesque", presentationDate: new Date("2012/04/10"),
+		def _201204 = new Presentation([title: "GPref using Jesque", sourceUrl: "http://github.com/ctoestreich/gperf", slidesUrl: "http://www.slideshare.net/ctoestreich/gperf-using-jesque", presentationDate: new Date("2012/04/10"),
 			description: """<strong>PDF Slides:</strong> <a href="http://www.slideshare.net/ctoestreich/gperf-using-jesque">http://www.slideshare.net/ctoestreich/gperf-using-jesque</a><br />
 			<strong>GitHub:</strong> <a href="http://github.com/ctoestreich/gperf">http://github.com/ctoestreich/gperf</a>"""]).save()
 		oestreich.addToPresentations(_201204)
 		_201204.addToSpeakers(oestreich)
 
-		def _201205 = new Presentation([title: "Spring Security", sourceUrl: "http://prezi.com/mczbfzjyvczl/grails-spring-security-core/", presentationDate: new Date("2012/05/08"),
+		def _201205 = new Presentation([title: "Spring Security", slidesUrl: "http://prezi.com/mczbfzjyvczl/grails-spring-security-core/", presentationDate: new Date("2012/05/08"),
 			description: """<strong>Slides:</strong> <a href="http://prezi.com/mczbfzjyvczl/grails-spring-security-core/">http://prezi.com/mczbfzjyvczl/grails-spring-security-core/</a>
 			<strong>Source Code - Demo App:</strong> <a href="https://github.com/aaronzirbes/gum-may2012-custom-spring-sec">https://github.com/aaronzirbes/gum-may2012-custom-spring-sec</a>"""]).save()
 		zirbes.addToPresentations(_201205)
 		_201205.addToSpeakers(zirbes)
 
-		def _201208 = new Presentation([title: "Continuous Integration", sourceUrl: "http://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git", presentationDate: new Date("2012/08/14"),
+		def _201208 = new Presentation([title: "Continuous Integration", slidesUrl: "http://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git", presentationDate: new Date("2012/08/14"),
 			description: """<strong>PDF Slides:</strong> <a href="https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git">https://speakerdeck.com/mjhugo/continuous-integration-with-jenkins-grails-and-git</a><br />"""]).save()
 		hugo.addToPresentations(_201208)
 		_201208.addToSpeakers(hugo)
 
-		def _201209 = new Presentation([title: "Contributing Back to Grails", sourceUrl: "http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails", presentationDate: new Date("2012/09/11"),
+		def _201209 = new Presentation([title: "Contributing Back to Grails", slidesUrl: "http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails", presentationDate: new Date("2012/09/11"),
 		description: """<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>"""]).save()
 		warner.addToPresentations(_201209)
 		_201209.addToSpeakers(warner)
 
-		def _201210 = new Presentation([title: "Ember.js", sourceUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2012/10/09")]).save()
+		def _201210 = new Presentation([title: "Ember.js", presentationDate: new Date("2012/10/09")]).save()
 		marsh.addToPresentations(_201210)
 		_201210.addToSpeakers(marsh)
 
-		def _201211 = new Presentation([title: "Upgrading to Grails 2.0", sourceUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2012/11/13"),
+		def _201211 = new Presentation([title: "Upgrading to Grails 2.0", slidesUrl: "http://slid.es/rappleg/upgrading-to-grails-2", presentationDate: new Date("2012/11/13"),
 			description: """<strong>Slides:</strong> <a href="http://slid.es/rappleg/upgrading-to-grails-2">http://slid.es/rappleg/upgrading-to-grails-2</a>"""]).save()
 		applegate.addToPresentations(_201211)
 		_201211.addToSpeakers(applegate)
 
 		// 20130212-dropwizard.jpg
-		def _201302 = new Presentation([title: "Dropwizard", sourceUrl: "http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy", presentationDate: new Date("2013/03/12"),
+		def _201302 = new Presentation([title: "Dropwizard", sourceUrl: "http://github.com/kyleboon/contact_dropwizard", slidesUrl: "http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy", presentationDate: new Date("2013/03/12"),
 		description: """<strong>PDF Slides:</strong> <a href="http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy">http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy</a><br />
 			<strong>GitHub slide source:</strong> <a href="http://github.com/kyleboon/dropwizard_gum_2013_2_12">http://github.com/kyleboon/dropwizard_gum_2013_2_12</a><br />
 			<strong>GitHub source, example project:</strong> <a href="http://github.com/kyleboon/contact_dropwizard">http://github.com/kyleboon/contact_dropwizard</a>"""]).save()
@@ -106,19 +106,19 @@ class BootStrap {
 		_201302.addToSpeakers(boon)
 
 		// 20130312-gradle.jpg
-		def _201303 = new Presentation([title: "Gradle", sourceUrl: "http://github.com/sjurgemeyer/gradlePresentation/tree/master/slides", presentationDate: new Date("2013/03/12"),
+		def _201303 = new Presentation([title: "Gradle", sourceUrl: "http://github.com/sjurgemeyer/gradlePresentation/tree/master/code", slidesUrl: "http://github.com/sjurgemeyer/gradlePresentation/tree/master/slides", presentationDate: new Date("2013/03/12"),
 		description: """<strong>GitHub slide source:</strong> <a href="http://github.com/sjurgemeyer/gradlePresentation/tree/master/slides">htts://github.com/sjurgemeyer/gradlePresentation/tree/master/slides</a><br />
 			<strong>GitHub source, example project:</strong> <a href="http://github.com/sjurgemeyer/gradlePresentation/tree/master/code">http://github.com/sjurgemeyer/gradlePresentation/tree/master/code</a>"""]).save()
 		jurgemeyer.addToPresentations(_201303)
 		_201303.addToSpeakers(jurgemeyer)
 
-		def _201303gvm = new Presentation([title: "GVM Intro", sourceUrl: "http://www.rvl.io/beckje01/gvm-lightning-talk", presentationDate: new Date("2013/03/12"),
+		def _201303gvm = new Presentation([title: "GVM Intro", slidesUrl: "http://www.rvl.io/beckje01/gvm-lightning-talk", presentationDate: new Date("2013/03/12"),
 		description: """<strong>Link:</strong> <a href="http://gvmtool.net">GVM Tool</a>"""]).save()
 		beck.addToPresentations(_201303gvm)
 		_201303gvm.addToSpeakers(beck)
 
 		// 20130412-json-view-layer-colin-harrington.jpg
-		def _201304 = new Presentation([title: "JSON View Layer", sourceUrl: "http://colinharrington.net/blog/2010/02/grails-the-view-layer-gum", presentationDate: new Date("2013/04/09")]).save()
+		def _201304 = new Presentation([title: "JSON View Layer", slidesUrl: "http://colinharrington.net/blog/2010/02/grails-the-view-layer-gum", presentationDate: new Date("2013/04/09")]).save()
 		harrington.addToPresentations(_201304)
 		_201304.addToSpeakers(harrington)
 
