@@ -28,8 +28,6 @@
 			<g:sortableColumn property="sourceUrl" title="${message(code: 'presentation.sourceUrl.label', default: 'Source Url')}" />
 
 			<g:sortableColumn property="slidesUrl" title="${message(code: 'presentation.slidesUrl.label', default: 'Slides Url')}" />
-
-			<g:sortableColumn property="photo" title="${message(code: 'presentation.photo.label', default: 'Photo')}" />
 		</tr>
 		</thead>
 		<tbody>
@@ -37,13 +35,20 @@
 			<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 				<td><g:link controller="presentation" action="show" id="${presentationInstance.id}">${fieldValue(bean: presentationInstance, field: "title")}</g:link></td>
 
-				<td>${fieldValue(bean: presentationInstance, field: "presentationDate")}</td>
+				<td><g:formatDate format="yyyy-MM-dd" date="${presentationInstance.presentationDate}" /></td>
 
-				<td>${fieldValue(bean: presentationInstance, field: "sourceUrl")}</td>
+				<td>
+					<g:if test="${presentationInstance?.sourceUrl}">
+						<a href="${presentationInstance?.sourceUrl}">${presentationInstance?.sourceUrl}</a>
+					</g:if>
+				</td>
 
-				<td>${fieldValue(bean: presentationInstance, field: "slidesUrl")}</td>
+				<td>
+					<g:if test="${presentationInstance?.slidesUrl}">
+						<a href="${presentationInstance?.slidesUrl}">${presentationInstance?.slidesUrl}</a>
+					</g:if>
+				</td>
 
-				<td>${fieldValue(bean: presentationInstance, field: "photo")}</td>
 			</tr>
 		</g:each>
 		</tbody>

@@ -36,9 +36,17 @@
 			<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 				<td><g:link action="show" id="${speakerInstance.id}">${fieldValue(bean: speakerInstance, field: "name")}</g:link></td>
 
-				<td>${fieldValue(bean: speakerInstance, field: "twitterId")}</td>
+				<td>
+					<g:if test="${speakerInstance?.twitterId}">
+						<a href="http://twitter.com/${speakerInstance?.twitterId}">${speakerInstance?.twitterId}</a>
+					</g:if>
+				</td>
 
-				<td>${fieldValue(bean: speakerInstance, field: "githubId")}</td>
+				<td>
+					<g:if test="${speakerInstance?.githubId}">
+						<a href="http://github.com/${speakerInstance?.githubId}">${speakerInstance?.githubId}</a>
+					</g:if>
+				</td>
 
 				<td>${fieldValue(bean: speakerInstance, field: "company")}</td>
 
