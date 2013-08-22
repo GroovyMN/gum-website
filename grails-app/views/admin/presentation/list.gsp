@@ -23,7 +23,7 @@
 		<tr>
 			<g:sortableColumn property="title" title="${message(code: 'presentation.title.label', default: 'Title')}" />
 
-			<g:sortableColumn property="description" title="${message(code: 'presentation.description.label', default: 'Description')}" />
+			<g:sortableColumn property="description" title="${message(code: 'presentation.presentationDate.label', default: 'Date')}" />
 
 			<g:sortableColumn property="sourceUrl" title="${message(code: 'presentation.sourceUrl.label', default: 'Source Url')}" />
 
@@ -37,7 +37,7 @@
 			<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 				<td><g:link controller="presentation" action="show" id="${presentationInstance.id}">${fieldValue(bean: presentationInstance, field: "title")}</g:link></td>
 
-				<td>${fieldValue(bean: presentationInstance, field: "description")}</td>
+				<td>${fieldValue(bean: presentationInstance, field: "presentationDate")}</td>
 
 				<td>${fieldValue(bean: presentationInstance, field: "sourceUrl")}</td>
 
