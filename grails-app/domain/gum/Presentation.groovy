@@ -8,7 +8,6 @@ class Presentation {
 	Date presentationDate
 	Byte photo
 
-	static hasMany = [speakers: Speaker]
 	static belongsTo = [Speaker]
 
 	static constraints = {
@@ -18,6 +17,12 @@ class Presentation {
 		slidesUrl(url: true, blank: true, nullable: true)
 		presentationDate(blank: false, nullable: false)
 		photo(blank: true, nullable: true)
+	}
+
+	static hasMany = [speakers: Speaker]
+
+	static mapping = {
+		sort presentationDate: "desc"
 	}
 
 	String toString() {

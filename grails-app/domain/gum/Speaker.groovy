@@ -8,8 +8,6 @@ class Speaker {
 	String company
 	String about
 
-	static hasMany = [presentations: Presentation]
-
 	static constraints = {
 		name(blank: false, nullable: false)
 		twitterId(blank: true, nullable: true)
@@ -17,6 +15,12 @@ class Speaker {
 		website(url: true, blank: true, nullable: true)
 		company(blank: true, nullable: true)
 		about(blank: true, nullable: true)
+	}
+
+	static hasMany = [presentations: Presentation]
+
+	static mapping = {
+		sort "name"
 	}
 
 	String toString() {

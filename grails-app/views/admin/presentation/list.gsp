@@ -21,9 +21,9 @@
 	<table>
 		<thead>
 		<tr>
-			<g:sortableColumn property="title" title="${message(code: 'presentation.title.label', default: 'Title')}" />
-
 			<g:sortableColumn property="description" title="${message(code: 'presentation.presentationDate.label', default: 'Date')}" />
+
+			<g:sortableColumn property="title" title="${message(code: 'presentation.title.label', default: 'Title')}" />
 
 			<g:sortableColumn property="sourceUrl" title="${message(code: 'presentation.sourceUrl.label', default: 'Source Url')}" />
 
@@ -33,9 +33,9 @@
 		<tbody>
 		<g:each in="${presentationInstanceList}" status="i" var="presentationInstance">
 			<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-				<td><g:link controller="presentation" action="show" id="${presentationInstance.id}">${fieldValue(bean: presentationInstance, field: "title")}</g:link></td>
-
 				<td><g:formatDate format="yyyy-MM-dd" date="${presentationInstance.presentationDate}" /></td>
+
+				<td><g:link controller="presentation" action="show" id="${presentationInstance.id}">${fieldValue(bean: presentationInstance, field: "title")}</g:link></td>
 
 				<td>
 					<g:if test="${presentationInstance?.sourceUrl}">
