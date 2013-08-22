@@ -133,20 +133,24 @@ class BootStrap {
 		kinsella.addToPresentations(_201305)
 		_201305.addToSpeakers(kinsella)
 
+		// 20130611-gr8-conf-eu-colin-harrington-jeff-beck.jpg
 		def _201306gr8 = new Presentation([title: "GR8 Conf EU Breakdown", sourceUrl: "http://gr8conf.org", presentationDate: new Date("2013/06/11")]).save()
 		beck.addToPresentations(_201306gr8)
 		harrington.addToPresentations(_201306gr8)
 		_201306gr8.addToSpeakers(beck)
 		_201306gr8.addToSpeakers(harrington)
 
+		// 20130611-geb-craig-atkinson.jpg
 		def _201306 = new Presentation([title: "Geb Testing", sourceUrl: "http://gebish.org", presentationDate: new Date("2013/06/11")]).save()
 		atkinson.addToPresentations(_201306)
 		_201306.addToSpeakers(atkinson)
 
+		// 20130709-kyle-boon-lazybones.jpg
 		def _201307lazy = new Presentation([title: "Lazybones", sourceUrl: "http://github.com/pledbrook/lazybones", presentationDate: new Date("2013/07/09")]).save()
 		boon.addToPresentations(_201307lazy)
 		_201307lazy.addToSpeakers(boon)
 
+		// 20130709-vertx-ryan-applegate.jpg
 		def _201307 = new Presentation([title: "vert.x", slidesUrl: "http://slid.es/rappleg/vert-x", description: "Groovy + Vert.x @ SmartThings", presentationDate: new Date("2013/07/09"),
 		description: """<strong>Slides:</strong> <a href="http://slid.es/rappleg/vert-x">http://slid.es/rappleg/vert-x</a>"""]).save()
 		applegate.addToPresentations(_201307)
