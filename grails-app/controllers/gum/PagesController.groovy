@@ -8,6 +8,10 @@ class PagesController {
 		log.debug "params: $params"
 	}
 
+	def archived() {
+		render view: "/pages/archived", model: [presentations: Presentation.list(params), presentationTotal: Presentation.count()]
+	}
+
 	def calendar() {
 		log.debug "params: $params"
 
