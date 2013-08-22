@@ -18,7 +18,7 @@ class SpeakerController {
 	}
 
 	def create() {
-		[speakerInstance: new Speaker(params)]
+		render view: prefix + "create", model: [speakerInstance: new Speaker(params)]
 	}
 
 	def save() {
