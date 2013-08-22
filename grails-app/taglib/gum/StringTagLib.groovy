@@ -5,7 +5,7 @@ class StringTagLib {
 
 	def shorten = { attrs ->
 		log.debug "attrs: $attrs"
-		def max = attrs.remove("max") ?: 50
+		def max = attrs.remove("max") ?: 40
 		def value = attrs.remove("value")
 
 		if (value?.length() > max) {
