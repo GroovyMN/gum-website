@@ -9,7 +9,7 @@ class BootStrap {
 		def bartling = new Speaker([name: "Chris Bartling", twitterId: "cbartling", githubId: "cebartling", website: "http://bartling.blogspot.com"]).save()
 		def beck = new Speaker([name: "Jeff Beck", twitterId: "beckje01", githubId: "beckje01", company: "ReachLocal"]).save()
 		def boon = new Speaker([name: "Kyle Boon", twitterId: "kyleboon", githubId: "kyleboon", company: "Bloom Health"]).save()
-		def hanson = new Speaker([name: "Aaron Hanson", twitterId: "aaronhanson", company: "ReachLocal"]).save()
+		def hanson = new Speaker([name: "Aaron Hanson", twitterId: "aaronhanson", githubId: "aaronhanson", company: "ReachLocal"]).save()
 		def harrington = new Speaker([name: "Colin Harrington", twitterId: "ColinHarrington", githubId: "ColinHarrington", website: "http://colinharrington.net", company: "OPI"]).save()
 		def hugo = new Speaker([name: "Mike Hugo", twitterId: "piragua", githubId: "mjhugo", website: "http://colinharrington.net", company: "OPI"]).save()
 		def jurgemeyer = new Speaker([name: "Shaun Jurgemeyer", twitterId: "sjurgemeyer", githubId: "sjurgemeyer", company: "OPI"]).save()

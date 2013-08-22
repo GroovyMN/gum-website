@@ -35,17 +35,17 @@
 			<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
 				<td><g:formatDate format="yyyy-MM-dd" date="${presentationInstance.presentationDate}" /></td>
 
-				<td><g:link controller="presentation" action="show" id="${presentationInstance.id}">${fieldValue(bean: presentationInstance, field: "title")}</g:link></td>
+				<td><g:link controller="presentation" action="show" id="${presentationInstance.id}"><str:shorten value="${presentationInstance.title}" /></g:link></td>
 
 				<td>
 					<g:if test="${presentationInstance?.sourceUrl}">
-						<a href="${presentationInstance?.sourceUrl}">${presentationInstance?.sourceUrl}</a>
+						<a href="${presentationInstance?.sourceUrl}"><str:shorten value="${presentationInstance.sourceUrl}" /></a>
 					</g:if>
 				</td>
 
 				<td>
 					<g:if test="${presentationInstance?.slidesUrl}">
-						<a href="${presentationInstance?.slidesUrl}">${presentationInstance?.slidesUrl}</a>
+						<a href="${presentationInstance?.slidesUrl}"><str:shorten value="${presentationInstance.slidesUrl}" /></a>
 					</g:if>
 				</td>
 

@@ -50,7 +50,7 @@
 
 				<td>${fieldValue(bean: speakerInstance, field: "company")}</td>
 
-				<td>${fieldValue(bean: speakerInstance, field: "about")}</td>
+				<td><str:shorten value="${speakerInstance.about}" /></td>
 			</tr>
 		</g:each>
 		</tbody>
