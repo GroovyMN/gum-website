@@ -38,6 +38,8 @@
 				</g:each>
 
 				</div>
+
+				</div>
 			</div>
 			<!-- end: Portfolio -->
 
