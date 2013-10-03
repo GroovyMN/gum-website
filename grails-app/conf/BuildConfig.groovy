@@ -47,7 +47,7 @@ grails.project.dependency.resolution = {
 	}
 
 	plugins {
-		compile ":codenarc:0.18.1"
+		compile ":codenarc:0.19"
 
 		runtime ":hibernate:$grailsVersion"
 		runtime ":jquery:1.8.0"
