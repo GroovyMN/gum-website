@@ -85,7 +85,7 @@ class BootStrap {
 		_201208.addToSpeakers(hugo)
 
 		def _201209 = new Presentation([title: "Contributing Back to Grails", slidesUrl: "http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails", presentationDate: new Date("2012/09/11"),
-		description: """<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>"""]).save()
+			description: """<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>"""]).save()
 		warner.addToPresentations(_201209)
 		_201209.addToSpeakers(warner)
 
@@ -100,7 +100,7 @@ class BootStrap {
 
 		// 20130212-dropwizard.jpg
 		def _201302 = new Presentation([title: "Dropwizard", sourceUrl: "http://github.com/kyleboon/contact_dropwizard", slidesUrl: "http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy", presentationDate: new Date("2013/03/12"),
-		description: """<strong>PDF Slides:</strong> <a href="http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy">http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy</a><br />
+			description: """<strong>PDF Slides:</strong> <a href="http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy">http://speakerdeck.com/kyleboon/webservices-with-dropwizard-and-groovy</a><br />
 			<strong>GitHub slide source:</strong> <a href="http://github.com/kyleboon/dropwizard_gum_2013_2_12">http://github.com/kyleboon/dropwizard_gum_2013_2_12</a><br />
 			<strong>GitHub source, example project:</strong> <a href="http://github.com/kyleboon/contact_dropwizard">http://github.com/kyleboon/contact_dropwizard</a>"""]).save()
 		boon.addToPresentations(_201302)
@@ -108,13 +108,13 @@ class BootStrap {
 
 		// 20130312-gradle.jpg
 		def _201303 = new Presentation([title: "Gradle", sourceUrl: "http://github.com/sjurgemeyer/gradlePresentation/tree/master/code", slidesUrl: "http://github.com/sjurgemeyer/gradlePresentation/tree/master/slides", presentationDate: new Date("2013/03/12"),
-		description: """<strong>GitHub slide source:</strong> <a href="http://github.com/sjurgemeyer/gradlePresentation/tree/master/slides">htts://github.com/sjurgemeyer/gradlePresentation/tree/master/slides</a><br />
+			description: """<strong>GitHub slide source:</strong> <a href="http://github.com/sjurgemeyer/gradlePresentation/tree/master/slides">htts://github.com/sjurgemeyer/gradlePresentation/tree/master/slides</a><br />
 			<strong>GitHub source, example project:</strong> <a href="http://github.com/sjurgemeyer/gradlePresentation/tree/master/code">http://github.com/sjurgemeyer/gradlePresentation/tree/master/code</a>"""]).save()
 		jurgemeyer.addToPresentations(_201303)
 		_201303.addToSpeakers(jurgemeyer)
 
 		def _201303gvm = new Presentation([title: "GVM Intro", slidesUrl: "http://www.rvl.io/beckje01/gvm-lightning-talk", presentationDate: new Date("2013/03/12"),
-		description: """<strong>Link:</strong> <a href="http://gvmtool.net">GVM Tool</a>"""]).save()
+			description: """<strong>Link:</strong> <a href="http://gvmtool.net">GVM Tool</a>"""]).save()
 		beck.addToPresentations(_201303gvm)
 		_201303gvm.addToSpeakers(beck)
 
@@ -128,7 +128,7 @@ class BootStrap {
 		_201304social.addToSpeakers(sabers)
 
 		def _201305 = new Presentation([title: "Hack Session", sourceUrl: "http://groovy.mn", presentationDate: new Date("2013/05/14"),
-		description: """Groovy.MN Archive Page - Lead: <a href="http://twitter.com/lightsabersd">Doug Sabers</a><br />
+			description: """Groovy.MN Archive Page - Lead: <a href="http://twitter.com/lightsabersd">Doug Sabers</a><br />
 			Sonar pom plugin - Lead: <a href="http://twitter.com/beckje01">Jeff Beck</a><br />
 			Contributing back to Grails - Lead: <a href="http://twitter.com/bobbywarner">Bobby Warner</a>"""]).save()
 		kinsella.addToPresentations(_201305)
@@ -153,7 +153,7 @@ class BootStrap {
 
 		// 20130709-vertx-ryan-applegate.jpg
 		def _201307 = new Presentation([title: "vert.x", slidesUrl: "http://slid.es/rappleg/vert-x", description: "Groovy + Vert.x @ SmartThings", presentationDate: new Date("2013/07/09"),
-		description: """<strong>Slides:</strong> <a href="http://slid.es/rappleg/vert-x">http://slid.es/rappleg/vert-x</a>"""]).save()
+			description: """<strong>Slides:</strong> <a href="http://slid.es/rappleg/vert-x">http://slid.es/rappleg/vert-x</a>"""]).save()
 		applegate.addToPresentations(_201307)
 		_201307.addToSpeakers(applegate)
 
@@ -171,8 +171,8 @@ class BootStrap {
 		def _201310 = new Presentation([title: "Building Web Apps in Ratpack", slidesUrl: "http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf", presentationDate: new Date("2013/10/08"),
 			description: """<strong>Slides:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf">http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf</a><br />
 						<strong>GitHub source, example projects:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013">http://github.com/danveloper/groovymn-oct-2013</a>"""]).save()
-		applegate.addToPresentations(_201307)
-		_201307.addToSpeakers(applegate)
+		woods.addToPresentations(_201310)
+		_201307.addToSpeakers(woods)
 	}
 
 	def destroy = {
