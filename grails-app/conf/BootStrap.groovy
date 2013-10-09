@@ -22,6 +22,7 @@ class BootStrap {
 		def thrash = new Speaker([name: "Zan Thrash", twitterId: "zanthrash", githubId: "zanthrash", company: "OPI", website: "http://zanthrash.com"]).save()
 		def vlaminck = new Speaker([name: "Steve Vlaminck", twitterId: "bearduino", githubId: "vlaminck"]).save()
 		def warner = new Speaker([name: "Bobby Warner", twitterId: "bobbywarner", githubId: "bobbywarner", company: "Target"]).save()
+		def woods = new Speaker([name: "Daniel Woods", twitterId: "danveloper", githubId: "danveloper", company: "OPI"]).save()
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
 
 		// 20111112-chris-bartling-coffeescript.jpg
@@ -165,6 +166,13 @@ class BootStrap {
 		def _201309 = new Presentation([title: "FishBowl", sourceUrl: "http://groovy.mn", slidesUrl: "http://groovy.mn", presentationDate: new Date("2013/09/10")]).save()
 		_201309.addToSpeakers(groovyMn)
 		groovyMn.addToPresentations(_201309)
+
+		// 20131009-ratpack1.jpg
+		def _201310 = new Presentation([title: "Building Web Apps in Ratpack", slidesUrl: "http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf", presentationDate: new Date("2013/10/08"),
+			description: """<strong>Slides:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf">http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf</a><br />
+						<strong>GitHub source, example projects:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013">http://github.com/danveloper/groovymn-oct-2013</a>"""]).save()
+		applegate.addToPresentations(_201307)
+		_201307.addToSpeakers(applegate)
 	}
 
 	def destroy = {
