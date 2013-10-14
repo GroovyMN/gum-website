@@ -172,7 +172,7 @@ class BootStrap {
 			description: """<strong>Slides:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf">http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf</a><br />
 						<strong>GitHub source, example projects:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013">http://github.com/danveloper/groovymn-oct-2013</a>"""]).save()
 		woods.addToPresentations(_201310)
-		_201307.addToSpeakers(woods)
+        _201310.addToSpeakers(woods)
 	}
 
 	def destroy = {
