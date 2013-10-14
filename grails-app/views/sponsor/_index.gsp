@@ -8,5 +8,8 @@
 			<r:img dir="images/sponsors/" file="${file}" alt="${title} logo" />
 			<div class="image-overlay-link"></div>
 		</a>
+		<g:if test="${description}">
+			${description}
+		</g:if>
 	</div>
 </div>
