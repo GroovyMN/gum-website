@@ -127,7 +127,7 @@ class BootStrap {
 		sabers.addToPresentations(_201304social)
 		_201304social.addToSpeakers(sabers)
 
-		def _201305 = new Presentation([title: "Hack Session", sourceUrl: "http://groovy.mn", presentationDate: new Date("2013/05/14"),
+		def _201305 = new Presentation([title: "Hacek Session", sourceUrl: "http://groovy.mn", presentationDate: new Date("2013/05/14"),
 			description: """Groovy.MN Archive Page - Lead: <a href="http://twitter.com/lightsabersd">Doug Sabers</a><br />
 			Sonar pom plugin - Lead: <a href="http://twitter.com/beckje01">Jeff Beck</a><br />
 			Contributing back to Grails - Lead: <a href="http://twitter.com/bobbywarner">Bobby Warner</a>"""]).save()
