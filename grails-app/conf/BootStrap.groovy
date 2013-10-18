@@ -168,8 +168,8 @@ class BootStrap {
 		groovyMn.addToPresentations(_201309)
 
 		// 20131009-ratpack1.jpg
-		def _201310 = new Presentation([title: "Building Web Apps in Ratpack", slidesUrl: "http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf", presentationDate: new Date("2013/10/08"),
-			description: """<strong>Slides:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf">http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf</a><br />
+		def _201310 = new Presentation([title: "Building Web Apps in Ratpack", slidesUrl: "http://www.slideshare.net/danveloper/slides-27337436", presentationDate: new Date("2013/10/08"),
+			description: """<strong>Slides:</strong> <a href="http://www.slideshare.net/danveloper/slides-27337436">http://www.slideshare.net/danveloper/slides-27337436</a><br />
 						<strong>GitHub source, example projects:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013">http://github.com/danveloper/groovymn-oct-2013</a>"""]).save()
 		woods.addToPresentations(_201310)
         _201310.addToSpeakers(woods)

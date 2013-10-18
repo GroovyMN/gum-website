@@ -17,8 +17,8 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk imageFileName="20131009-ratpack1.jpg" talkDate="Oct 2013" title="Building Web Apps in Ratpack" presenter="Dan Woods" presenterUrl="http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf" url="http://danveloper.com">
-						<strong>Slides:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf">http://github.com/danveloper/groovymn-oct-2013/blob/master/slides.pdf</a><br />
+					<talks:talk imageFileName="20131009-ratpack1.jpg" talkDate="Oct 2013" title="Building Web Apps in Ratpack" presenter="Dan Woods" presenterUrl="http://danveloper.com" url="http://www.slideshare.net/danveloper/slides-27337436">
+						<strong>Slides:</strong> <a href="http://www.slideshare.net/danveloper/slides-27337436">http://www.slideshare.net/danveloper/slides-27337436</a><br />
 						<strong>GitHub source, example projects:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013">http://github.com/danveloper/groovymn-oct-2013</a>
 					</talks:talk>
 					<talks:talk imageFileName="20130910-fishbowl2.jpg" talkDate="Sep 2013" title="FishBowl" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
