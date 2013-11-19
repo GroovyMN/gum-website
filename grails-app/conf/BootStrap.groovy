@@ -20,7 +20,8 @@ class BootStrap {
 		def reed = new Speaker([name: "Josh Reed", twitterId: "joshareed", githubId: "joshareed"]).save()
 		def sabers = new Speaker([name: "Doug Sabers", twitterId: "lightsabersd", githubId: "sabersd", company: "OPI"]).save()
 		def thrash = new Speaker([name: "Zan Thrash", twitterId: "zanthrash", githubId: "zanthrash", company: "OPI", website: "http://zanthrash.com"]).save()
-		def vlaminck = new Speaker([name: "Steve Vlaminck", twitterId: "bearduino", githubId: "vlaminck"]).save()
+		def scottvlaminck = new Speaker([name: "Scott Vlaminck", twitterId: "scottvlaminck", githubId: "scottvlaminck"]).save()
+		def stevevlaminck = new Speaker([name: "Steve Vlaminck", twitterId: "bearduino", githubId: "vlaminck"]).save()
 		def warner = new Speaker([name: "Bobby Warner", twitterId: "bobbywarner", githubId: "bobbywarner", company: "Target"]).save()
 		def woods = new Speaker([name: "Daniel Woods", twitterId: "danveloper", githubId: "danveloper", company: "OPI"]).save()
 		def zirbes = new Speaker([name: "Aaron Zirbes", twitterId: "aaronzirbes", githubId: "aaronzirbes", company: "OPI"]).save()
@@ -43,9 +44,9 @@ class BootStrap {
 		// 201211-grails-db-migrations-josh-steve.jpg
 		def _2011db = new Presentation([title: "Grails DB Migrations", sourceUrl: "http://refactr.com", presentationDate: new Date("2011/11/01")]).save()
 		reed.addToPresentations(_2011db)
-		vlaminck.addToPresentations(_2011db)
+		stevevlaminck.addToPresentations(_2011db)
 		_2011db.addToSpeakers(reed)
-		_2011db.addToSpeakers(vlaminck)
+		_2011db.addToSpeakers(stevevlaminck)
 
 		// 2011-grails-RDF.jpg
 		def _2011rdf = new Presentation([title: "Grails RDF", sourceUrl: "http://github.com/mjhugo", presentationDate: new Date("2011/01/01")]).save()
@@ -172,7 +173,14 @@ class BootStrap {
 			description: """<strong>Slides:</strong> <a href="http://www.slideshare.net/danveloper/slides-27337436">http://www.slideshare.net/danveloper/slides-27337436</a><br />
 						<strong>GitHub source, example projects:</strong> <a href="http://github.com/danveloper/groovymn-oct-2013">http://github.com/danveloper/groovymn-oct-2013</a>"""]).save()
 		woods.addToPresentations(_201310)
-        _201310.addToSpeakers(woods)
+		_201310.addToSpeakers(woods)
+
+		// 20131112-groovy-smartthings.jpg
+		def _201311 = new Presentation([title: "Groovy at SmartThings", sourceUrl: "http://smartthings.com", presentationDate: new Date("2013/11/12")]).save()
+		_201311.addToSpeakers(scottvlaminck)
+		_201311.addToSpeakers(applegate)
+		scottvlaminck.addToPresentations(_201311)
+		applegate.addToPresentations(_201311)
 	}
 
 	def destroy = {
