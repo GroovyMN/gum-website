@@ -52,14 +52,14 @@ grails.project.dependency.resolution = {
 		compile ":codenarc:0.19"
 
 		runtime ':hibernate:3.6.10.6'
-		runtime ":jquery:1.8.0"
-		runtime ":resources:1.1.6"
+		runtime ":jquery:1.10.2.2"
+		runtime ":resources:1.2.1"
 
 		// Additional resources capabilities
 		runtime ":zipped-resources:1.0"
 		runtime ":cache-headers:1.1.5"
 		runtime ":cached-resources:1.0"
-		runtime ":yui-minify-resources:0.1.4"
+		runtime ":yui-minify-resources:0.1.5"
 
 		build ':tomcat:7.0.47'
 
