@@ -17,6 +17,12 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
+					<talks:talk talkDate="Mar 2014" title="TBD" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
+					<talks:talk talkDate="Feb 2014" title="TBD" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
+					<talks:talk imageFileName="20140114-spring-batch.jpg" talkDate="Jan 2014" title="Spring Batch" presenter="John Engelman" presenterUrl="http://twitter.com/johnrengelman" url="http://grails.org/plugin/spring-batch" />
+				</div>
+
+				<div class="row">
 					<talks:talk imageFileName="20131112-groovy-smartthings.jpg" talkDate="Nov 2013" title="Groovy at SmartThings" presenter="Scott Vlaminck & Ryan Applegate" presenterUrl="http://twitter.com/scottvlaminck" url="http://smartthings.com" />
 					<talks:talk imageFileName="20131009-ratpack1.jpg" talkDate="Oct 2013" title="Building Web Apps in Ratpack" presenter="Dan Woods" presenterUrl="http://danveloper.com" url="http://www.slideshare.net/danveloper/slides-27337436">
 						<strong>Slides:</strong> <a href="http://www.slideshare.net/danveloper/slides-27337436">http://www.slideshare.net/danveloper/slides-27337436</a><br />
