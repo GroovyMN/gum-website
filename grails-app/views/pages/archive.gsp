@@ -17,9 +17,9 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk talkDate="Mar 2014" title="TBD" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
-					<talks:talk talkDate="Feb 2014" title="TBD" presenter="GroovyMN" presenterUrl="http://groovy.mn" url="http://groovy.mn" />
-					<talks:talk imageFileName="20140114-spring-batch.jpg" talkDate="Jan 2014" title="Spring Batch" presenter="John Engelman" presenterUrl="http://twitter.com/johnrengelman" url="http://grails.org/plugin/spring-batch" />
+					<talks:talk talkDate="Mar 2014" title="MongoDB" presenter="Jon DeJong" presenterUrl="http://twitter.com/jondejong" url="http://groovy.mn" />
+					<talks:talk imageFileName="20140211-cassandra-jeff-beck.jpg" talkDate="Feb 2014" title="Cassandra &amp; Grails" presenter="Jeff Beck" presenterUrl="http://twitter.com/beckje01" url="http://beckje01.github.io/gum-2014-cassandra-grails-talk" />
+					<talks:talk imageFileName="20140114-spring-batch.jpg" talkDate="Jan 2014" title="Spring Batch" presenter="John Engelman" presenterUrl="http://twitter.com/johnrengelman" url="http://speakerdeck.com/johnrengelman/enterprise-grails-spring-batch" />
 				</div>
 
 				<div class="row">

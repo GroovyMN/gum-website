@@ -9,6 +9,7 @@ class BootStrap {
 		def bartling = new Speaker([name: "Chris Bartling", twitterId: "cbartling", githubId: "cebartling", website: "http://bartling.blogspot.com"]).save()
 		def beck = new Speaker([name: "Jeff Beck", twitterId: "beckje01", githubId: "beckje01", company: "ReachLocal"]).save()
 		def boon = new Speaker([name: "Kyle Boon", twitterId: "kyleboon", githubId: "kyleboon", company: "Bloom Health"]).save()
+		def engelman = new Speaker([name: "John Engelman", twitterId: "johnrengelman", githubId: "johnrengelman", company: "OPI"]).save()
 		def hanson = new Speaker([name: "Aaron Hanson", twitterId: "aaronhanson", githubId: "aaronhanson", company: "ReachLocal"]).save()
 		def harrington = new Speaker([name: "Colin Harrington", twitterId: "ColinHarrington", githubId: "ColinHarrington", website: "http://colinharrington.net", company: "OPI"]).save()
 		def hugo = new Speaker([name: "Mike Hugo", twitterId: "piragua", githubId: "mjhugo", website: "http://colinharrington.net", company: "OPI"]).save()
@@ -181,6 +182,16 @@ class BootStrap {
 		_201311.addToSpeakers(applegate)
 		scottvlaminck.addToPresentations(_201311)
 		applegate.addToPresentations(_201311)
+
+		// 20140114-spring-batch.jpg
+		def _201401 = new Presentation([title: "Spring Batch", slidesUrl: "http://speakerdeck.com/johnrengelman/enterprise-grails-spring-batch", presentationDate: new Date("2014/01/14")]).save()
+		_201401.addToSpeakers(engelman)
+		groovyMn.addToPresentations(_201401)
+
+		// 20140211-cassandra-jeff-beck.jpg
+		def _201402 = new Presentation([title: "Cassandra &amp; Grails", slidesUrl: "htp://beckje01.github.io/gum-2014-cassandra-grails-talk", presentationDate: new Date("2014/02/11")]).save()
+        _201402.addToSpeakers(beck)
+		beck.addToPresentations(_201402)
 	}
 
 	def destroy = {

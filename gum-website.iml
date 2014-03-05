@@ -105,7 +105,7 @@
       </library>
     </orderEntry>
     <orderEntry type="module" module-name="gum-website-grailsPlugins" />
-    <orderEntry type="library" name="grails-2.2.4" level="application" />
+    <orderEntry type="library" name="grails-2.3.4" level="application" />
   </component>
 </module>
 
