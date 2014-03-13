@@ -23,9 +23,10 @@
 					<talks:talk talkDate="Mar 2014" title="Spock Mocks" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="https://github.com/craigatk/spock-mock-cheatsheet">
 						<strong>Spock Mock Cheatsheet: </strong><br/> <a href="https://github.com/craigatk/spock-mock-cheatsheet">https://github.com/craigatk/spock-mock-cheatsheet</a>
 					</talks:talk>
+					<talks:talk imageFileName="20140311-geb.jpg" talkDate="Mar 2014" title="Intro to Spock and Geb" presenter="Allison" presenterUrl="" url="http://groovy.mn" >
+						<strong>GitHub source and slides</strong><br/> <a href="https://github.com/allisonf/grailsTestingDemo">https://github.com/allisonf/grailsTestingDemo</a>
+					</talks:talk>
 
-
-					<talks:talk imageFileName="20140311-geb.jpg" talkDate="Mar 2014" title="Intro to Spock and Geb" presenter="Allison Figus" presenterUrl="" url="http://groovy.mn" />
 				</div>
 
 				<div class="row">
