@@ -17,20 +17,19 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk imageFileName="20140311-mongodb.jpg" talkDate="Mar 2014" title="MongoDB" presenter="Jon DeJong" presenterUrl="http://twitter.com/jondejong" url="https://github.com/jondejong/mongo-demo">
-						<strong>GitHub source, example project:</strong> <a href="http://https://github.com/jondejong/mongo-demo">https://github.com/jondejong/mongo-demo</a>
+					<talks:talk imageFileName="20140311-mongodb.jpg" talkDate="Mar 2014" title="MongoDB" presenter="Jon DeJong" presenterUrl="http://twitter.com/jondejong" url="http://github.com/jondejong/mongo-demo">
+						<strong>GitHub source, example project:</strong> <a href="http://github.com/jondejong/mongo-demo">http://github.com/jondejong/mongo-demo</a>
 					</talks:talk>
-					<talks:talk talkDate="Mar 2014" title="Spock Mocks" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="https://github.com/craigatk/spock-mock-cheatsheet">
-						<strong>Spock Mock Cheatsheet: </strong><br/> <a href="https://github.com/craigatk/spock-mock-cheatsheet">https://github.com/craigatk/spock-mock-cheatsheet</a>
+					<talks:talk talkDate="Mar 2014" title="Spock Mocks" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://github.com/craigatk/spock-mock-cheatsheet">
+						<strong>Spock Mock Cheatsheet:</strong><br/> <a href="https://github.com/craigatk/spock-mock-cheatsheet">http://github.com/craigatk/spock-mock-cheatsheet</a>
 					</talks:talk>
-					<talks:talk imageFileName="20140311-geb.jpg" talkDate="Mar 2014" title="Intro to Spock and Geb" presenter="Allison" presenterUrl="" url="http://groovy.mn" >
-						<strong>GitHub source and slides</strong><br/> <a href="https://github.com/allisonf/grailsTestingDemo">https://github.com/allisonf/grailsTestingDemo</a>
+					<talks:talk imageFileName="20140311-geb.jpg" talkDate="Mar 2014" title="Intro to Spock and Geb" presenter="Allison" presenterUrl="" url="http://github.com/allisonf/grailsTestingDemo">
+						<strong>GitHub source and slides:</strong> <a href="https://github.com/allisonf/grailsTestingDemo">http://github.com/allisonf/grailsTestingDemo</a>
 					</talks:talk>
-
 				</div>
 
 				<div class="row">
-					<talks:talk talkDate="Feb 2014" title="Cassandra & Grails" presenter="Jeff Beck" presenterUrl="http://twitter.com/beckje01" url="http://beckje01.github.io/gum-2014-cassandra-grails-talk" />
+					<talks:talk imageFileName="20140211-cassandra-jeff-beck.jpg" talkDate="Feb 2014" title="Cassandra & Grails" presenter="Jeff Beck" presenterUrl="http://twitter.com/beckje01" url="http://beckje01.github.io/gum-2014-cassandra-grails-talk" />
 					<talks:talk imageFileName="20140114-spring-batch.jpg" talkDate="Jan 2014" title="Spring Batch" presenter="John Engelman" presenterUrl="http://twitter.com/johnrengelman" url="http://speakerdeck.com/johnrengelman/enterprise-grails-spring-batch" />
 					<talks:talk imageFileName="20131112-groovy-smartthings.jpg" talkDate="Nov 2013" title="Groovy at SmartThings" presenter="Scott Vlaminck & Ryan Applegate" presenterUrl="http://twitter.com/scottvlaminck" url="http://smartthings.com" />
 				</div>
