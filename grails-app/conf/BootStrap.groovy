@@ -189,7 +189,7 @@ class BootStrap {
 		groovyMn.addToPresentations(_201401)
 
 		// 20140211-cassandra-jeff-beck.jpg
-		def _201402 = new Presentation([title: "Cassandra &amp; Grails", slidesUrl: "htp://beckje01.github.io/gum-2014-cassandra-grails-talk", presentationDate: new Date("2014/02/11")]).save()
+		def _201402 = new Presentation([title: "Cassandra & Grails", slidesUrl: "htp://beckje01.github.io/gum-2014-cassandra-grails-talk", presentationDate: new Date("2014/02/11")]).save()
         _201402.addToSpeakers(beck)
 		beck.addToPresentations(_201402)
 	}
