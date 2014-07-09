@@ -17,12 +17,12 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talks:talk talkDate="July 2014" title="AngularJS for the Grails Enthusiast" presenter="Will Buck" presenterUrl="http://twitter.com/wbucksoft" url="http://groovy.mn" />
+					<talks:talk imageFileName="20140709-grails-angular-will-buck.jpg" talkDate="July 2014" title="AngularJS for the Grails Enthusiast" presenter="Will Buck" presenterUrl="http://twitter.com/wbucksoft" url="https://github.com/willbuck/AngularJSForGrails" />
 					<talks:talk imageFileName="20140610-groovy23-atkinson.jpg" talkDate="June 2014" title="What's new in Groovy 2.3" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="https://github.com/craigatk/groovy-2.3">
 						<strong>Slides:</strong><br/> <a href="https://github.com/craigatk/groovy-2.3/raw/master/Groovy-2.3-slides.pdf">https://github.com/craigatk/groovy-2.3/raw/master/Groovy-2.3-slides.pdf</a><br />
 						<strong>Code:</strong><br/> <a href=" https://github.com/craigatk/groovy-2.3">https://github.com/craigatk/groovy-2.3</a>
 					</talks:talk>
-					<talks:talk imageFileName="201406010-groovy-deployment-kyle-boon.jpg" talkDate="June 2014" title="Vagrant, Gradle, and Docker" presenter="Kyle Boon" presenterUrl="http://twitter.com/kyleboon" url="http://groovy.mn" />
+					<talks:talk imageFileName="20140610-groovy-deployment-kyle-boon.jpg" talkDate="June 2014" title="Vagrant, Gradle, and Docker" presenter="Kyle Boon" presenterUrl="http://twitter.com/kyleboon" url="http://groovy.mn" />
 				</div>
 
 				<div class="row">
@@ -133,7 +133,7 @@
 					<talks:talk imasgeFileName="20111112-chris-bartling-coffeescript.jpg" talkDate="Nov 2010" title="CoffeeScript" presenter="Chris Bartling" presenterUrl="http://bartling.blogspot.com" url="http://bartling.blogspot.com" />
 				</div>
 
-\			</div>
+			</div>
 			<!-- end: Portfolio -->
 		</div>
 	</div>
