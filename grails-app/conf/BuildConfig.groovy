@@ -44,8 +44,6 @@ grails.project.dependency.resolution = {
 
 		test "org.gebish:geb-spock:$gebVersion"
 		test "org.gebish:geb-junit4:$gebVersion"
-
-		test "org.spockframework:spock-grails-support:0.7-groovy-2.0"
 	}
 
 	plugins {
@@ -64,11 +62,8 @@ grails.project.dependency.resolution = {
 		build ':tomcat:7.0.47'
 
 		test ":geb:$gebVersion"
-		test(":spock:0.7") {
-			exclude "spock-grails-support"
-		}
 
-		runtime ":database-migration:1.1"
+		runtime ":database-migration:1.4.0"
 
 		compile ':cache:1.0.1'
 	}
