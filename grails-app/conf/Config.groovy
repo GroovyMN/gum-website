@@ -63,6 +63,9 @@ environments {
 		grails.resources.debug = false
 		grails.logging.jul.usebridge = true
 	}
+	test {
+		grails.resources.mappers.hashandcache.excludes = ['*/']
+	}
 	production {
 		grails.logging.jul.usebridge = false
 		grails.serverURL = "http://groovy.mn"
@@ -111,7 +114,7 @@ log4j = {
 
 // Uncomment and edit the following lines to start using Grails encoding & escaping improvements
 
-/* remove this line 
+/* remove this line
 // GSP settings
 grails {
     views {
