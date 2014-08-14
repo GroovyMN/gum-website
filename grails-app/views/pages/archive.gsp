@@ -17,6 +17,12 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
+					<talks:talk talkDate="Oct 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+					<talks:talk talkDate="Sep 2014" title="Neo4j" presenter="Jacob Severson" presenterUrl="http://twitter.com/JacobASeverson" url="http://groovy.mn" />
+					<talks:talk imageFileName="20140812-cloud-tools-charlie-kundsen.jpg" talkDate="August 2014" title="Cloud Tools" presenter="Charlie Kundsen" presenterUrl="http://twitter.com/cjknudsen" url="https://speakerdeck.com/charliek/deploy-tooling-overview" />
+				</div>
+
+				<div class="row">
 					<talks:talk imageFileName="20140709-grails-angular-will-buck.jpg" talkDate="July 2014" title="AngularJS for the Grails Enthusiast" presenter="Will Buck" presenterUrl="http://twitter.com/wbucksoft" url="https://github.com/willbuck/AngularJSForGrails" />
 					<talks:talk imageFileName="20140610-groovy23-atkinson.jpg" talkDate="June 2014" title="What's new in Groovy 2.3" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="https://github.com/craigatk/groovy-2.3">
 						<strong>Slides:</strong><br/> <a href="https://github.com/craigatk/groovy-2.3/raw/master/Groovy-2.3-slides.pdf">https://github.com/craigatk/groovy-2.3/raw/master/Groovy-2.3-slides.pdf</a><br />
@@ -96,7 +102,7 @@
 				</div>
 
 				<div class="row">
-					<talks:talk talkDate="September 2012" title="Contributing Back to Grails" presenter="Bobby Warner" presenterUrl="http://bobbywarner.com" url="http://www.bobbywarner.com/2012/07/31/gr8conf">
+					<talks:talk talkDate="Sep 2012" title="Contributing Back to Grails" presenter="Bobby Warner" presenterUrl="http://bobbywarner.com" url="http://www.bobbywarner.com/2012/07/31/gr8conf">
 						<strong>Slideshare:</strong> <a href="http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails">http://www.slideshare.net/bobbywarner/gr8conf-contributing-back-to-grails</a>
 					</talks:talk>
 					<talks:talk talkDate="June 2012" title="Continuous Integration" presenter="Mike Hugo" presenterUrl="http://github.com/mjhugo" url="http://github.com/mjhugo">
