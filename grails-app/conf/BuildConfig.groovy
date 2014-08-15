@@ -6,8 +6,8 @@ grails.project.target.level = 1.6
 grails.project.source.level = 1.6
 // grails.project.war.file = "target/${appName}-${appVersion}.war"
 
-def gebVersion = "0.9.0"
-def seleniumVersion = "2.21.0"
+def gebVersion = "0.9.3"
+def seleniumVersion = "2.42.0"
 
 grails.project.dependency.resolver = "maven"
 
@@ -36,9 +36,7 @@ grails.project.dependency.resolution = {
 	}
 
 	dependencies {
-		test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion") {
-			exclude "xml-apis"
-		}
+		test("org.seleniumhq.selenium:selenium-htmlunit-driver:$seleniumVersion")
 		test("org.seleniumhq.selenium:selenium-chrome-driver:$seleniumVersion")
 		test("org.seleniumhq.selenium:selenium-firefox-driver:$seleniumVersion")
 
