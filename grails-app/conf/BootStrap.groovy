@@ -2,6 +2,20 @@ import gum.*
 
 class BootStrap {
 	def init = { servletContext ->
+		sponsors()
+		speakerTalks()
+	}
+
+	private void sponsors() {
+		new Sponsor([title: 'Agile Orbit', type: 'Food Sponsor', url: 'http://objectpartners.com', file: "agileorbit-logo.jpg"]).save()
+		new Sponsor([title: 'FigJam', type: 'Beverage Sponsor', url: 'http://twitter.com/joshareed', file: "figjam-logo-800X225.png"]).save()
+		new Sponsor([title: 'Object Partners', type: 'Food Sponsor', url: 'http://objectpartners.com', file: "opi-logo-text.png"]).save()
+		new Sponsor([title: 'ReachLocal', type: 'Beverage Sponsor', url: 'http://reachlocal.com', file: "reachlocal.jpg"]).save()
+		new Sponsor([title: 'SmartThings', type: 'Space Sponsor', url: 'http://smartthings.com', file: "smart-things-logo-text.png"]).save()
+		new Sponsor([title: 'Surly Labs', type: 'Beverage Sponsor', url: 'http://surlylabs.com', file: "surly_logo_horizontal.jpg"]).save()
+	}
+
+	private void speakerTalks() {
 		def groovyMn = new Speaker([name: "GroovyMN", twitterId: "groovymn", githubId: "groovymn", company: "GroovyMN", about: "Groovy Users of Minnesota"]).save()
 
 		def applegate = new Speaker([name: "Ryan Applegate", twitterId: "rappleg", githubId: "rappleg", company: "SmartThings"]).save()
@@ -190,7 +204,7 @@ class BootStrap {
 
 		// 20140211-cassandra-jeff-beck.jpg
 		def _201402 = new Presentation([title: "Cassandra & Grails", slidesUrl: "htp://beckje01.github.io/gum-2014-cassandra-grails-talk", presentationDate: new Date("2014/02/11")]).save()
-        _201402.addToSpeakers(beck)
+		_201402.addToSpeakers(beck)
 		beck.addToPresentations(_201402)
 	}
 
