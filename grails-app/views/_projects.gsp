@@ -4,7 +4,7 @@
 <div class="clients-carousel">
 	<ul class="slides clients">
 		<li><a href="http://grails.org"><r:img dir="images/parallax-slider" file="grails-logo.png" alt="grails" height="200" width="200" class="rounded-corners" /></a></li>
-		<li><a href="http://gradle.org"><r:img dir="images/groovy/" file="gradle-logo_sign.jpg" alt="gradle" height="200" width="200" class="rounded-corners" /></a></li>
+		<li><a href="http://gradle.org"><r:img dir="images/groovy/" file="gradle-logo.jpg" alt="gradle" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://code.google.com/p/spock"><r:img dir="images/groovy/" file="spock-logo.png" alt="spock" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://gebish.org"><r:img dir="images/groovy/" file="geb-clockwork-book-cover.jpg" alt="geb" height="200" width="200"  class="rounded-corners" /></a></li>
 		<li><a href="http://ratpack-framework.org"><r:img dir="images/groovy/" file="ratpack-logo.png" alt="ratpack" height="200" width="200" class="rounded-corners" /></a></li>
