@@ -1,6 +1,6 @@
 package gum
 
-class PagesController {
+class PageController {
 	static int DEFAULT = 5
 	static int MAX = DEFAULT * DEFAULT
 
@@ -9,18 +9,17 @@ class PagesController {
 	}
 
 	def archived() {
-		render view: "/pages/archived", model: [presentations: Presentation.list(params), presentationTotal: Presentation.count()]
+		render view: "/page/archived", model: [presentations: Presentation.list(params), presentationTotal: Presentation.count()]
 	}
 
 	def calendar() {
 		log.debug "params: $params"
-
 		def max = params.remove('max') ?: DEFAULT
 		if (max > MAX) {
 			max = MAX
 		}
 
-		return [max: max]
+		[max: max]
 	}
 
 	def group() {
