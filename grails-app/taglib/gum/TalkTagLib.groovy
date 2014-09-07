@@ -1,7 +1,7 @@
 package gum
 
-class TalksTagLib {
-	static namespace = "talks"
+class TalkTagLib {
+	static namespace = "talk"
 
 	static DEFAULT = "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
 

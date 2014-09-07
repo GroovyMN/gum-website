@@ -29,11 +29,11 @@
 					<g:set var="speakerName" value="${presentation?.speakers?.first()?.name}" />
 					<g:set var="speakerUrl" value="${presentation?.speakers?.first()?.website}" />
 
-					<talks:talk talkDate="${presentation.presentationDate}" title="${presentation.title}" presenter="${speakerName}" presenterUrl="${speakerUrl}" url="${presentation.slidesUrl ?: presentation.sourceUrl ?: "http://groovy.mn"}">
+					<talk:talk talkDate="${presentation.presentationDate}" title="${presentation.title}" presenter="${speakerName}" presenterUrl="${speakerUrl}" url="${presentation.slidesUrl ?: presentation.sourceUrl ?: "http://groovy.mn"}">
 						<g:if test="${presentation.description}">
 							${presentation.description}
 						</g:if>
-					</talks:talk>
+					</talk:talk>
 
 				</g:each>
 
