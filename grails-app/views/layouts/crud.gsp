@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <g:render template="/ifIE" />
 <head>
-	<!-- start: Meta -->
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title><g:layoutTitle default="Groovy Users of MN" /></title>
-
-	<meta name="description" content="Groovy Users of Minnesota" />
-	<meta name="keywords" content="Groovy, Grails, Web, Tomcat, Hibernate, JVM, Java, Usergroup" />
-	<!-- end: Meta -->
+	<g:render template="/meta" />
+	<title><g:layoutTitle default="${message(code: 'groovyMn.admin.label')}" /></title>
 
 	<!-- start: Mobile Specific -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
