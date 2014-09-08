@@ -1,17 +1,13 @@
 <!DOCTYPE html>
+<html>
 <g:render template="/ifIE" />
 <head>
 	<g:render template="/meta" />
 	<title><g:layoutTitle default="${message(code: 'groovyMn.label')}" /></title>
 
-	<!-- start: Mobile Specific -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-	<!-- end: Mobile Specific -->
-
+	<g:render template="/mobileViewport" />
 	<g:render template="/fbOpenGraph" />
-
 	<g:render template="/fonts" />
-
 	<g:external file="/favicon.ico" />
 
 	<g:layoutHead />
