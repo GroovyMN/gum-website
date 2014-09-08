@@ -53,7 +53,5 @@
 	<g:render template="/footer/index" />
 
 	<r:layoutResources />
-
-	<g:render template="/barometerJS" />
 </body>
 </html>
