@@ -17,8 +17,8 @@
 		<div class="row">
 			<div id="portfolio-wrapper">
 				<div class="row">
-					<talk:talk talkDate="Oct 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
-					<talk:talk talkDate="Sep 2014" title="Neo4j" presenter="Jacob Severson" presenterUrl="http://twitter.com/JacobASeverson" url="http://groovy.mn" />
+					<talk:talk imageFileName="20140909-jooq-kyle-boon.jpg" talkDate="Sep 2014" title="Jooq" presenter="Kyle Boon" presenterUrl="http://twitter.com/kyleboon" url="http://www.jooq.org" />
+					<talk:talk imageFileName="20140909-neo4j-jake-severson.jpg" talkDate="Sep 2014" title="Neo4j" presenter="Jacob Severson" presenterUrl="http://twitter.com/JacobASeverson" url="http://www.neo4j.org" />
 					<talk:talk imageFileName="20140812-cloud-tools-charlie-kundsen.jpg" talkDate="August 2014" title="Cloud Tools" presenter="Charlie Kundsen" presenterUrl="http://twitter.com/cjknudsen" url="https://speakerdeck.com/charliek/deploy-tooling-overview" />
 				</div>
 
