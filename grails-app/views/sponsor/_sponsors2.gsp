@@ -3,9 +3,9 @@
 	<div class="span9">
 		<div class="title"><h3>Sponsors</h3></div>
 		<div class="row">
-			<g:render template="/sponsor/index" model="${[sponsor: space]}" />
-			<g:render template="/sponsor/index" model="${[sponsor: beverage]}" />
-			<g:render template="/sponsor/index" model="${[sponsor: food]}" />
+			<g:each in="${sponsors}" var="sponsor">
+				<g:render template="/sponsor/index" model="${[sponsor: sponsor]}" />
+			</g:each>
 		</div>
 		<div class="row">
 			<g:render template="/sponsor/intellij" />

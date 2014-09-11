@@ -35,7 +35,7 @@ class PagesController {
 		log.debug "params: $params"
 		def sponsors = Sponsor.listOrderBySortOrder(max: 3)
 
-		render view: "/pages/home2", model: [space: sponsors[0], beverage: sponsors[1], food: sponsors[2]]
+		render view: "/pages/home2", model: [sponsors: sponsors]
 	}
 
 	def location() {
