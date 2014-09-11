@@ -33,11 +33,9 @@ class PagesController {
 
 	def home2() {
 		log.debug "params: $params"
-		def smartThings = Sponsor.findByTitle('SmartThings')
-		def reachLocal = Sponsor.findByTitle('ReachLocal')
-		def opi = Sponsor.findByTitle('Object Partners')
+		def sponsors = Sponsor.listOrderBySortOrder(max: 3)
 
-		render view: "/pages/home2", model: [space: smartThings, beverage: reachLocal, food: opi]
+		render view: "/pages/home2", model: [space: sponsors[0], beverage: sponsors[1], food: sponsors[2]]
 	}
 
 	def location() {
