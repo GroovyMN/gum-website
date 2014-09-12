@@ -21,7 +21,7 @@ class UrlMappings {
 		// Top level
 		"/"(controller: "page", action: "home")
 		"/archive"(controller: "page", action: "archive")
-		"/archived"(controller: "page", action: "archived") // TODO: ??? test page
+		"/archived"(controller: "page", action: "archived") // TODO: Alt test page
 		"/calendar"(controller: "page", action: "calendar")
 		"/location"(controller: "page", action: "location")
 		"/group"(controller: "page", action: "group")
