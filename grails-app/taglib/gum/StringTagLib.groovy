@@ -9,7 +9,7 @@ class StringTagLib {
 		def value = attrs.remove("value")
 
 		if (value?.length() > max) {
-			out << value.substring(0, max).trim() + "..."
+			out << value.substring(0, max).trim() + "&#8230;" // ...
 		} else {
 			out << value
 		}
