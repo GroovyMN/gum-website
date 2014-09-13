@@ -9,12 +9,12 @@
 
 // Ex /products/v1/availability/11-22-9999
 //    /products/v1/threshold/11-22-9999
-//"/$controller/$version/$action?/$id" {
+// "/$controller/$version/$action?/$id" {
 //	constraints {
 //		controller(inList: ['products'])
 //		version(inList: ['v1'])
 //	}
-//}
+// }
 
 class UrlMappings {
 	static mappings = {
@@ -34,16 +34,18 @@ class UrlMappings {
 		"/admin"(view: '/admin/index')
 		"/admin/presentation/$action?/$id?"(controller: "presentation")
 		"/admin/speaker/$action?/$id?"(controller: "speaker")
+		"/admin/sponsor/$action?/$id?"(controller: "sponsor")
 
 		// "/admin/$controller/$action?/$id" {
 		// 	constraints {
-		//		controller(inList: ['presentation', 'speaker'])
+		//		controller(inList: ['presentation', 'speaker', 'sponsor'])
 		//	}
 		// }
 
 		// Un-map default
 		"/presentation/$action?/$id?"(view: '/error')
 		"/speaker/$action?/$id?"(view: '/error')
+		"/sponsor/$action?/$id?"(view: '/error')
 
 		// General
 		"/$controller/$action?/$id?" {

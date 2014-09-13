@@ -12,6 +12,7 @@
 	<ul>
 		<li><a href="${createLink(uri: '/admin/presentation')}">Presentations</a></li>
 		<li><a href="${createLink(uri: '/admin/speaker')}">Speakers</a></li>
+		<li><a href="${createLink(uri: '/admin/sponsor')}">Sponsor</a></li>
 	</ul>
 </div>
 </body>
