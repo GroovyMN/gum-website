@@ -17,6 +17,7 @@
 		<li><a href="http://gpars.codehaus.org"><r:img dir="images/groovy/" file="gpars-logo.jpg" alt="gpars" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://gvmtool.net"><r:img dir="images/groovy/" file="gvm-logo.png" alt="gvm" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://jenkins-ci.org"><r:img dir="images/groovy/" file="jenkins-logo.png" alt="hudson" height="200" width="200" class="rounded-corners" /></a></li>
+		<li><a href=http://grooscript.org><r:img dir="images/groovy/" file="grooscript.png" alt="grooscript" height="200" width="200" class="rounded-corners" /></a></li>
 	</ul>
 </div>
 <!-- end Clients List -->
