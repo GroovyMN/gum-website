@@ -30,6 +30,13 @@ class PageController {
 		log.debug "params: $params"
 	}
 
+	def home2() {
+		log.debug "params: $params"
+		def sponsors = Sponsor.listOrderBySortOrder(max: 3)
+
+		render view: "/pages/home2", model: [sponsors: sponsors]
+	}
+
 	def location() {
 		log.debug "params: $params"
 	}
