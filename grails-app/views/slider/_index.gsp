@@ -1,4 +1,4 @@
-<r:require module="slider"/>
+<r:require module="slider" />
 
 <!-- start: Slider -->
 <div class="slider-wrapper">
@@ -9,7 +9,7 @@
 		</g:render>
 		<g:render template="/slider/slide" model="${[title: "GR8Conf US", url: "http://gr8conf.us", alt: "GR8Conf US", clazz: "rounded-corners", dir: "images/parallax-slider", file: "gr8-logo.png"]}">
 			<a href="http://gr8conf.us">GR8Conf US</a> is a conference held in Minneapolis, MN dedicated to Groovy, Grails, Griffon and other GR8 technologies.
-            <a href="http://gr8conf.us">GR8Conf US</a> is part of the <a href="http://gr8conf.org">GR8Conf family</a>, running in Europe, Australia and the US.
+			<a href="http://gr8conf.us">GR8Conf US</a> is part of the <a href="http://gr8conf.org">GR8Conf family</a>, running in Europe, Australia and the US.
 		</g:render>
 		<g:render template="/slider/slide" model="${[title: "Monthly Presentations", action: "calendar", alt: "Presentations", height: "80%", width: "80%", clazz: "rounded-corners", dir: "images/gum/presentation", file: "20120410-jesque-grails.jpg"]}">
 			Leaders in the Twin Cities Grails community deliver highly engaging technical talks once a month on all things Groovy & Grails related.
