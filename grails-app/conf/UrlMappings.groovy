@@ -19,15 +19,15 @@
 class UrlMappings {
 	static mappings = {
 		// Top level
-		"/"(controller: "pages", action: "home")
-		"/archive"(controller: "pages", action: "archive")
-		"/archived"(controller: "pages", action: "archived") // TODO: ??? test page
-		"/calendar"(controller: "pages", action: "calendar")
-		"/location"(controller: "pages", action: "location")
-		"/group"(controller: "pages", action: "group")
-		"/home"(controller: "pages", action: "home")
-		"/index"(controller: "pages", action: "home")
-		"/talks"(controller: "pages", action: "archive")
+		"/"(controller: "page", action: "home")
+		"/archive"(controller: "page", action: "archive")
+		"/archived"(controller: "page", action: "archived") // TODO: Alt test page
+		"/calendar"(controller: "page", action: "calendar")
+		"/location"(controller: "page", action: "location")
+		"/group"(controller: "page", action: "group")
+		"/home"(controller: "page", action: "home")
+		"/index"(controller: "page", action: "home")
+		"/talks"(controller: "page", action: "archive")
 
 		// Admin
 		// TODO: ??? should be secured, also add check for them in a list ["presentation", "speaker"]

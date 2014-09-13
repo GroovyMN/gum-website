@@ -95,8 +95,7 @@ class PresentationController {
 			presentationInstance.delete(flush: true)
 			flash.message = message(code: 'default.deleted.message', args: [message(code: 'presentation.label', default: 'Presentation'), id])
 			redirect action: "list"
-		}
-		catch (DataIntegrityViolationException e) {
+		} catch (DataIntegrityViolationException e) {
 			flash.message = message(code: 'default.not.deleted.message', args: [message(code: 'presentation.label', default: 'Presentation'), id])
 			redirect action: "show", id: id
 		}

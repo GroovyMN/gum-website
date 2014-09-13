@@ -1,5 +1,5 @@
 import geb.spock.GebReportingSpec
-import pages.*
+import page.*
 import spock.lang.Stepwise
 
 @Stepwise

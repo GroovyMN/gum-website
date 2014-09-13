@@ -1,16 +1,16 @@
 package gum
 
-class TalksTagLib {
-	static namespace = "talks"
+class TalkTagLib {
+	static namespace = "talk"
 
-	static DEFAULT_IMG = "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
+	static DEFAULT = "unicorn-ninja-6-colors-final-gray-hair-transparent-bkg-400x400.png"
 
 	def talk = { attrs, body ->
 		attrs.tagName = "${namespace}:talk"
 		log.debug "attrs: $attrs"
 		log.debug "body: $body"
 
-		def imageFileName = attrs.remove('imageFileName') ?: DEFAULT_IMG
+		def imageFileName = attrs.remove('imageFileName') ?: DEFAULT
 
 		def talkDate = attrs.remove('talkDate')
 		if (!talkDate) {

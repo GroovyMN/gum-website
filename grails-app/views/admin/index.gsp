@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta name="layout" content="crud">
-	<title><g:message code="default.admin.label" /></title>
+	<title><g:message code="admin.label" /></title>
 </head>
 
 <body>
