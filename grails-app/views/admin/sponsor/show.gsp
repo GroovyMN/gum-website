@@ -26,6 +26,21 @@
 				</li>
 			</g:if>
 
+			<g:if test="${sponsorInstance?.type}">
+				<li class="fieldcontain">
+					<span id="type-label" class="property-label"><g:message code="sponsor.type.label" default="Type" /></span>
+					<span class="property-value" aria-labelledby="type-label"><g:fieldValue bean="${sponsorInstance}" field="type" /></span>
+				</li>
+			</g:if>
+
+			<g:if test="${sponsorInstance?.url}">
+				<li class="fieldcontain">
+					<span id="url-label" class="property-label"><g:message code="sponsor.url.label" default="Url" /></span>
+
+					<span class="property-value" aria-labelledby="url-label"><g:fieldValue bean="${sponsorInstance}" field="url" /></span>
+				</li>
+			</g:if>
+
 			<g:if test="${sponsorInstance?.file}">
 				<li class="fieldcontain">
 					<span id="file-label" class="property-label"><g:message code="sponsor.file.label" default="File" /></span>
@@ -42,21 +57,14 @@
 				</li>
 			</g:if>
 
-			<g:if test="${sponsorInstance?.company}">
-				<li class="fieldcontain">
-					<span id="company-label" class="property-label"><g:message code="sponsor.company.label" default="Company" /></span>
+			%{--TODO: Photo file upload--}%
+			%{--<g:if test="${sponsorInstance?.photo}">--}%
+				%{--<li class="fieldcontain">--}%
+					%{--<span id="photo-label" class="property-label"><g:message code="sponsor.photo.label" default="Photo" /></span>--}%
 
-					<span class="property-value" aria-labelledby="company-label"><g:fieldValue bean="${sponsorInstance}" field="company" /></span>
-				</li>
-			</g:if>
-
-			<g:if test="${sponsorInstance?.photo}">
-				<li class="fieldcontain">
-					<span id="photo-label" class="property-label"><g:message code="sponsor.photo.label" default="Photo" /></span>
-
-					<span class="property-value" aria-labelledby="photo-label"><g:fieldValue bean="${sponsorInstance}" field="photo" /></span>
-				</li>
-			</g:if>
+					%{--<span class="property-value" aria-labelledby="photo-label"><g:fieldValue bean="${sponsorInstance}" field="photo" /></span>--}%
+				%{--</li>--}%
+			%{--</g:if>--}%
 
 			<g:if test="${sponsorInstance?.sortOrder}">
 				<li class="fieldcontain">

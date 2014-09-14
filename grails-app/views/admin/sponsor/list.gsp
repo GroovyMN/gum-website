@@ -49,7 +49,8 @@
 
 					<td><str:shorten value="${sponsorInstance.description}" /></td>
 
-					<td>${fieldValue(bean: sponsorInstance, field: "photo")}</td>
+					%{--TODO: Photo file upload--}%
+					%{--<td>${fieldValue(bean: sponsorInstance, field: "photo")}</td>--}%
 
 					<td>${fieldValue(bean: sponsorInstance, field: "sortOrder")}</td>
 				</tr>

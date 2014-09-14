@@ -34,12 +34,13 @@
 	<g:textField name="description" value="${sponsorInstance?.description}" />
 </div>
 
-<div class="fieldcontain ${hasErrors(bean: sponsorInstance, field: 'photo', 'error')} ">
-	<label for="photo">
-		<g:message code="sponsor.photo.label" default="Photo" />
-	</label>
-	<g:textField name="photo" value="${sponsorInstance?.photo}" />
-</div>
+%{--TODO: Photo file upload--}%
+%{--<div class="fieldcontain ${hasErrors(bean: sponsorInstance, field: 'photo', 'error')} ">--}%
+	%{--<label for="photo">--}%
+		%{--<g:message code="sponsor.photo.label" default="Photo" />--}%
+	%{--</label>--}%
+	%{--<g:textField name="photo" value="${sponsorInstance?.photo}" />--}%
+%{--</div>--}%
 
 <div class="fieldcontain ${hasErrors(bean: sponsorInstance, field: 'sortOrder', 'error')} ">
 	<label for="sortOrder">
