@@ -21,7 +21,7 @@
 		<table>
 			<thead>
 			<tr>
-				<g:sortableColumn property="title" title="${message(code: 'sponsor.title.label', default: 'Title')}" />
+				<g:sortableColumn property="name" title="${message(code: 'sponsor.name.label', default: 'Name')}" />
 
 				<g:sortableColumn property="type" title="${message(code: 'sponsor.type.label', default: 'Type')}" />
 
@@ -31,7 +31,8 @@
 
 				<g:sortableColumn property="description" title="${message(code: 'sponsor.description.label', default: 'Description')}" />
 
-				<g:sortableColumn property="photo" title="${message(code: 'sponsor.photo.label', default: 'photo')}" />
+				%{--TODO: Photo file upload--}%
+				%{--<g:sortableColumn property="photo" title="${message(code: 'sponsor.photo.label', default: 'photo')}" />--}%
 
 				<g:sortableColumn property="sortOrder" title="${message(code: 'sponsor.sortOrder.label', default: 'sortOrder')}" />
 			</tr>
@@ -39,7 +40,7 @@
 			<tbody>
 			<g:each in="${sponsorInstanceList}" status="i" var="sponsorInstance">
 				<tr class="${(i % 2) == 0 ? 'even' : 'odd'}">
-					<td><g:link action="show" id="${sponsorInstance.id}">${fieldValue(bean: sponsorInstance, field: "title")}</g:link></td>
+					<td><g:link action="show" id="${sponsorInstance.id}">${fieldValue(bean: sponsorInstance, field: "name")}</g:link></td>
 
 					<td>${fieldValue(bean: sponsorInstance, field: "type")}</td>
 

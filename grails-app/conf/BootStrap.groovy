@@ -7,12 +7,12 @@ class BootStrap {
 	}
 
 	private void sponsors() {
-		new Sponsor([title: 'Agile Orbit', type: 'Food Sponsor', url: 'http://objectpartners.com', file: "agileorbit-logo.jpg", sortOrder: 97]).save()
-		new Sponsor([title: 'FigJam', type: 'Beverage Sponsor', url: 'http://twitter.com/joshareed', file: "figjam-logo-800X225.png", sortOrder: 99]).save()
-		new Sponsor([title: 'Object Partners', type: 'Food Sponsor', url: 'http://objectpartners.com', file: "opi-logo-text.png", sortOrder: 1]).save()
-		new Sponsor([title: 'ReachLocal', type: 'Beverage Sponsor', url: 'http://reachlocal.com', file: "reachlocal.jpg", sortOrder: 2]).save()
-		new Sponsor([title: 'SmartThings', type: 'Space Sponsor', url: 'http://smartthings.com', file: "smart-things-logo-text.png", sortOrder: 0]).save()
-		new Sponsor([title: 'Surly Labs', type: 'Beverage Sponsor', url: 'http://surlylabs.com', file: "surly_logo_horizontal.jpg", sortOrder: 98]).save()
+		new Sponsor([name: 'Agile Orbit', type: 'Food Sponsor', url: 'http://objectpartners.com', file: "agileorbit-logo.jpg", sortOrder: 97]).save()
+		new Sponsor([name: 'FigJam', type: 'Beverage Sponsor', url: 'http://twitter.com/joshareed', file: "figjam-logo-800X225.png", sortOrder: 99]).save()
+		new Sponsor([name: 'Object Partners', type: 'Food Sponsor', url: 'http://objectpartners.com', file: "opi-logo-text.png", sortOrder: 1]).save()
+		new Sponsor([name: 'ReachLocal', type: 'Beverage Sponsor', url: 'http://reachlocal.com', file: "reachlocal.jpg", sortOrder: 2]).save()
+		new Sponsor([name: 'SmartThings', type: 'Space Sponsor', url: 'http://smartthings.com', file: "smart-things-logo-text.png", sortOrder: 0]).save()
+		new Sponsor([name: 'Surly Labs', type: 'Beverage Sponsor', url: 'http://surlylabs.com', file: "surly_logo_horizontal.jpg", sortOrder: 98]).save()
 	}
 
 	private void speakerTalks() {

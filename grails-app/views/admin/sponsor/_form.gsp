@@ -1,9 +1,9 @@
-<div class="fieldcontain ${hasErrors(bean: sponsorInstance, field: 'title', 'error')} required">
+<div class="fieldcontain ${hasErrors(bean: sponsorInstance, field: 'name', 'error')} required">
 	<label for="name">
-		<g:message code="sponsor.title.label" default="Title" />
+		<g:message code="sponsor.name.label" default="Name" />
 		<span class="required-indicator">*</span>
 	</label>
-	<g:textField name="name" required="" value="${sponsorInstance?.title}" />
+	<g:textField name="name" required="" value="${sponsorInstance?.name}" />
 </div>
 
 <div class="fieldcontain ${hasErrors(bean: sponsorInstance, field: 'type', 'error')} ">
@@ -15,7 +15,7 @@
 
 <div class="fieldcontain ${hasErrors(bean: sponsorInstance, field: 'url', 'error')} ">
 	<label for="url">
-		<g:message code="sponsor.url.label" default="URL" />
+		<g:message code="sponsor.url.label" default="Url" />
 	</label>
 	<g:textField name="url" value="${sponsorInstance?.url}" />
 </div>

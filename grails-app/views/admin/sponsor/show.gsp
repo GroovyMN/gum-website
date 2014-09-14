@@ -19,10 +19,10 @@
 			<div class="message" role="status">${flash.message}</div>
 		</g:if>
 		<ol class="property-list sponsor">
-			<g:if test="${sponsorInstance?.title}">
+			<g:if test="${sponsorInstance?.name}">
 				<li class="fieldcontain">
-					<span id="title-label" class="property-label"><g:message code="sponsor.title.label" default="Title" /></span>
-					<span class="property-value" aria-labelledby="title-label"><g:fieldValue bean="${sponsorInstance}" field="title" /></span>
+					<span id="name-label" class="property-label"><g:message code="sponsor.name.label" default="Name" /></span>
+					<span class="property-value" aria-labelledby="name-label"><g:fieldValue bean="${sponsorInstance}" field="name" /></span>
 				</li>
 			</g:if>
 

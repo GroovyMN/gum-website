@@ -3,7 +3,7 @@ package gum
 class Sponsor {
 	String type
 	String url
-	String title
+	String name
 	String file
 	Date description
 	Byte photo
@@ -12,7 +12,7 @@ class Sponsor {
 	static constraints = {
 		type(blank: false, nullable: false)
 		url(url:true, blank: true, nullable: true)
-		title(blank: false, nullable: false, unique: true)
+		name(blank: false, nullable: false, unique: true)
 		file(blank: false, nullable: false)
 		description(blank: true, nullable: true, maxSize: 1000)
 		photo(blank: true, nullable: true)
@@ -20,6 +20,6 @@ class Sponsor {
 	}
 
 	String toString() {
-		return title
+		return name
 	}
 }
