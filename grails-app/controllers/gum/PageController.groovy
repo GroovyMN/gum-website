@@ -28,13 +28,13 @@ class PageController {
 
 	def home() {
 		log.debug "params: $params"
-	}
 
-	def home2() {
-		log.debug "params: $params"
-		def sponsors = Sponsor.listOrderBySortOrder(max: 3)
+		def sponsors
+		if (params.toggle) {
+			sponsors = Sponsor.listOrderBySortOrder(max: 3)
+		}
 
-		render view: "/page/home2", model: [sponsors: sponsors]
+		render view: "/page/home", model: [sponsors: sponsors]
 	}
 
 	def location() {

@@ -4,8 +4,8 @@
 	</div>
 
 	<div class="picture">
-		<a href="${sponsor?.url ?: url}" title="${sponsor?.title ?: title}">
-			<r:img dir="images/sponsors/" file="${sponsor?.file ?: file}" alt="${sponsor?.title ?: title} logo" />
+		<a href="${sponsor?.url ?: url}" title="${sponsor?.name ?: name}">
+			<r:img dir="images/sponsors/" file="${sponsor?.file ?: file}" alt="${sponsor?.name ?: name} logo" />
 			<div class="image-overlay-link"></div>
 		</a>
 		<g:if test="${sponsor?.description ?: description}">
