@@ -40,4 +40,3 @@
 	</label>
 	<g:select name="presentations" from="${gum.Presentation.list()}" multiple="multiple" optionKey="id" size="5" value="${speakerInstance?.presentations*.id}" class="many-to-many" />
 </div>
-

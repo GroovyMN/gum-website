@@ -6,7 +6,7 @@
 	<div id="googlemaps" class="google-map google-map-full"></div>
 
 	<div id="googlemaps-container-bottom"></div>
-	<r:require modules="map"/>
+	<r:require modules="map" />
 
 	<r:script>
 		$('#googlemaps').gMap({

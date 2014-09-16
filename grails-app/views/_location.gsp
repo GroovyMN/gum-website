@@ -36,7 +36,7 @@
 			content: '<div>' + addr + '</div>'
 		});
 
-		google.maps.event.addListener(marker, 'click', function () {
+		google.maps.event.addListener(marker, 'click', function() {
 			infoWindow.open(map, marker);
 		});
 

@@ -1,5 +1,6 @@
 <div class="da-slide">
 	<h2>${title}</h2>
+
 	<p class="slider-text">${body()}</p>
 	<g:if test="${url}">
 		<g:link url="${url}" class="da-link">Read more</g:link>

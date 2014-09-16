@@ -39,4 +39,3 @@
 		<g:message code="presentation.speakers.label" default="Speakers" />
 	</label>
 </div>
-
