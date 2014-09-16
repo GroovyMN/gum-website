@@ -14,6 +14,7 @@
 		<li><a href="http://groovyfx.org"><r:img dir="images/groovy/" file="groovyfx-logo.png" alt="gaelyk" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://vertx.io"><r:img dir="images/groovy/" file="vertx-logo-square.png" alt="vertx" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://gaelyk.appspot.com"><r:img dir="images/groovy/" file="gaelyk-logo.png" alt="gaelyk" height="200" width="200" class="rounded-corners" /></a></li>
+		<li><a href="http://glide-gae.appspot.com"><r:img dir="images/groovy/" file="glide-logo-dark.png" alt="glide" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://grooscript.org"><r:img dir="images/groovy/" file="grooscript.png" alt="grooscript" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://jenkins-ci.org"><r:img dir="images/groovy/" file="jenkins-logo.png" alt="hudson" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://appfog.com"><r:img dir="images/groovy/" file="appfog-logo.png" alt="appfog" height="200" width="200" class="rounded-corners" /></a></li>
