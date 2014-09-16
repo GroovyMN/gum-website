@@ -17,6 +17,7 @@
 		<li><a href="http://glide-gae.appspot.com"><r:img dir="images/groovy/" file="glide-logo-dark.png" alt="glide" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://sysgears.com/grain"><r:img dir="images/groovy/" file="grain-logo.png" alt="glide" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://grooscript.org"><r:img dir="images/groovy/" file="grooscript.png" alt="grooscript" height="200" width="200" class="rounded-corners" /></a></li>
+		<li><a href="http://spudengine.com"><r:img dir="images/groovy/" file="spud-logo.png" alt="grooscript" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://jenkins-ci.org"><r:img dir="images/groovy/" file="jenkins-logo.png" alt="hudson" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://appfog.com"><r:img dir="images/groovy/" file="appfog-logo.png" alt="appfog" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://cloudfoundry.com"><r:img dir="images/groovy/" file="cloudfoundry-logo.png" alt="appfog" height="200" width="200" class="rounded-corners" /></a></li>
