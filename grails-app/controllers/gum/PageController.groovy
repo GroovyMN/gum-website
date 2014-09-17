@@ -3,6 +3,7 @@ package gum
 class PageController {
 	static int DEFAULT = 5
 	static int MAX = DEFAULT * DEFAULT
+	static int MAX_SPONSORS = 3
 
 	def archive() {
 		log.debug "params: $params"
@@ -31,7 +32,7 @@ class PageController {
 
 		def sponsors
 		if (params.toggle) {
-			sponsors = Sponsor.listOrderBySortOrder(max: 3)
+			sponsors = Sponsor.listOrderBySortOrder(max: MAX_SPONSORS)
 		}
 
 		render view: "/page/home", model: [sponsors: sponsors]
