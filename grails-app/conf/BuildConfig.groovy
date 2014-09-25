@@ -45,7 +45,8 @@ grails.project.dependency.resolution = {
 	}
 
 	plugins {
-		compile ":codenarc:0.21"
+		def env = grails.util.Environment.currentEnvironment.name
+		def localEnvs = ["development", "test"]
 
 		runtime ':hibernate:3.6.10.6'
 		runtime ":jquery:1.10.2.2"
@@ -57,12 +58,22 @@ grails.project.dependency.resolution = {
 		runtime ":cached-resources:1.0"
 		runtime ":yui-minify-resources:0.1.5"
 
+		// User installed plugins
+		compile ":build-info:1.2.6"
+		compile ":build-info-tag:0.3.1"
+		compile ":build-test-data:2.2.1"
+		compile ":codenarc:0.21"
+
+		if (env in localEnvs) {
+			compile ":console:1.2"
+		}
+
 		build ':tomcat:7.0.47'
 
 		test ":geb:$gebVersion"
 
 		runtime ":database-migration:1.4.0"
 
-		compile ':cache:1.0.1'
+		compile ':cache:1.1.1'
 	}
 }
