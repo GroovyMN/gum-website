@@ -1,5 +1,8 @@
 package gum
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class Presentation {
 	String title
 	String description

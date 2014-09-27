@@ -1,5 +1,8 @@
 package gum
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class Speaker {
 	String name
 	String twitterId

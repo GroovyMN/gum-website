@@ -2,9 +2,26 @@ grails.servlet.version = "2.5" // Change depending on target container complianc
 grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
-grails.project.target.level = 1.6
-grails.project.source.level = 1.6
+grails.project.target.level = 1.7
+grails.project.source.level = 1.7
 // grails.project.war.file = "target/${appName}-${appVersion}.war"
+
+codenarc.properties = {
+	// Each property definition is of the form: RULE.PROPERTY-NAME = PROPERTY-VALUE
+	CatchException.enabled = false
+	NoWildcardImports.enabled = false
+}
+
+codenarc.reports = {
+	MyXmlReport('xml') {
+		outputFile = 'target/test-reports/CodeNarc-Report.xml'
+		title = 'Codenar XML Report'
+	}
+	MyHtmlReport('html') { // Report type is 'html'
+		outputFile = 'target/test-reports/CodeNarc-Report.html'
+		title = 'Html Report'
+	}
+}
 
 def gebVersion = "0.9.3"
 def seleniumVersion = "2.42.0"
