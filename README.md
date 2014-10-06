@@ -4,6 +4,8 @@ Website for Groovy Users of Minnesota. <http://groovy.mn>
 
 This site is built with [Grails](http://grails.org) and deployed on [AppFog](http://www.appfog.com).
 
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/GroovyMN?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Adding Content
 --------------
 Something missing from the site you think everyone needs to see? No problem, just open a pull request.
