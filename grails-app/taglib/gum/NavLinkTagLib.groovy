@@ -1,28 +1,29 @@
 package gum
 
-class NavLinkTagLib {
+class NavLinkTagLib extends BaseTagLib {
 	static namespace = "nav"
 
+	def admin = { attrs, body ->
+		out << g.render(template: "/admin/nav", body)
+	}
+
 	def link = { attrs ->
-		attrs.tagName = "${namespace}:link"
+		pageScope.tagName = "link"
 		log.debug "attrs: $attrs"
 
 		// Action not required for external links, use full href url.
 		def action = attrs.remove('action')
 		def href = attrs.remove('href')
 		if (!action && !href) {
-			throwTagError("Tag [${attrs.tagName}] is missing required attribute [action or href]")
+			throwTagError("Tag [$namespace:${pageScope.tagName}] is missing required attribute [action or href]")
 		}
 
 		// Href must exists with either full url or relative action path.
 		if (!href) {
-			throwTagError("Tag [${attrs.tagName}] is missing required attribute [href]")
+			throwTagError("Tag [$namespace:${pageScope.tagName}] is missing required attribute [href]")
 		}
 
-		def value = attrs.remove('value')
-		if (!value) {
-			throwTagError("Tag [${attrs.tagName}] is missing required attribute [value]")
-		}
+		def value = guard(attrs, 'value')
 
 		if (href == "group") {
 			out << """<li class="hidden-phone${action == href ? ' active' : ''}"><a href="${href}">${value}</a></li>"""
@@ -30,9 +31,5 @@ class NavLinkTagLib {
 		} else {
 			out << """<li class="${action == href ? 'active' : ''}"><a href="${href}">${value}</a></li>"""
 		}
-	}
-
-	def admin = { attrs, body ->
-		out << g.render(template: "/admin/nav", body)
 	}
 }

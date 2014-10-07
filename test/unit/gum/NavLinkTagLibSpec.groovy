@@ -30,9 +30,9 @@ class NavLinkTagLibSpec extends Specification {
 
 	def "Expect tag error if given an action but not passed href"() {
 		given:
-			def template = """<nav:link value="Home" action="test" />"""
+		def template = """<nav:link value="Home" action="test" />"""
 		when:
-			result = applyTemplate(template, [action: "test", value: "Home"])
+		result = applyTemplate(template, [action: "test", value: "Home"])
 		then:
 		def e = thrown(GrailsTagException)
 		e.message.contains("is missing required attribute [href]")
@@ -50,11 +50,11 @@ class NavLinkTagLibSpec extends Specification {
 
 	def "Expect tag error if not passed value"() {
 		given:
-			def template = """<nav:link href="home" action="test" />"""
+		def template = """<nav:link href="home" action="test" />"""
 		when:
-			result = applyTemplate(template, [href: "home", action: "test"])
+		result = applyTemplate(template, [href: "home", action: "test"])
 		then:
 		def e = thrown(GrailsTagException)
-		e.message.contains("is missing required attribute [value]")
+		e.message == 'taglib.attr.nullable.error'
 	}
 }
