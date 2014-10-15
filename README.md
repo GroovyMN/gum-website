@@ -18,7 +18,7 @@ Deploy
 > \> grails war groovy-mn.war  
 > \> af update groovy-mn  
 
-- maybe? 
+-- maybe? 
 > \> af restart groovy-mn  
 
 Meetup
