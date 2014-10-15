@@ -1,5 +1,3 @@
-web-app/WEB-INF/applicationContext.xml
-web-app/WEB-INF/sitemesh.xml
 web-app/WEB-INF/tld/
 *.log
 target/
@@ -10,8 +8,6 @@ out/
 *.DS_Store
 .idea/
 
-# web application files
-/web-app/WEB-INF
 
 # IDE support files
 /.classpath
