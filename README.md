@@ -9,7 +9,7 @@ Deploy
 > af login --email email@mail.com  
 > grails war groovy-mn.war  
 > af update groovy-mn  
-> -- maybe? --  
+-- maybe? --  
 > af restart groovy-mn  
 
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/GroovyMN?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -31,4 +31,5 @@ Thanks To
 * Brad Marsh - [@bbqhacker](http://twitter.com/bbqhacker)
 * Josh Reed - [@joshareed](http://twitter.com/joshareed)
 * Doug Sabers - [@lightsabersd](http://twitter.com/lightsabersd)
+* Aaron Zirbes - [@aaronzirbes](http://twitter.com/aaronzirbes)
 * Eric Kinsella - [@staticnull](http://twitter.com/staticnull)
