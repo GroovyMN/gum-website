@@ -18,8 +18,14 @@
 			<div class="row">
 				<div id="portfolio-wrapper">
 					<div class="row">
+						<talk:talk talkDate="Feb 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk talkDate="Jan 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk talkDate="Dec 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+					</div>
+
+					<div class="row">
 						<talk:talk talkDate="Nov 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
-						<talk:talk talkDate="Oct 2014" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk talkDate="Oct 2014" imageFileName="20141014-hacknight.jpg" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
 						<talk:talk imageFileName="20140909-neo4j-jake-severson.jpg" talkDate="Sep 2014" title="Neo4j" presenter="Jacob Severson" presenterUrl="http://twitter.com/JacobASeverson" url="http://www.neo4j.org" />
 					</div>
 
