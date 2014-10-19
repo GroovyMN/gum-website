@@ -31,9 +31,6 @@ grails.mime.types = [
 // URL Mapping Cache Max Size, defaults to 5000
 // grails.urlmapping.cache.maxsize = 1000
 
-// What URL patterns should be processed by the resources plugin
-grails.resources.adhoc.patterns = ['/images/*', '/css/*', '/js/*', '/plugins/*']
-
 // The default codec used to encode data with ${}
 grails.views.default.codec = "none" // none, html, base64
 grails.views.gsp.encoding = "UTF-8"
@@ -93,8 +90,6 @@ log4j = {
 			'grails.app.domain',
 			'grails.app.taglib',
 			'grails.app.controllers'
-
-		info 'grails.app.tagLib.org.grails.plugin.resource'
 
 		error 'org.codehaus.groovy.grails.web.servlet',    // Controllers
 			'org.codehaus.groovy.grails.web.pages',          // GSP
