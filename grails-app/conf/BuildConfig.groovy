@@ -66,16 +66,10 @@ grails.project.dependency.resolution = {
 		def localEnvs = ["development", "test"]
 
 		runtime ':hibernate:3.6.10.6'
-		runtime ":jquery:1.10.2.2"
-		runtime ":resources:1.2.8"
-
-		// Additional resources capabilities
-		runtime ":zipped-resources:1.0"
+		runtime ":jquery:1.11.1"
+		compile ":asset-pipeline:1.9.9"
 		runtime ":cache-headers:1.1.7"
-		runtime ":cached-resources:1.0"
-		runtime ":yui-minify-resources:0.1.5"
 
-		// User installed plugins
 		compile ":build-info:1.2.6"
 		compile ":build-info-tag:0.3.1"
 		compile ":build-test-data:2.2.1"
