@@ -1,5 +1,3 @@
-<r:require module="slider" />
-
 <!-- start: Slider -->
 <div class="slider-wrapper">
 	<div id="da-slider" class="da-slider">

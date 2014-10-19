@@ -1,4 +1,4 @@
-<r:script disposition="head">
+<asset:script type="text/javascript">
 	function insertAgenda(data) {
 		var content = '';
 
@@ -20,4 +20,4 @@
 
 		$("#events").append(content);
 	}
-</r:script>
+</asset:script>

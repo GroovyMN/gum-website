@@ -13,7 +13,7 @@
 </div>
 
 <g:render template="/map/googleMapJS" />
-<r:script>
+<asset:script type="text/javascript">
 	function initialize() {
 		var addr = "11 Fourth Street NE, Minneapolis MN, 55413";
 		var latlng = new google.maps.LatLng(44.990056, -93.254871);
@@ -44,4 +44,4 @@
 	}
 
 	google.maps.event.addDomListener(window, 'load', initialize);
-</r:script>
+</asset:script>

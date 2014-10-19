@@ -6,9 +6,8 @@
 	<div id="googlemaps" class="google-map google-map-full"></div>
 
 	<div id="googlemaps-container-bottom"></div>
-	<r:require modules="map" />
 
-	<r:script>
+	<asset:script type="text/javascript">
 		$('#googlemaps').gMap({
 			maptype: 'ROADMAP',
 			scrollwheel: false,
@@ -19,7 +18,7 @@
 					popup: true
 				}]
 		});
-	</r:script>
+	</asset:script>
 <!-- end: Google Maps -->
 </div>
 <!-- end: Map -->
