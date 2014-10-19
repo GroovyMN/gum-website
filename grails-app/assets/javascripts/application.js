@@ -1,9 +1,4 @@
-if (typeof jQuery !== 'undefined') {
-	(function($) {
-		$('#spinner').ajaxStart(function() {
-			$(this).fadeIn();
-		}).ajaxStop(function() {
-			$(this).fadeOut();
-		});
-	})(jQuery);
-}
+//= require jquery/jquery
+//= require_self
+//= require_tree .
+//= require_full_tree .
