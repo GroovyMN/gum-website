@@ -2,26 +2,23 @@
 <html>
 <g:render template="/ifIE" />
 <head>
-	<g:render template="/meta" />
-	<title><g:layoutTitle default="${message(code: 'groovyMn.admin.label')}" /></title>
+    <g:render template="/meta" />
+    <title><g:layoutTitle default="${message(code: 'groovyMn.admin.label')}" /></title>
 
-	<g:render template="/mobileViewport" />
-	<g:render template="/fbOpenGraph" />
-	<g:render template="/fonts" />
+    <g:render template="/mobileViewport" />
+    <g:render template="/fbOpenGraph" />
+    <g:render template="/fonts" />
 
-	<g:external file="/favicon.ico" />
+    <g:external file="/favicon.ico" />
 
-	<g:layoutHead />
+    <g:layoutHead />
 
-	<r:require module="common" />
-	<r:require module="crud" />
-
-	<r:layoutResources />
+    <asset:stylesheet href="application.css"/>
+    <asset:javascript src="application.js"/>
+    <asset:link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 </head>
 
 <body>
-	<g:layoutBody />
-
-	<r:layoutResources />
+    <g:layoutBody />
 </body>
 </html>
