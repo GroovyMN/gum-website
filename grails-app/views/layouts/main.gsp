@@ -2,6 +2,8 @@
 <html>
 <g:render template="/ifIE" />
 <head>
+    <asset:stylesheet href="application.css"/>
+    <asset:javascript src="application.js"/>
     <g:render template="/meta" />
     <title><g:layoutTitle default="${message(code: 'groovyMn.label')}" /></title>
 
@@ -9,8 +11,6 @@
     <g:render template="/fbOpenGraph" />
     <g:render template="/fonts" />
     
-    <asset:stylesheet href="application.css"/>
-    <asset:javascript src="application.js"/>
     <asset:link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
 
     <g:layoutHead />

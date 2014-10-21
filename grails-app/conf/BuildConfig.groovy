@@ -66,7 +66,6 @@ grails.project.dependency.resolution = {
 		def localEnvs = ["development", "test"]
 
 		runtime ':hibernate:3.6.10.6'
-		runtime ":jquery:1.11.1"
 		compile ":asset-pipeline:1.9.9"
 		runtime ":cache-headers:1.1.7"
 
