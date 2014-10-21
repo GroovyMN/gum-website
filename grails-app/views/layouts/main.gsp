@@ -3,7 +3,6 @@
 <g:render template="/ifIE" />
 <head>
     <asset:stylesheet href="application.css"/>
-    <asset:javascript src="application.js"/>
     <g:render template="/meta" />
     <title><g:layoutTitle default="${message(code: 'groovyMn.label')}" /></title>
 
@@ -23,5 +22,7 @@
     <g:layoutBody />
     <g:render template="/footer/menu" />
     <g:render template="/footer/index" />
+    <asset:javascript src="application.js"/>
+    <asset:deferredScripts/>
 </body>
 </html>
