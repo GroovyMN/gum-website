@@ -1,7 +1,7 @@
 GUM Website
 ===========
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/GroovyMN?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://snap-ci.com/GroovyMN/gum-website/branch/master/build_image)](https://snap-ci.com/GroovyMN/gum-website/branch/master)
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/GroovyMN?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Website for Groovy Users of Minnesota. <http://groovy.mn>
 
@@ -19,7 +19,7 @@ Deploy
 > \> grails war groovy-mn.war  
 > \> af update groovy-mn  
 
--- maybe? 
+-- occasionally? 
 > \> af restart groovy-mn  
 
 Meetup
