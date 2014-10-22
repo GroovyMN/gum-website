@@ -5,4 +5,4 @@
 <nav:link href="calendar" value="Calendar" action="${actionName}" />
 <nav:link href="group" value="Discussion" action="${actionName}" />
 <nav:link href="location" value="Location" action="${actionName}" />
-<nav:link href="http://www.redbubble.com/people/sabersd/shop" value="Shop" />
+<nav:link href="http://www.redbubble.com/people/groovymn/shop" value="Shop" />
