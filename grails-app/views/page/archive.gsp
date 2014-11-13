@@ -18,14 +18,14 @@
 			<div class="row">
 				<div id="portfolio-wrapper">
 					<div class="row">
-						<talk:talk talkDate="Feb 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
 						<talk:talk talkDate="Jan 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
-						<talk:talk talkDate="Dec 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk imageFileName="20141111-testing-jeff.jpg" talkDate="Nov 2014" title="Integration Tests for Complex Transactional Behaviors" presenter="Jeff Beck" presenterUrl="http://twitter.com/beckje01" url="http://bit.ly/gum-transac" />
+						<talk:talk imageFileName="20141111-spring-boot-zach2.jpg" talkDate="Nov 2014" title="Spring Boot" presenter="Zach Lendon" presenterUrl="http://twitter.com/zachlendon" url="https://github.com/zachlendon/SpringOne2GX-2014" />
 					</div>
 
 					<div class="row">
-						<talk:talk talkDate="Nov 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
-						<talk:talk talkDate="Oct 2014" imageFileName="20141014-hacknight.jpg" title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk imageFileName="20141111-hacked-colin.jpg" talkDate="Nov 2014" title="Web Application Security: Micro or Macro: don't get hacked" presenter="Colin Harrington" presenterUrl="http://twitter.com/ColinHarrington" url="http://slides.com/colinharrington/web-application-security" />
+						<talk:talk imageFileName="20141014-hacknight.jpg" talkDate="Oct 2014"  title="Hack Session" presenter="Eric Kinsella" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
 						<talk:talk imageFileName="20140909-neo4j-jake-severson.jpg" talkDate="Sep 2014" title="Neo4j" presenter="Jacob Severson" presenterUrl="http://twitter.com/JacobASeverson" url="http://www.neo4j.org" />
 					</div>
 
