@@ -18,7 +18,7 @@
 			<div class="row">
 				<div id="portfolio-wrapper">
 					<div class="row">
-						<talk:talk talkDate="Jan 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk imageFileName="20141209-board-games.jpg" talkDate="Dec 2014" title="Holiday Party" presenter="Shaun Jurgemeyer" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
 						<talk:talk imageFileName="20141111-testing-jeff.jpg" talkDate="Nov 2014" title="Integration Tests for Complex Transactional Behaviors" presenter="Jeff Beck" presenterUrl="http://twitter.com/beckje01" url="http://bit.ly/gum-transac" />
 						<talk:talk imageFileName="20141111-spring-boot-zach2.jpg" talkDate="Nov 2014" title="Spring Boot" presenter="Zach Lendon" presenterUrl="http://twitter.com/zachlendon" url="https://github.com/zachlendon/SpringOne2GX-2014" />
 					</div>
