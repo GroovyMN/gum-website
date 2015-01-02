@@ -18,6 +18,12 @@
 			<div class="row">
 				<div id="portfolio-wrapper">
 					<div class="row">
+						<talk:talk talkDate="Mar 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk talkDate="Feb 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk talkDate="Jan 2014" title="Fishbowl Kickstart" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+					</div>
+
+					<div class="row">
 						<talk:talk imageFileName="20141209-board-games.jpg" talkDate="Dec 2014" title="Holiday Party" presenter="Shaun Jurgemeyer" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
 						<talk:talk imageFileName="20141111-testing-jeff.jpg" talkDate="Nov 2014" title="Integration Tests for Complex Transactional Behaviors" presenter="Jeff Beck" presenterUrl="http://twitter.com/beckje01" url="http://bit.ly/gum-transac" />
 						<talk:talk imageFileName="20141111-spring-boot-zach2.jpg" talkDate="Nov 2014" title="Spring Boot" presenter="Zach Lendon" presenterUrl="http://twitter.com/zachlendon" url="https://github.com/zachlendon/SpringOne2GX-2014" />
@@ -49,7 +55,7 @@
 							<strong>GitHub source, example project:</strong> <a href="http://github.com/jondejong/mongo-demo">http://github.com/jondejong/mongo-demo</a>
 						</talk:talk>
 						<talk:talk talkDate="Mar 2014" title="Spock Mocks" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://github.com/craigatk/spock-mock-cheatsheet">
-							<strong>Spock Mock Cheatsheet:</strong><br /> <a href="https://github.com/craigatk/spock-mock-cheatsheet">http://github.com/craigatk/spock-mock-cheatsheet</a>
+							<strong>Spock Mock Cheat-sheet:</strong><br /> <a href="https://github.com/craigatk/spock-mock-cheatsheet">http://github.com/craigatk/spock-mock-cheatsheet</a>
 						</talk:talk>
 						<talk:talk imageFileName="20140311-geb.jpg" talkDate="Mar 2014" title="Intro to Spock and Geb" presenter="Allison" presenterUrl="" url="http://github.com/allisonf/grailsTestingDemo">
 							<strong>GitHub source and slides:</strong> <a href="https://github.com/allisonf/grailsTestingDemo">http://github.com/allisonf/grailsTestingDemo</a>
