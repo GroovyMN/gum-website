@@ -1,1 +1,1 @@
-<li class="${name}"><a href="${url}">${name}</a></li>
+<li class="${name}"><a href="${url}" rel="${rel}">${name}</a></li>
