@@ -12,3 +12,4 @@
 	</ul>
 </div>
 <!-- end: Social Sites -->
+<a href="https://plus.google.com/103202441665356854827" rel="publisher">Google+</a>
