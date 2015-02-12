@@ -10,7 +10,7 @@
 		<li><a href="http://projects.spring.io/spring-boot/"><r:img dir="images/groovy/" file="spring-boot-logo.png" alt="spring boot" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://griffon.codehaus.org"><r:img dir="images/groovy/" file="griffon-round.png" alt="griffon" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://code.google.com/p/spock"><r:img dir="images/groovy/" file="spock-unofficial.png" alt="spock" height="200" width="200" class="rounded-corners" /></a></li>
-		<li><a href="http://melix.github.io/blog/2014/06/grooid.html"><r:img dir="images/groovy/" file="android-groovy.jpg" alt="groovy on android" height="200" width="200" class="rounded-corners" /></a></li>
+		<li><a href="http://beta.groovy-lang.org/releasenotes/groovy-2.4.html"><r:img dir="images/groovy/" file="android-groovy.jpg" alt="groovy on android" height="200" width="200" class="rounded-corners" /></a></li>
 		<li style="height: 125px; line-height: 125px"><a href="http://gebish.org"><r:img dir="images/groovy/" file="geb.png" alt="geb" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://gpars.codehaus.org"><r:img dir="images/groovy/" file="gpars-logo.jpg" alt="gpars" height="200" width="200" class="rounded-corners" /></a></li>
 		<li><a href="http://groovyfx.org"><r:img dir="images/groovy/" file="groovyfx-logo.png" alt="gaelyk" height="200" width="200" class="rounded-corners" /></a></li>
