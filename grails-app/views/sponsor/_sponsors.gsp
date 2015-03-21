@@ -11,8 +11,8 @@
 			</g:if>
 			<g:else>
 				<g:render template="/sponsor/index" model="${[type: "Space Sponsor", url: "http://smartthings.com", name: "SmartThings", file: "smart-things-logo-text.png"]}" />
-				<g:render template="/sponsor/index" model="${[type: "Food Sponsor", url: "http://objectpartners.com", name: "Object Partners", file: "object-partners-logo-stacked.gif"]}" />
-				<g:render template="/sponsor/index" model="${[type: "Beverage Sponsor", url: "http://surlylabs.com", name: "Surly Labs", file: "surly_logo_horizontal.jpg"]}" />
+				<g:render template="/sponsor/index" model="${[type: "Food Sponsor", url: "http://smartthings.com", name: "SmartThings", file: "smart-things-logo-text.png"]}" />
+				<g:render template="/sponsor/index" model="${[type: "Beverage Sponsor", url: "http://objectpartners.com", name: "Object Partners", file: "object-partners-logo-stacked.gif"]}" />
 			</g:else>
 		</div>
 
