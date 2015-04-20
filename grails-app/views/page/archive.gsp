@@ -11,7 +11,7 @@
 		<div class="container">
 			<p>
 				<strong>Attention:</strong> Presenters if you've given a talk, please send us a pull request to this page on
-				<a href="https://github.com/GroovyMN/gum-website">GitHub</a> for inclusion.
+				<a href="https://github.com/GroovyMN/gum-website">GitHub</a> for inclusion. Thank you!
 			</p>
 
 			<!-- start: Portfolio -->
