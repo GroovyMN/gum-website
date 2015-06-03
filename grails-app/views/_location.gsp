@@ -2,9 +2,8 @@
 <div class="span2">
 	<div class="title"><h3>Meeting Location</h3></div>
 	<p><b>SmartThings Office</b></p>
-	<p>11 Fourth Street NE #300</p>
+	<p>308 E Hennepin Ave Suite #200</p>
 	<p>Minneapolis, MN 55413</p>
-	<p>Google Voice: 612.208.7022</p>
 </div>
 <!-- end: Location -->
 
@@ -15,8 +14,8 @@
 <g:render template="/map/googleMapJS" />
 <r:script>
 	function initialize() {
-		var addr = "11 Fourth Street NE, Minneapolis MN, 55413";
-		var latlng = new google.maps.LatLng(44.990056, -93.254871);
+		var addr = "308 E Hennepin Ave Suite #200, Minneapolis MN, 55413";
+		var latlng = new google.maps.LatLng(44.988119, -93.255565);
 
 		var mapOptions = {
 			center: latlng,
