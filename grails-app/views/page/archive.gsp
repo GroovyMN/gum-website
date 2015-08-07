@@ -18,8 +18,8 @@
 			<div class="row">
 				<div id="portfolio-wrapper">
 					<div class="row">
-						<talk:talk talkDate="June 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
-						<talk:talk talkDate="May 2014" title="TBD" presenter="You" presenterUrl="http://twitter.com/groovymn" url="http://groovy.mn" />
+						<talk:talk imageFileName="20150609-elixir-tednaleid.jpg" talkDate="June 2014" title="Intro to Elixir" presenter="Ted Naleid" presenterUrl="http://twitter.com/tednaleid" url="https://github.com/tednaleid/intro-to-elixir" />
+						<talk:talk imageFileName="20150609-grainframework-craig-atkinson.jpg" talkDate="June 2014" title="Grain: Groovy Static Site Generator" presenter="Craig Atkinson" presenterUrl="http://twitter.com/craigatk1" url="http://bit.ly/1Ir0Zzc" />
 						<talk:talk imageFileName="20150414-spock-android-andrew-reitz.jpg" talkDate="April 2014" title="Spock on Andriod" presenter="Andew Reitz" presenterUrl="http://twitter.com/andrewreitz_" url="https://github.com/pieces029/android-spock" />
 					</div>
 
