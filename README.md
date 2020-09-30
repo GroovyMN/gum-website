@@ -26,7 +26,7 @@ Meetup
 --------------
 Join us on [meetup](http://www.meetup.com/groovymn/).
 
-Thanks To
+Thanks To 
 ---------
 * Ryan Applegate - [@rappleg](http://twitter.com/rappleg)
 * Jeff Beck - [@beckje01](http://twitter.com/beckje01)
